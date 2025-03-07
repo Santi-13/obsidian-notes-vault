@@ -55,7 +55,7 @@ $$
 $\text{Where:}$
 $B(q): \text{Inertia matrix (symmetric, positive-definite)}$
 $C(\dot{q},q): \text{Coriolis and centrifugal forces}$
-$G(q): Gravitational forces$
+$G(q): \text{Gravitational forces}$
 $\tau: \text{ Actuator torques/forces}$
 
 Solving for $\ddot{q}$:
