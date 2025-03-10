@@ -108,7 +108,11 @@ $$
 $$
 If the constraints are purely based on position, then the *partial derivative* of them with respect to $\dot{q}_{j}$ would become $0$, leaving us with the equation. So:
 $$
-\frac{d}{dt} \frac{\partial \dot{L}'}{\partial \dot{q}_{j}} = \frac{d}{dt} part
+\frac{d}{dt} \frac{\partial L'}{\partial \dot{q}_{j}} = \frac{d}{dt} \frac{\partial f_{k}}{\partial \dot{q}_{j}}
+$$
+While the constraint *does* depend on $q$:
+$$
+pari
 $$
 
 
