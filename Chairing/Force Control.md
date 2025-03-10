@@ -58,11 +58,12 @@ La idea principal es parecida al resto de controladores en el sentido de que ten
 
 Normalmente, el sistema lo representamos con las formulas de [[Euler-Lagrange Formulation|Euler-Lagrange]].
 $$
-B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \mu(q,\dot{q},t) }_{ \text{incertidumbre} }
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} }
 $$
 Cuando el *sistema* se encuentra con un objeto, podríamos agregar esto a nuestro termino de *incertidumbre*, pero esto se considera una mala idea ya que controlamos a pesar de la incertidumbre.
 
-En vez de esto, **agregamos** un término de **torque externo**.
+En vez de esto, **agregamos** un término de **torque externo**, ocasionalmente llamado **external *wrench***.
 $$
-B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \mu(q,\dot{q},t) }_{ \text{incertidumbre} } + J
-$$
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \mu(q,\dot{q},t) }_{ \text{incertidumbre} } + \underbrace{ J^T(q)F_{EF}
+ }_{ \text{Fuerza Externa} }$$
+Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada.
