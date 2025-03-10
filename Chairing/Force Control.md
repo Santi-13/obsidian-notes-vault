@@ -66,4 +66,11 @@ En vez de esto, **agregamos** un término de **torque externo**, ocasionalmente 
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} } + \underbrace{ J^T(q)F_{EF}
  }_{ \text{Fuerza Externa} }$$
-Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada.
+Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada. 
+
+##### Suposición 1. Cuando hace contacto con algo solido
+Cuando el efector final hace contacto con una pared por ejemplo, decimos que se detenga, o en otras palabras:
+$$
+\ddot{q}=\dot{q}=0
+$$
+Despre
