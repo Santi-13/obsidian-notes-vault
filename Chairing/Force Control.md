@@ -56,4 +56,13 @@ $$
 #### Control de fuerza
 La idea principal es parecida al resto de controladores en el sentido de que tenemos un sistema con retroalimentación, cuyo error se alimenta a un controlador para llegar a una trayectoria deseada.
 
-Normalmente, el sistema lo representamos con las formulas de [[Euler-Lagrange Formulation|Euler-Lagrange]] 
+Normalmente, el sistema lo representamos con las formulas de [[Euler-Lagrange Formulation|Euler-Lagrange]].
+$$
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \mu(q,\dot{q},t) }_{ \text{incertidumbre} }
+$$
+Cuando el *sistema* se encuentra con un objeto, podríamos agregar esto a nuestro termino de *incertidumbre*, pero esto se considera una mala idea ya que controlamos a pesar de la incertidumbre.
+
+En vez de esto, **agregamos** un término de **torque externo**.
+$$
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \mu(q,\dot{q},t) }_{ \text{incertidumbre} } + J
+$$
