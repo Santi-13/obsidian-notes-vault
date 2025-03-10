@@ -112,7 +112,7 @@ $$
 $$
 While the constraint *does* depend on $q$:
 $$
-pari
+\frac{\partial L'}{\partial q_{j}} = \frac{\partial L}{\partial q_{j}} + \sum^\zeta_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
 $$
 
 
