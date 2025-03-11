@@ -1,14 +1,14 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "#chairing",
+      "query": "#Chairing",
       "color": {
         "a": 1,
         "rgb": 9699476
@@ -18,7 +18,28 @@
       "query": "#MachineLearning",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 14298927
+      }
+    },
+    {
+      "query": "#GeneralProgramming",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "#ComputacionCognitiva",
+      "color": {
+        "a": 1,
+        "rgb": 5396192
+      }
+    },
+    {
+      "query": "#ControlTheory",
+      "color": {
+        "a": 1,
+        "rgb": 2505524
       }
     }
   ],
@@ -32,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.713275462622442,
+  "scale": 0.7132754626224421,
   "close": false
 }
