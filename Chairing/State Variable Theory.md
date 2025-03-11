@@ -3,5 +3,9 @@ Given our ***[[Euler-Lagrange Formulation#Defining Lagrange Equation|Euler-Lagra
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle \lambda(t), f(q) \rangle
 $$
-Using 
-
+We can propose our **state variables**:
+$$ q_{a} = q  $$
+$$ q_{b} = \dot{q} $$
+Then, the *dynamics* of the proposed **state variables** are:
+$$ \dot{q}_{a}=\dot{q}=q_{b} $$
+$$ \dot{q}_{b} = \ddot{q} = B^{-1}(q_{a}) [  ] $$ 
