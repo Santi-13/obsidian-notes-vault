@@ -3,4 +3,4 @@ A ***Hurwitz*** (or stable) ***matrix*** is a **square** matrix whose **eigenval
 $$
 \lambda_{i} \text{ satisfy } \mathrm{Re}(\lambda_{i}) < 0
 $$
-This implies that solutions to $\dot{x}=Ax$ decay exponen
+This implies that solutions to $\dot{x}=Ax$ decay exponentially to zero. We also note that a matrix $A$ is 
