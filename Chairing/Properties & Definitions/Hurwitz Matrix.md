@@ -3,4 +3,7 @@ A ***Hurwitz*** (or stable) ***matrix*** is a **square** matrix whose **eigenval
 $$
 \lambda_{i} \text{ satisfy } \mathrm{Re}(\lambda_{i}) < 0
 $$
-This implies that solutions to $\dot{x}=Ax$ decay exponentially to zero. We also note that a matrix $A$ is 
+This implies that solutions to $\dot{x}=Ax$ decay exponentially to zero. We also note that a matrix $A$ is ***Hurwitz if and only if*** there is a symmetric [[Positive Definite Matrix]] $P$ satisfying the ***Lyapunov equation***:
+$$
+A^TP+PA=-Q, \text{ } Q>0
+$$
