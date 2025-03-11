@@ -166,5 +166,5 @@ $$
 $$
 If we group up terms, we see some resemblance with our original ***[[#^3db8c3|rigid-body dynamics]]***:
 $$
-B(q)\ddot{q}+\left[ \frac{d}{dt} B() \right]
+B(q)\ddot{q}+\left[ \frac{d}{dt} B(q)-\frac{1}{2} \right]
 $$
