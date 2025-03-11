@@ -116,10 +116,12 @@ $$
 $$
 Including the *non-conservative* forces, it all adds up to:
 $$
-\frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_{j}} \right) - 
+\frac{d}{dt} \frac{\partial L}{\partial \dot{q}_{j}} - 
 \frac{\partial L}{\partial {q}_{j}} = \phi_{j}^{\text{non-pot}} +
 \sum^\zeta_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
 $$
+
+
 The resulting equations describe the dynamics of the system while accounting for the constraints. For a system with dissipation and external forces, the equation can be expressed as:
 $$
 B(q) \ddot{q} + C(q,\dot{q}) \dot{q} + G(q) =
