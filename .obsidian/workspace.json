@@ -253,6 +253,8 @@
   },
   "active": "eac1e01f020afd70",
   "lastOpenFiles": [
+    "Control/Pole Placement.md",
+    "Chairing/State Variable Theory.md",
     "Chairing/Properties & Definitions/Rayleigh Quotient.md",
     "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
     "Chairing/Properties & Definitions/Positive Definite Matrix.md",
@@ -263,8 +265,6 @@
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
-    "Chairing/State Variable Theory.md",
-    "Control/Pole Placement.md",
     "Chairing/Force Control.md",
     "Purdue.md",
     "Canvas.canvas",
