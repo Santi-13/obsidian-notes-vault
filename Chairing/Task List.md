@@ -6,3 +6,9 @@
 - [ ] Define hc
 - [ ] Define hc withouth F(Pc,hc)
 - [ ] Propose an auxiliar variable $\zeta = \Delta b+\gamma \Delta a, \gamma \in \mathrm{R}^{6\times6}, \gamma>0$ 
+$$
+\text{Where:}
+$$
+$$
+x^2 + y + z = \sum_{n=1}^k 
+$$

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Euler-Lagrange Formulation.md",
+                "file": "Chairing/Task List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Euler-Lagrange Formulation"
+              "title": "Task List"
             }
           },
           {
@@ -265,10 +265,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bce4445dcac5e7f0",
+  "active": "fff0bfc58a86b258",
   "lastOpenFiles": [
-    "Control/Drawing 2025-03-10 18.05.32.excalidraw.md",
+    "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
+    "AI/Background Maths/Multivariate Calculus/Multivariate Chain Rule.md",
+    "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
+    "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
+    "AI/Background Maths/Multivariate Calculus/Function Approximation.md",
+    "AI/Background Maths/Multivariate Calculus/Hessian.md",
+    "AI/Background Maths/Multivariate Calculus/Lagrange Multipliers.md",
+    "AI/Background Maths/Multivariate Calculus/Linear Regression.md",
     "Chairing/Euler-Lagrange Formulation.md",
+    "Control/Drawing 2025-03-10 18.05.32.excalidraw.md",
     "Chairing/Force Control.md",
     "Chairing/Task List.md",
     "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
@@ -296,15 +304,7 @@
     "Chairing/Notas del Dia/Notas día 12.md",
     "Chairing/Notas del Dia/Notas Día 11.md",
     "Chairing/Notas del Dia/Notas Día 3.md",
-    "Chairing/Notas del Dia/Notas día 4.md",
-    "Chairing/Notas del Dia/Notas dia 6 creo.md",
-    "Chairing/Lyapunov With Perturbations.md",
-    "Chairing/Lyapunov no Perturbations.md",
-    "AI/Background Maths/Multivariate Calculus/Lagrange Multipliers.md",
-    "Excalidraw/Diagram Force Transformations.md",
-    "Untitled 1.md",
     "Chairing/Properties & Definitions/Untitled.canvas",
-    "Control/Linear Quadratic Regulator.md",
     "images/Pasted image 20250211172003.png",
     "Pasted image 20250211172001.png",
     "images/Pasted image 20250130104632.png",
