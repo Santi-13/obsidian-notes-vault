@@ -1,7 +1,7 @@
 #Chairing #Definition 
 #### Basic Matrix Calculus Rule for Quadratic Forms
 
-For a scalar function $f(\mathrm{x}) = \mathrm{x}^TAq$, its *derivative* with respect to $\mathrm{x}$ is:
+For a scalar function $f(\mathrm{x}) = \mathrm{x}^TA\mathrm{x}$, its *derivative* with respect to $\mathrm{x}$ is:
 $$
 \frac{ \partial f }{ \partial \mathrm{x} } = (A+A^T)\mathrm{x} 
 $$

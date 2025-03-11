@@ -5,7 +5,17 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
+<<<<<<< HEAD
     "recentlyUsedIcons": [],
+=======
+    "recentlyUsedIcons": [
+      "LiBookPlus",
+      "LiMathFunction",
+      "LiPencil",
+      "LiBookOpen",
+      "LiComputer"
+    ],
+>>>>>>> a8413b79ff224256687b77ffe0f25c6c6d5c7ec1
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -27,5 +37,15 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
+<<<<<<< HEAD
   }
+=======
+  },
+  "Excalidraw": "LiPencil",
+  "Chairing": "🧑‍🏫",
+  "AI": "LiBrain",
+  "Computación Cognitiva": "LiComputer",
+  "Control": "LiBookOpen",
+  "Math": "LiBookPlus"
+>>>>>>> a8413b79ff224256687b77ffe0f25c6c6d5c7ec1
 }

@@ -36,10 +36,41 @@ $$
 
 Where:
 $$
-\Lambda(q) = (J(q)H^{-1}(q)J^T(q))^{-1}
+\Lambda(q)^{-1} = (J(q)H^{-1}(q)J^T(q))^{-1}
 $$
 There are different
 
 #### Stiffness Control
 In the classical operational space formulation, the end-effector *position* and *orientation* is described by a $6 \times 1$ vector $x_e= (p_{e}^T,\varphi_{e}^T)$. Where $\varphi_{e}$ is...
 
+
+
+$$
+\tau = M\ddot{q}+C\dot{q}
+$$
+
+
+
+
+
+#### Control de fuerza
+La idea principal es parecida al resto de controladores en el sentido de que tenemos un sistema con retroalimentación, cuyo error se alimenta a un controlador para llegar a una trayectoria deseada.
+
+Normalmente, el sistema lo representamos con las formulas de [[Euler-Lagrange Formulation|Euler-Lagrange]].
+$$
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} }
+$$
+Cuando el *sistema* se encuentra con un objeto, podríamos agregar esto a nuestro termino de *incertidumbre*, pero esto se considera una mala idea ya que controlamos a pesar de la incertidumbre.
+
+En vez de esto, **agregamos** un término de **torque externo**, ocasionalmente llamado **external *wrench***.
+$$
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} } + \underbrace{ J^T(q)F_{EF}
+ }_{ \text{Fuerza Externa} }$$
+Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada. 
+
+##### Suposición 1. Cuando hace contacto con algo solido
+Cuando el efector final hace contacto con una pared por ejemplo, decimos que se detenga, o en otras palabras:
+$$
+\ddot{q}=\dot{q}=0
+$$
+Despreciamos el ruido estático.
