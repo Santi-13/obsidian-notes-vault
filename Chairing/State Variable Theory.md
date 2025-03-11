@@ -14,8 +14,9 @@ $\text{Where:}$
 $g(q_{a})=B^{-1}(q_{a})$ 
 $f(q_{a},q_{b})=-B^{-1}(q_{a})(C(q_{b},q_{a})q_{b} + G(q_{a}))$
 
+Now, in order to control the system using this representation, we need to propose a ***linear controller*** that *mimics* this **system dynamics**. Heere 
 #### Proposal 1. Unperturbed System
-
+In 
 
 
 #### Proposal 2. Perturbed System
