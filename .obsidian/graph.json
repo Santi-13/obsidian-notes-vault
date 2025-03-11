@@ -5,10 +5,10 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "#Chairing",
+      "query": "#Explanation",
       "color": {
         "a": 1,
         "rgb": 9699476
@@ -18,7 +18,7 @@
       "query": "#MachineLearning",
       "color": {
         "a": 1,
-        "rgb": 14298927
+        "rgb": 3503360
       }
     },
     {
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 2505524
       }
+    },
+    {
+      "query": "#Definition",
+      "color": {
+        "a": 1,
+        "rgb": 16715535
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224421,
-  "close": false
+  "scale": 0.5087618855792589,
+  "close": true
 }
