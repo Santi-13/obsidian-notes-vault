@@ -171,5 +171,5 @@ B(q)\ddot{q}+\underset{ C(\dot{q},q) }{ \left[ \frac{d}{dt} B(q)-\frac{1}{2} \do
 $$
 Hence, considering the idk we get:
 $$
-B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle\lambda(t), f(q) \rangle
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle \lambda(t), f(q) \rangle
 $$
