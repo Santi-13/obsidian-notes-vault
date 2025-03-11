@@ -4,7 +4,10 @@ $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle \lambda(t), f(q) \rangle
 $$
 We can propose our **state variables**:
-$$ q_{a} = q  $$
+$$ q_{a} = q \newline 
+\\
+
+$$
 $$ q_{b} = \dot{q} $$
 Then, the *dynamics* of the proposed **state variables** are:
 $$ \dot{q}_{a}=\dot{q}=q_{b} $$
