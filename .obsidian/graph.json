@@ -1,60 +1,24 @@
 {
-<<<<<<< HEAD
   "collapse-filter": false,
-=======
-  "collapse-filter": true,
->>>>>>> ebe038ba13857672f205e841c86df9370db924df
   "search": "",
-  "showTags": true,
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ControlTheory  ",
+      "query": "#chairing",
       "color": {
         "a": 1,
-        "rgb": 6069206
+        "rgb": 9699476
       }
     },
     {
-      "query": "tag:#ComputacionCognitiva",
+      "query": "#MachineLearning",
       "color": {
         "a": 1,
-        "rgb": 10868316
-      }
-    },
-    {
-      "query": "tag:#GeneralProgramming",
-      "color": {
-        "a": 1,
-        "rgb": 12529969
-      }
-    },
-    {
-      "query": "tag:#MachineLearning  ",
-      "color": {
-        "a": 1,
-<<<<<<< HEAD
-        "rgb": 10227396
-      }
-    }
-  ],
-  "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-=======
-        "rgb": 9184699
-      }
-    },
-    {
-      "query": "tag:#Chairing",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
+        "rgb": 14725458
       }
     }
   ],
@@ -62,17 +26,12 @@
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 0.97318339100346,
->>>>>>> ebe038ba13857672f205e841c86df9370db924df
-  "collapse-forces": false,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 13.5758835758836,
+  "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 169,
-<<<<<<< HEAD
-  "scale": 0.2279718255882134,
-=======
-  "scale": 0.9071723250410477,
->>>>>>> ebe038ba13857672f205e841c86df9370db924df
-  "close": true
+  "linkDistance": 250,
+  "scale": 0.713275462622442,
+  "close": false
 }
