@@ -169,7 +169,7 @@ $$
 B(q)\ddot{q}+\underset{ C(\dot{q},q) }{ \left[ \frac{d}{dt} B(q)-\frac{1}{2} \dot{q}^T[\nabla_{q}B(q)] \right] }\dot{q} + \underset{ G(q) }{ \nabla_{q}H(q) } = 
 \phi^{\text{non-pot}}(\dot{q},q,t) +\langle \lambda(t), f(q) \rangle 
 $$
-Hence, considering the idk we get:
+H we get:
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle \lambda(t), f(q) \rangle
 $$
