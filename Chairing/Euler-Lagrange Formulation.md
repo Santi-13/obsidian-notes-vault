@@ -135,7 +135,9 @@ $$
 \frac{d}{dt} \nabla_{\dot{q}} L(\dot{q},q) - \nabla_{q} L(\dot{q},q) = \phi^{\text{non-pot}}(\dot{q},q,t) +
 \langle \lambda(t), f(q) \rangle 
 $$
+$$
 
+$$
 The resulting equations describe the dynamics of the system while accounting for the constraints. For a system with dissipation and external forces, the equation can be expressed as:
 $$
 B(q) \ddot{q} + C(q,\dot{q}) \dot{q} + G(q) =
