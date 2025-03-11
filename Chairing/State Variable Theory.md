@@ -34,5 +34,15 @@ $$
 \tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
 $$
 When substituting into the dynamics we get:
-$
+$$
+\dot{q}_{b} = f(q_{a},q_{b}) + g(q_{a})(\cancel{ \Omega(\Omega^{-1} }[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] \cancel{ - \langle \lambda(t),f(q_{a}) \rangle ) +\langle \lambda(t), f(q_{a}) \rangle })
+$$
+$$
+\dot{q}_{b} = f(q_{a},q_{b}) + \cancel{ g(q_{a})[g^{-1}(q_{a}) }( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )]
+$$
+$$
+\dot{q}_{b} = f(q_{a},q_{b}) - f(q_{a},q_{b}) - K_{P}q_{a} - K_{D}q_{b} 
+$$
+
+
 #### Proposal 2. Perturbed System
