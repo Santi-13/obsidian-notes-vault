@@ -53,5 +53,13 @@ $$
 \dot{q}_{b}=-K_{P}q_{a} - K_{D}q_{b} 
 \end{cases}
 $$
+In **vector form**:
+$$
+\frac{d}{dt} \mathrm{q}=\frac{d}{dt} \begin{bmatrix} q_{a}  \\ q_{b} \end{bmatrix} =
+\begin{bmatrix}
+q_{b} \\
+-K_{P}q_{a} - K_{D}q_{b}
+\end{bmatrix}
+$$
 
 #### Proposal 2. Perturbed System
