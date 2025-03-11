@@ -2,10 +2,10 @@
 #### Direct kinematics
 The open kinematic chain of the robot manipulator consists of its end-effector's pose:
 $$
-\zeta = DK(q)
+ς = DK(q)
 $$
 $$
-\zeta=\begin{bmatrix}
+ς=\begin{bmatrix}
 x \\
 y \\
 z \\
@@ -16,7 +16,7 @@ z \\
 $$
 And its velocity:
 $$
-\frac{d}{dt} \zeta(t) = \frac{d}{dt}DK(q(t))
+\frac{d}{dt} ς(t) = \frac{d}{dt}DK(q(t))
 $$
 $$
 =[\nabla_{q}DK(q(t))] \frac{d}{dt}q(t)
@@ -26,7 +26,7 @@ $$
 $$
 Along with its acceleration:
 $$
-\frac{d^2}{dt^2} \zeta(t) = \frac{d}{dt} \left(  J(q(t)) \frac{d}{dt} q(t) \right)
+\frac{d^2}{dt^2} ς(t) = \frac{d}{dt} \left(  J(q(t)) \frac{d}{dt} q(t) \right)
 $$
 $$
 =\left[ \frac{d}{dt} J(q(t)) \right] \frac{d}{dt} q(t) + J(q(t)) \frac{d^2}{dt^2} q(t)
@@ -64,7 +64,7 @@ $$
 $$
 We substitute in the equation for the end-effector's acceleration:
 $$
-\ddot{\zeta}(t) = \dot{J}(q) \dot{q} +J(q)
+\ddot{ς}(t) = \dot{J}(q) \dot{q} +J(q)
 (\underbrace{ B^{-1}(q) [\tau-C(\dot{q},q) \dot{q} - G(q)] }_{ \ddot{q} }) 
 $$
 Which we can simplify:
@@ -96,7 +96,7 @@ Now, we just need a way to enforce this constraints **only when violated**, this
 When the coordinates $q_j$ have constraints, we need to introduce Lagrange multipliers $\lambda_k(t)$ to incorporate these constraints into the **[[#Lagrangian Function]]**:
 $$
 L'(q, \dot{q}) = L(q, \dot{q})  + 
-\sum^\zeta_{n=1} \lambda_{k}(t) f_{k} (q)
+\sum^ς_{n=1} \lambda_{k}(t) f_{k} (q)
 $$
 where $f_k(q)$ represents the constraint equations and $\lambda_k(t)$ act as "smart weights" that dynamically adjust to enforce constraints based on other condition equations we set.
 
@@ -112,13 +112,13 @@ $$
 $$
 While the constraint *does* depend on $q$:
 $$
-\frac{\partial L'}{\partial q_{j}} = \frac{\partial L}{\partial q_{j}} + \sum^\zeta_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
+\frac{\partial L'}{\partial q_{j}} = \frac{\partial L}{\partial q_{j}} + \sum^ς_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
 $$
 Including the *non-conservative* forces, it all adds up to:
 $$
 \frac{d}{dt} \frac{\partial L}{\partial \dot{q}_{j}} - 
 \frac{\partial L}{\partial {q}_{j}} = \phi_{j}^{\text{non-pot}} +
-\sum^\zeta_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
+\sum^ς_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
 $$
 This is equivalent to its vector form:
 $$
@@ -127,8 +127,8 @@ $$
 \frac{\partial}{\partial q_{1}} L(\dot{q},q) \\ \vdots \\ \frac{\partial}{\partial q_{n}} L(\dot{q},q)  \end{bmatrix} =
 \begin{bmatrix}
 \phi_{1}^{\text{non-pot}} (\dot{q},q,t) \\ \vdots \\ \phi_{n}^{\text{non-pot}} (\dot{q},q,t) \end{bmatrix} + \begin{bmatrix}
-\sum\nolimits_{k=1}^\zeta \lambda_{k}(t) \frac{\partial}{\partial q_{1}} f_{k}(q) \\ \vdots  \\
-\sum\nolimits_{k=1}^\zeta \lambda_{k}(t) \frac{\partial}{\partial q_{n}} f_{k}(q)
+\sum\nolimits_{k=1}^ς \lambda_{k}(t) \frac{\partial}{\partial q_{1}} f_{k}(q) \\ \vdots  \\
+\sum\nolimits_{k=1}^ς \lambda_{k}(t) \frac{\partial}{\partial q_{n}} f_{k}(q)
 \end{bmatrix}
 $$
 $$
@@ -149,7 +149,7 @@ V(q) = H(q)
 $$
 $\text{Where:}$
 $K(\dot{q},q): \text{Proposed Lyapunov Function for the system's energy}$
-$H(q): \text{i dont know}$
+$H(q): \text{Gravitational Potential Energy}$
 
 We can then substitute on our ***[[#Euler-Lagrange Equation]]***:
 $$
@@ -173,3 +173,4 @@ Hence, considering the idk we get:
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \Omega\tau+ \phi_{diss}(\dot{q},q,t) + \langle \lambda(t), f(q) \rangle
 $$
+********
