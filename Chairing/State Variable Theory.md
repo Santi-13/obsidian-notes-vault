@@ -61,5 +61,17 @@ q_{b} \\
 -K_{P}q_{a} - K_{D}q_{b}
 \end{bmatrix}
 $$
-
+$$
+= \begin{bmatrix}
+0_{n\times n} & I_{n\times n} \\
+-K_{P} & -K_{D}
+\end{bmatrix} \begin{bmatrix}
+q_{a} \\
+q_{b}
+\end{bmatrix}
+$$
+$$
+\frac{d}{dt} \mathrm{q} = A\mathrm{q} 
+$$
+From this, is obvious to note that $\mathrm{q}$ is a $12\times1$ vector, and both $K_P$ and $K_D$ are $6\times6$ matrices. 
 #### Proposal 2. Perturbed System
