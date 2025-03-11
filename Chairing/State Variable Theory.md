@@ -86,3 +86,7 @@ $\text{Where:}$
 $\psi(q_{a},q_{b},.):\text{Non-modelled sections of the robot.}$
 $\psi(.,.,t): \text{Effect of all external perturbations.}$
 
+Where the perturbations $\psi$ are constrained to a set $\Psi$ defined by:
+$$
+\Psi=\{ \psi:Q_{a} \times TQ_{a} \times \mathrm{R}^+ \to \mathrm{R}^n | \text{ } \lvert\lvert \psi \rvert\rvert^2  \}
+$$
