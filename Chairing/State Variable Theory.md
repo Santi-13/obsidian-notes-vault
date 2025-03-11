@@ -88,5 +88,9 @@ $\psi(.,.,t): \text{Effect of all external perturbations.}$
 
 Where the perturbations $\psi$ are constrained to a set $\Psi$ defined by:
 $$
-\Psi=\{ \psi:Q_{a} \times TQ_{a} \times \mathrm{R}^+ \to \mathrm{R}^n | \text{ } \lvert\lvert \psi \rvert\rvert^2  \}
+\Psi=\{ \psi:Q_{a} \times TQ_{a} \times \mathrm{R}^+ \to \mathrm{R}^n | \text{ } \lvert\lvert \psi \rvert\rvert^2 \leq \psi_{0} + \psi_{1}\lvert\lvert q_{a} \rvert\rvert^2 + \psi_{2} \lvert\lvert q_{b} \rvert\rvert^2\}
+$$
+$\text{Where:}$
+$Q_{a}\subset \mathrm{R}^n: \text{Configuration space (positions } q_{a} \text{)}$
+$TQ_{a}: \text{Tangent bundle of }Q_{a} \text{, representing positions and velocities  } (q_{a}, q_{b})$
 $$
