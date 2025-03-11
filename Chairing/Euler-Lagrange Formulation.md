@@ -157,3 +157,8 @@ $$
 \phi^{\text{non-pot}}(\dot{q},q,t) +
 \langle \lambda(t), f(q) \rangle 
 $$
+From ***[[Matrix Calculus Derivative Rules]]***, we get that the derivative or *gradient* of $\frac{1}{2} \dot{q}^TB\dot{q}$ is $B\dot{q}$, hence:
+$$
+\frac{d}{dt} B(q)\dot{q} -\frac{1}{2} \dot{q}^T [\nabla_{q}B(q)]\dot{q} + \nabla_{q}H(q) = \phi^{\text{non-pot}}(\dot{q},q,t) +
+\langle \lambda(t), f(q) \rangle 
+$$
