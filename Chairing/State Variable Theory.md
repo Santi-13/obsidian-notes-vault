@@ -83,4 +83,6 @@ $$
 \end{cases}
 $$
 $\text{Where:}$
-$\psi(q_{a},q_{b},.):\text{Non-modelled sections of the robot}$
+$\psi(q_{a},q_{b},.):\text{Non-modelled sections of the robot.}$
+$\psi(.,.,t): \text{Effect of all external perturbations.}$
+
