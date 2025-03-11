@@ -122,8 +122,12 @@ $$
 $$
 This is equivalent to its vector form:
 $$
-\frac{d}{dt} \begin{bmatrix} \frac{\partial}{\partial \dot{q}_{1}} L(\dot{q},q) \\\vdots \\
-\frac{\partial}{\partial \dot{q}_{n}} L(\dot{q},q)
+\frac{d}{dt} \begin{bmatrix} \frac{\partial}{\partial \dot{q}_{1}} L(\dot{q},q) \\ \vdots \\
+\frac{\partial}{\partial \dot{q}_{n}} L(\dot{q},q) \end{bmatrix} - \begin{bmatrix}
+\frac{\partial}{\partial q_{1}} L(\dot{q},q) \\ \vdots \\ \frac{\partial}{\partial q_{n}} L(\dot{q},q)  \end{bmatrix} =
+\begin{bmatrix}
+\phi_{1}^{\text{non-pot}} (\dot{q},q,t) \\ \vdots \\ \phi_{n}^{\text{non-pot}} (\dot{q},q,t) \end{bmatrix} + \begin{bmatrix}
+\sum\nolimits_{k=1}^\zeta
 \end{bmatrix}
 $$
 
