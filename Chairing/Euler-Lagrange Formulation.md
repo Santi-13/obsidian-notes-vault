@@ -135,22 +135,9 @@ $$
 \frac{d}{dt} \nabla_{\dot{q}} L(\dot{q},q) - \nabla_{q} L(\dot{q},q) = \phi^{\text{non-pot}}(\dot{q},q,t) +
 \langle \lambda(t), f(q) \rangle 
 $$
+#### Defining Lagrange Equation
+From our initial definition of the [[#Lagrangian Function]]:
 $$
-
+L(q, \dot{q}) = K(q, \dot{q}) - V(q)
 $$
-The resulting equations describe the dynamics of the system while accounting for the constraints. For a system with dissipation and external forces, the equation can be expressed as:
-$$
-B(q) \ddot{q} + C(q,\dot{q}) \dot{q} + G(q) =
-\tau + Q_{\text{diss}}(q, \dot{q}, t) + (\lambda(t), f(q))
-$$
-where $B(q)$ is the inertia matrix, $C(q, \dot{q})$ is the Coriolis and centrifugal forces matrix, $G(q)$ is the gravitational forces vector, $\tau$ is the control input, and $Q_{\text{diss}}(q, \dot{q}, t)$ represents dissipative forces.
-
-$$
-\frac{d^2}{dt^2} \zeta(t) = \left[\frac{d}{dt} J(q(t))\right] \frac{d}{dt} q(t) + J(q(t)) \left(M^{-1}(q) \left(\tau(t) - C(q(t), \frac{d}{dt} q(t)) \frac{d}{dt} q(t) - G(q(t))\right)\right)
-$$
-$$
-=f\left( q ( t, \frac{d}{dt} q(t)) \right) +
-g(q(t)) \tau(t)
-$$
-Where $M^{-1}(q)$ is the inverse of the **inertia matrix**, $\tau(t)$ is the control **torques** applied to the joints, and $C(q(t), \frac{d}{dt} q(t)) \frac{d}{dt} q(t)$ accounts for the effect of the Coriolis and centrifugal forces.
-
+We note that 
