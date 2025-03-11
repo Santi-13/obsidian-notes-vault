@@ -140,4 +140,11 @@ From our initial definition of the [[#Lagrangian Function]]:
 $$
 L(q, \dot{q}) = K(q, \dot{q}) - V(q)
 $$
-We note that 
+We note that:
+$$
+K(\dot{q},q) = \frac{1}{2} \lvert\lvert \dot{q} \rvert\rvert_{B}^2 = \frac{1}{2} \dot{q}^TB\dot{q} 
+$$
+$$
+V(q) = H(q)
+$$
+$\text{Where:}$
