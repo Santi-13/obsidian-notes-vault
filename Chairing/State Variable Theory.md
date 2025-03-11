@@ -29,5 +29,8 @@ Now, we need to propose a controller so we can control our dynamics disregarding
 $$
 \dot{q}_{b} = f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle) = -K_{P}q_{a} - K_{D}q_{b}
 $$
-To do this, we may si
+To do this, we may simply propose a ***PD controller*** for the **torque** $\tau$ that takes into account the dynamics.
+$$
+\tau=\Omega^{-1}
+$$
 #### Proposal 2. Perturbed System
