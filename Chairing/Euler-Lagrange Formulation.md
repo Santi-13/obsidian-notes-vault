@@ -127,7 +127,8 @@ $$
 \frac{\partial}{\partial q_{1}} L(\dot{q},q) \\ \vdots \\ \frac{\partial}{\partial q_{n}} L(\dot{q},q)  \end{bmatrix} =
 \begin{bmatrix}
 \phi_{1}^{\text{non-pot}} (\dot{q},q,t) \\ \vdots \\ \phi_{n}^{\text{non-pot}} (\dot{q},q,t) \end{bmatrix} + \begin{bmatrix}
-\sum\nolimits_{k=1}^\zeta
+\sum\nolimits_{k=1}^\zeta \lambda_{k}(t) \frac{\partial}{\partial q_{1}} f_{k}(q) \\ \vdots  \\
+\sum\nolimits_{k=1}^\zeta \lambda_{k}(t) \frac{\partial}{\partial q_{n}} f_{k}(q)
 \end{bmatrix}
 $$
 
