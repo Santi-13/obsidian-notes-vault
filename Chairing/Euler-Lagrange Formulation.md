@@ -148,4 +148,6 @@ $$
 V(q) = H(q)
 $$
 $\text{Where:}$
+$K(\dot{q},q): \text{Proposed Lyapunov Function for the system's energy}$
+$H(q): \text{i dont know}$
 
