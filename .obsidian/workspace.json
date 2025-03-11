@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Euler-Lagrange Formulation.md",
+                "file": "Purdue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Euler-Lagrange Formulation"
+              "title": "Purdue"
             }
           },
           {
@@ -267,8 +267,8 @@
   },
   "active": "2a8cd2a1f37147a6",
   "lastOpenFiles": [
-    "Chairing/Force Control.md",
     "Chairing/Euler-Lagrange Formulation.md",
+    "Chairing/Force Control.md",
     "Canvas.canvas",
     "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
     "Control/Linear Quadratic Regulator.md",
