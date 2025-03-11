@@ -73,4 +73,4 @@ Cuando el efector final hace contacto con una pared por ejemplo, decimos que se 
 $$
 \ddot{q}=\dot{q}=0
 $$
-Despre
+Despreciamos el ruido estático.
