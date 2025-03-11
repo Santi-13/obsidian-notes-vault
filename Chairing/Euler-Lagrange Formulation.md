@@ -164,3 +164,4 @@ $$
 $$
 \left( \frac{d}{dt} B(q) \right) \dot{q} + B(q) \ddot{q} - \frac{1}{2} \dot{q}^T [\nabla_{q}B(q)]\dot{q} + \nabla_{q}H(q) = \phi^{\text{non-pot}}(\dot{q},q,t) +\langle \lambda(t), f(q) \rangle 
 $$
+If we group up terms, we see some reassemblance with our 
