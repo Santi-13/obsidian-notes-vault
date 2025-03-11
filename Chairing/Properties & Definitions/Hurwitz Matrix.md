@@ -7,3 +7,5 @@ This implies that solutions to $\dot{x}=Ax$ decay exponentially to zero. We also
 $$
 A^TP+PA=-Q, \text{ } Q>0
 $$
+$$\boxed{\text{A matrix } A \text{ is Hurwitz if all its eigenvalues have negative real parts.}}$$
+
