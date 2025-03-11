@@ -41,8 +41,17 @@ $$
 \dot{q}_{b} = f(q_{a},q_{b}) + \cancel{ g(q_{a})[g^{-1}(q_{a}) }( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )]
 $$
 $$
-\dot{q}_{b} = f(q_{a},q_{b}) - f(q_{a},q_{b}) - K_{P}q_{a} - K_{D}q_{b} 
+\dot{q}_{b} = \cancel{ f(q_{a},q_{b}) - f(q_{a},q_{b}) } - K_{P}q_{a} - K_{D}q_{b} 
 $$
-
+$$
+\dot{q}_{b} = -K_{P}q_{a} - K_{D}q_{b}
+$$
+We basically made a ***controller*** for the **system's acceleration** by proposing one for the **torque**. Resulting in our new dynamics:
+$$
+\begin{cases}
+\dot{q}_{a}=q_{b} \\
+\dot{q}_{b}=-K_{P}q_{a} - K_{D}q_{b} 
+\end{cases}
+$$
 
 #### Proposal 2. Perturbed System
