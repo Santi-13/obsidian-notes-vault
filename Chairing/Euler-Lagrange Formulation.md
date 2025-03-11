@@ -48,7 +48,7 @@ Here, $\phi_{j}^{\text{non-pot}}$ represents **non-conservative** (non-potential
 
 These **non-conservative** generalized forces are those not derivable from a potential function (cannot be expressed as $-\nabla_{q}V$) such as $\tau$, **friction** and **constraint forces**.
 
-We can get the ***Euler-Lagrange formulation*** of our system, starting from the standard **rigid-body dynamics**:
+We can get the ***Euler-Lagrange formulation*** of our system, starting from the standard **rigid-body dynamics**: ^3db8c3
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau
 $$
@@ -164,4 +164,7 @@ $$
 $$
 \left( \frac{d}{dt} B(q) \right) \dot{q} + B(q) \ddot{q} - \frac{1}{2} \dot{q}^T [\nabla_{q}B(q)]\dot{q} + \nabla_{q}H(q) = \phi^{\text{non-pot}}(\dot{q},q,t) +\langle \lambda(t), f(q) \rangle 
 $$
-If we group up terms, we see some reassemblance with our 
+If we group up terms, we see some resemblance with our original ***[[#^3db8c3|rigid-body dynamics]]***:
+$$
+B(q)\ddot{q}+\left[ \frac{d}{dt} B() \right]
+$$
