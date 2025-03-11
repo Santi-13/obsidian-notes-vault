@@ -25,5 +25,9 @@ $$
 \dot{q}_{b}= f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle)
 \end{cases}
 $$
-
+Now, we need to propose a controller so we can control our dynamics disregarding the **system**, in other words, for a ***PD controller*** we need:
+$$
+\dot{q}_{b} = f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle) = -K_{P}q_{a} - K_{D}q_{b}
+$$
+To do this, we may si
 #### Proposal 2. Perturbed System
