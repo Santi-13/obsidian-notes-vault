@@ -96,7 +96,6 @@ Q = [1 0;
 R = 1;
 K = lqr(A,B,Q,R);
 
-<<<<<<< HEAD
 $ Closed Loop System
 sys = ss((A - B*k),B,C,D);
 =======
