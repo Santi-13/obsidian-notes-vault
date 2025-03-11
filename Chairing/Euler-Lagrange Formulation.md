@@ -114,7 +114,7 @@ While the constraint *does* depend on $q$:
 $$
 \frac{\partial L'}{\partial q_{j}} = \frac{\partial L}{\partial q_{j}} + \sum^\zeta_{n=1} \lambda_{k}(t) \frac{\partial f_{k}}{\partial q_{j}}
 $$
-
+Including the 
 
 The resulting equations describe the dynamics of the system while accounting for the constraints. For a system with dissipation and external forces, the equation can be expressed as:
 $$
