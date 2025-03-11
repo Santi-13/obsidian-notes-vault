@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Force Control.md",
+                "file": "Chairing/Euler-Lagrange Formulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Force Control"
+              "title": "Euler-Lagrange Formulation"
             }
           },
           {
@@ -267,8 +267,8 @@
   },
   "active": "fff0bfc58a86b258",
   "lastOpenFiles": [
-    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Force Control.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Task List.md",
     "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
