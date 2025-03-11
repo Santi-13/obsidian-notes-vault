@@ -136,7 +136,7 @@ $$
 \langle \lambda(t), f(q) \rangle 
 $$
 #### Defining Lagrange Equation
-From our initial definition of the [[#Lagrangian Function]]:
+From our initial definition of the ***[[#Lagrangian Function]]***:
 $$
 L(q, \dot{q}) = K(q, \dot{q}) - V(q)
 $$
@@ -151,3 +151,9 @@ $\text{Where:}$
 $K(\dot{q},q): \text{Proposed Lyapunov Function for the system's energy}$
 $H(q): \text{i dont know}$
 
+We can then substitute on our ***[[#Euler-Lagrange Equation]]***:
+$$
+\frac{d}{dt} \nabla_{\dot{q}} (\frac{1}{2} \dot{q}^TB\dot{q} - \cancel{ H(q) }) - \nabla_{q} (\frac{1}{2} \dot{q}^TB\dot{q} - H(q)) = 
+\phi^{\text{non-pot}}(\dot{q},q,t) +
+\langle \lambda(t), f(q) \rangle 
+$$
