@@ -93,4 +93,5 @@ $$
 $\text{Where:}$
 $Q_{a}\subset \mathrm{R}^n: \text{Configuration space (positions } q_{a} \text{)}$
 $TQ_{a}: \text{Tangent bundle of }Q_{a} \text{, representing positions and velocities  } (q_{a}, q_{b})$
-$$
+$\psi_{0},\psi_{1},\psi_{2} \geq 0: \text{Bounds on perturbation magnitude}$
+
