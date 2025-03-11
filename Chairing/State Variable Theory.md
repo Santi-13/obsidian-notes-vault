@@ -79,6 +79,8 @@ Consider the case where:
 $$
 \begin{cases}
 \dot{q}_{a}=q_{b} \\
-\dot{q}_{b}= f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle)
+\dot{q}_{b}= f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle) + \psi(q_{a},q_{b},t)
 \end{cases}
 $$
+$\text{Where:}$
+$\psi(q_{a},q_{b},.):\text{Non-modelled sections of the robot}$
