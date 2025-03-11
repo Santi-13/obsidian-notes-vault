@@ -22,16 +22,6 @@
             }
           },
           {
-            "id": "fff0bfc58a86b258",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "5033880fb932223f",
             "type": "leaf",
             "state": {
@@ -73,8 +63,7 @@
               "title": "Peter-Paul Inequality"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,8 +250,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fff0bfc58a86b258",
+  "active": "911ed39aacb68dab",
   "lastOpenFiles": [
+    "NLSC_lecture_notes_2018.pdf",
+    "Chairing/Notas del Dia/Notas día 7.md",
+    "Notas día 7.md",
+    "Notas dia 6 creo.md",
+    "Notas día 4.md",
+    "Notas Día 3.md",
     "AI/Neural Networks.md",
     "Chairing/Force Control.md",
     "Chairing/Euler-Lagrange Formulation.md",
@@ -289,17 +284,10 @@
     "Chairing/pdfs/Matrix Calculus Derivative Rules.pdf",
     "Chairing/pdfs/Rayleigh Quotient.pdf",
     "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
-    "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
-    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "Chairing/pdfs/Lyapunov no Perturbations.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/pdfs",
-    "NLSC_lecture_notes_2018.pdf",
-    "Purdue.md",
     "Canvas.canvas",
-    "Chairing/Notas del Dia/Notas día 9.md",
-    "Chairing/Notas del Dia/Notas día 8.md",
-    "Chairing/Notas del Dia/Notas día 7.md",
     "Chairing/Properties & Definitions/Untitled.canvas",
     "images/Pasted image 20250211172003.png",
     "Pasted image 20250211172001.png",

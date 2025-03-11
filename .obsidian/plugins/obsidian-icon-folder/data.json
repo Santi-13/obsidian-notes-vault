@@ -6,8 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiExcalidrawIcon",
-      "LiMath"
+      "LiBookPlus",
+      "LiMathFunction",
+      "LiPencil",
+      "LiBookOpen",
+      "LiComputer"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,5 +34,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Excalidraw": "LiExcalidrawIcon"
+  "Excalidraw": "LiPencil",
+  "Chairing": "🧑‍🏫",
+  "AI": "LiBrain",
+  "Computación Cognitiva": "LiComputer",
+  "Control": "LiBookOpen",
+  "Math": "LiBookPlus"
 }
