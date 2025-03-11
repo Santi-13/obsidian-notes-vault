@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/State Variable Theory.md",
+                "file": "Chairing/Properties & Definitions/Hurwitz Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State Variable Theory"
+              "title": "Hurwitz Matrix"
             }
           },
           {
@@ -253,14 +253,15 @@
   },
   "active": "eac1e01f020afd70",
   "lastOpenFiles": [
-    "Control/Pole Placement.md",
+    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
+    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/State Variable Theory.md",
+    "Control/Pole Placement.md",
     "Chairing/Properties & Definitions/Rayleigh Quotient.md",
     "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
     "Chairing/Properties & Definitions/Positive Definite Matrix.md",
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
-    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "Chairing/pdfs/Lyapunov no Perturbations.pdf",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov no Perturbations.md",
@@ -280,7 +281,6 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Introduction.md",
     "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
-    "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
     "NLSC_lecture_notes_2018.pdf",
     "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
