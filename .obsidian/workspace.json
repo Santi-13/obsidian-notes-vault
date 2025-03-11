@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control/Pole Placement.md",
+                "file": "Chairing/State Variable Theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pole Placement"
+              "title": "State Variable Theory"
             }
           },
           {
@@ -253,6 +253,7 @@
   },
   "active": "eac1e01f020afd70",
   "lastOpenFiles": [
+    "Control/Pole Placement.md",
     "Chairing/State Variable Theory.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov no Perturbations.md",
@@ -280,7 +281,6 @@
     "AI/Background Maths/Multivariate Calculus/Constrained Optimization.md",
     "AI/Background Maths/Multivariate Calculus/Function Approximation.md",
     "NLSC_lecture_notes_2018.pdf",
-    "Chairing/Notas del Dia/Notas día 7.md",
     "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
     "Chairing/pdfs/Positive Definite Matrix.pdf",
