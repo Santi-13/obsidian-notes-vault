@@ -8,4 +8,4 @@ $$ q_{a} = q  $$
 $$ q_{b} = \dot{q} $$
 Then, the *dynamics* of the proposed **state variables** are:
 $$ \dot{q}_{a}=\dot{q}=q_{b} $$
-$$ \dot{q}_{b} = \ddot{q} = B^{-1}(q_{a}) [  ] $$ 
+$$ \dot{q}_{b} = \ddot{q} = B^{-1}(q_{a}) [ \Omega\tau +\phi_{diss}(q_{b},q_{a},t) + \langle \lambda(t),f(q_{a}) \rangle- C(q_{b},q_{a})q_{b} - G(q_{a}) ] $$ 
