@@ -75,3 +75,10 @@ $$
 $$
 From this, is obvious to note that $\mathrm{q}$ is a $12\times1$ vector, and both $K_P$ and $K_D$ are $6\times6$ matrices. 
 #### Proposal 2. Perturbed System
+Consider the case where:
+$$
+\begin{cases}
+\dot{q}_{a}=q_{b} \\
+\dot{q}_{b}= f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle)
+\end{cases}
+$$
