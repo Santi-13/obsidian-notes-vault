@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "State Variable Theory"
             }
+          },
+          {
+            "id": "da6a1b9b22dd30d3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,11 +219,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc0acfdb86df3210",
+  "active": "da6a1b9b22dd30d3",
   "lastOpenFiles": [
     "Chairing/State Variable Theory.md",
-    "Chairing/Euler-Lagrange Formulation.md",
     "Sin título.md",
+    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Sin título 1.md",
     "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
     "Control/Drawing 2025-03-10 18.05.32.excalidraw.md",
@@ -246,7 +258,6 @@
     "Chairing/Notas del Dia/Notas dia 6 creo.md",
     "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Lyapunov no Perturbations.md",
-    "AI/Background Maths/Multivariate Calculus/Lagrange Multipliers.md",
     "Chairing/Properties & Definitions/Untitled.canvas",
     "images/Pasted image 20250211172003.png",
     "Pasted image 20250211172001.png",
