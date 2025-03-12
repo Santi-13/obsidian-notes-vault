@@ -50,4 +50,10 @@ $$
 $$
 Var[D'']=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{8}{3} \right)^2 = 11.556
 $$
-We notice how the *offset* doesn't affect the ***variance*** of the data, as the points are the same distance relative to their mean. The **stretching** of the data, however, does affect its 
+We notice how the *offset* doesn't affect the ***variance*** of the data, as the points are the same distance relative to their mean. The **stretching** of the data, however, makes each point a scaling factor away from their mean, which is later squared on the variance function. In the end, we can generalize to:
+$$
+Var[D] = Var[D+a]
+$$
+$$
+Var[\alpha D]=\alpha^2 Var[D]
+$$

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Transformations of Datasets"
+              "title": "Variance of Higher-Dimensional Datasets"
             }
           }
         ],
@@ -225,9 +225,9 @@
   },
   "active": "da6a1b9b22dd30d3",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
     "Chairing/State Variable Theory.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "AI/Neural Networks.md",
     "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
