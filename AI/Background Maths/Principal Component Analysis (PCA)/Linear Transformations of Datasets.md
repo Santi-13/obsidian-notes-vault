@@ -40,7 +40,14 @@ $$
 $$
 E[aD]=aE[D]
 $$
-On the other hand, let's consider dataset's $D$ and $D'$ ***variance***.
+On the other hand, let's consider dataset's $D$, $D'$, and $D''$ ***variance***.
 $$
-Var[D]=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{4}{3} \right)^2 = - \frac{7}{3} + \frac{2}{3} + \frac{5}{3}  
+Var[D]=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{4}{3} \right)^2 = 2.889  
 $$
+$$
+Var[D']=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{10}{3} \right)^2 = 2.889  
+$$
+$$
+Var[D'']=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{8}{3} \right)^2 = 11.556
+$$
+We notice how the *offset* doesn't affect the ***variance*** of the data, as the points are the same distance relative to their mean. The **stretching** of the data, however, does affect its 
