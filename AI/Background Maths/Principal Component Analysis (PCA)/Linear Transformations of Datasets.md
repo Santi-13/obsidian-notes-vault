@@ -40,3 +40,4 @@ $$
 $$
 E[aD]=aE[D]
 $$
+On the other hand, the ***variance***
