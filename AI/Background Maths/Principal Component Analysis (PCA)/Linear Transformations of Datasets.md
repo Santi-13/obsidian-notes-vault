@@ -40,4 +40,7 @@ $$
 $$
 E[aD]=aE[D]
 $$
-On the other hand, let's consider dataset's $D$ ***variance***, 
+On the other hand, let's consider dataset's $D$ and $D'$ ***variance***.
+$$
+Var[D]=\frac{1}{n}\sum^n_{n=1}\left( x_{n}- \frac{4}{3} \right)^2 = - \frac{7}{3} + \frac{2}{3} + \frac{5}{3}  
+$$
