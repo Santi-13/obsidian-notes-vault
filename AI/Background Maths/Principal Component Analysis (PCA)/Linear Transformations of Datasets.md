@@ -40,4 +40,4 @@ $$
 $$
 E[aD]=aE[D]
 $$
-On the other hand, the ***variance***
+On the other hand, let's consider dataset's $D$ ***variance***, 
