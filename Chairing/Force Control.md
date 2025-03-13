@@ -65,4 +65,7 @@ Cuando el efector final hace contacto con una pared por ejemplo, decimos que se 
 $$
 \ddot{q}=\dot{q}=0
 $$
-Despreciamos el ruido estático.
+Despreciamos el ruido no estático, entonces nos quedá nuestra ecuación.
+$$
+
+$$
