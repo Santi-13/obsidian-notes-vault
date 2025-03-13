@@ -95,11 +95,18 @@ This basically tells us that, for any ***non-singularity*** robot position (that
 
 Now, we can also design our **control law** to function with a **PD Controller**, allowing for greater control over its behavior. For our assumptions of the **system dynamics** $\tilde{\eta}$:
 $$
-\tau= \tilde{\eta}+J^T F_{D}
+\tau= \tilde{\eta}+J^T F_{EF}
 $$
 We design our control as:
 $$
-\tau= \tilde{\eta} + J^T (F_{D} + K_{P}(F_{D} - F_{EF}) + K_{D}(F_{D}do - F_{EF})) 
+\tau= \tilde{\eta} + J^T (F_{D} + K_{P}\overbrace{ (F_{D} - F_{EF}) }^{ F_{e} } + 
+K_{D}\overbrace{ (\dot{F}_{D} - \dot{F}_{EF}) }^{ \dot{F}_{e} }) 
 $$
+Substituting, we also cancel $\tilde{\eta}$.
+$$
+J^T F_{EF} = J^T
+$$
+
+
 #### Direct Force Control
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
