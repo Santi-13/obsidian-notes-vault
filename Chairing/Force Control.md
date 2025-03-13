@@ -116,6 +116,18 @@ Assuming $K_{D}$ is **invertible**, we can rearrange some terms which leaves us 
 $$
 \dot{F}_{E} = K_{D}^{-1} (K_{P} - I)F_{e} 
 $$
+$$
+\dot{V} \leq -\alpha V
+$$
+Where we want to reduce the *error's velocity* towards 0.
+```desmos-graph
+left=-0.1; right=4;
+top=4; bottom=-0.1;
+---
+f(x)=0.3
+g(x)=3*1/ (e^x) |red|dashed
+```
+
 
 #### Direct Force Control
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
