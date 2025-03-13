@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "05616e64ce5aa402",
+        "id": "6585abd2410a7ae8",
         "type": "tabs",
         "children": [
           {
-            "id": "dc0acfdb86df3210",
+            "id": "911ed39aacb68dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chairing/Lyapunov no Perturbations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lyapunov no Perturbations"
+            }
+          },
+          {
+            "id": "5033880fb932223f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chairing/Force Control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Force Control"
+            }
+          },
+          {
+            "id": "eac1e01f020afd70",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +50,21 @@
             }
           },
           {
-            "id": "da6a1b9b22dd30d3",
+            "id": "6c23c04af2fd2675",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+                "file": "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variance of Higher-Dimensional Datasets"
+              "title": "Peter-Paul Inequality"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -59,7 +87,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -93,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 276.5
   },
   "right": {
     "id": "b0c49e444b6c776b",
@@ -168,7 +196,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Cola de notas a revisar"
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -177,8 +205,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -211,57 +239,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-spaced-repetition:Revisar Tarjetas": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "github-sync:Sync with Remote": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da6a1b9b22dd30d3",
+  "active": "eac1e01f020afd70",
   "lastOpenFiles": [
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
-    "Chairing/State Variable Theory.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
-    "AI/Neural Networks.md",
-    "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
-    "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
-    "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
-    "Sin título.md",
+    "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Properties & Definitions/Hurwitz Matrix.md",
-    "Chairing/Euler-Lagrange Formulation.md",
-    "Sin título 1.md",
-    "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
-    "Control/Drawing 2025-03-10 18.05.32.excalidraw.md",
-    "Chairing/Task List.md",
-    "Chairing/Force Control.md",
+    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
+    "Chairing/State Variable Theory.md",
+    "Control/Pole Placement.md",
     "Chairing/Properties & Definitions/Rayleigh Quotient.md",
-    "Chairing/pdfs/Quadratic Norm Representation.pdf",
-    "Chairing/pdfs/Positive Definite Matrix.pdf",
-    "Chairing/pdfs/Peter-Paul Inequality.pdf",
-    "Chairing/pdfs/Matrix Calculus Derivative Rules.pdf",
-    "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
-    "Chairing/pdfs/Rayleigh Quotient.pdf",
     "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
     "Chairing/Properties & Definitions/Positive Definite Matrix.md",
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
-    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "Chairing/pdfs/Lyapunov no Perturbations.pdf",
-    "Chairing/pdfs/Lyapunov With Perturbations.pdf",
-    "Chairing/pdfs",
-    "NLSC_lecture_notes_2018.pdf",
+    "Chairing/Euler-Lagrange Formulation.md",
+    "Chairing/Lyapunov no Perturbations.md",
+    "Chairing/Force Control.md",
     "Purdue.md",
     "Canvas.canvas",
-    "Chairing/Notas del Dia/Notas día 9.md",
-    "Chairing/Notas del Dia/Notas día 8.md",
+    "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
+    "Control/Linear Quadratic Regulator.md",
+    "AI/Background Maths/Multivariate Calculus/Lagrange Multipliers.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+    "AI/Background Maths/Multivariate Calculus/Linear Regression.md",
+    "AI/Background Maths/Multivariate Calculus/Jacobian.md",
+    "AI/Neural Networks.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Introduction.md",
+    "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
+    "NLSC_lecture_notes_2018.pdf",
+    "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
+    "Chairing/pdfs/Quadratic Norm Representation.pdf",
+    "Chairing/pdfs/Positive Definite Matrix.pdf",
+    "Chairing/pdfs/Peter-Paul Inequality.pdf",
+    "Chairing/pdfs/Matrix Calculus Derivative Rules.pdf",
+    "Chairing/pdfs/Rayleigh Quotient.pdf",
+    "Chairing/pdfs/Lyapunov With Perturbations.pdf",
+    "Chairing/pdfs",
     "Chairing/Properties & Definitions/Untitled.canvas",
     "images/Pasted image 20250211172003.png",
     "Pasted image 20250211172001.png",
