@@ -102,3 +102,16 @@ We follow the same procedure to propose a **control input** $\tau$ to cancel *no
 $$
 \tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
 $$
+So we end up with:
+$$
+\dot{q}_{b} = -K_{P}q_{a} - K_{D}q_{b}+\psi(q_{a},q_{b},t)
+$$
+$$
+\frac{d}{dt} q = \underbrace{ \begin{bmatrix}
+0_{n\times n} & I_{n\times n} \\
+-K_{P} & -K_{D}
+\end{bmatrix} }_{ A } \begin{bmatrix}
+q_{a} \\
+q_{b}
+\end{bmatrix} + \underbrace{ \begin{bmatrix} 0 \\ I \end{bmatrix} }_{ B } \psi
+$$
