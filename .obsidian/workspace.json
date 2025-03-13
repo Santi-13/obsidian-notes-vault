@@ -253,8 +253,9 @@
   },
   "active": "eac1e01f020afd70",
   "lastOpenFiles": [
-    "Chairing/Lyapunov With Perturbations.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Force Control.md",
+    "Chairing/Lyapunov With Perturbations.md",
     "Chairing/State Variable Theory.md",
     "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
@@ -265,7 +266,6 @@
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
     "Chairing/pdfs/Lyapunov no Perturbations.pdf",
-    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Purdue.md",
     "Canvas.canvas",

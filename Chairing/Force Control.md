@@ -61,12 +61,17 @@ B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t
 Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada. 
 
 ##### Suposición 1. Cuando hace contacto con algo solido
-Cuando el efector final hace contacto con una pared por ejemplo, decimos que se detenga, o en otras palabras:
+When the end-effector makes contact with, for example, a wall, we want it to stop, or in other words:
 $$
 \ddot{q}=\dot{q}=0
 $$
-Despreciamos el ruido no estático, entonces nos quedá nuestra ecuación.
+We dismiss the non-static noise, leaving us with:
 $$
 \underbrace{ G(q)- \eta }_{ \tilde{\eta} }= \tau- J^T F_{EF}
 $$
+Then, we can propose our *control action* $\tau$ so we can dismiss the remaining **system dynamics** $\tilde{\eta}$.
+$$
+\tau=
+$$
+
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
