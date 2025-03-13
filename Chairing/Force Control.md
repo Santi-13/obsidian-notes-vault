@@ -112,7 +112,10 @@ $$
 $$
 (K_{P} - I)F_{e} + K_{D}\dot{F}_{e} = 0
 $$
-
+Assuming $K_{D}$ is **invertible**, we can rearrange some terms which leaves us an equation form very similar to a ***Lyapunov Equation***.
+$$
+\dot{F}_{E} = K_{D}^{-1} (K_{P} - I)F_{e} 
+$$
 
 #### Direct Force Control
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
