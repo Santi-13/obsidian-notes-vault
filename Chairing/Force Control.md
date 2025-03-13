@@ -67,5 +67,5 @@ $$
 $$
 Despreciamos el ruido no estático, entonces nos quedá nuestra ecuación.
 $$
-
+\underbrace{ G(q)- \eta }_{ \tilde{\eta} }= \tau- J^T F_{EF}
 $$
