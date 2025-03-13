@@ -106,7 +106,12 @@ Substituting, we also cancel $\tilde{\eta}$.
 $$
 \cancel{ J^T } F_{EF} = \cancel{ J^T }(F_{D} + K_{P}F_{e} + K_{D}\dot{F}_{e})
 $$
-
+$$
+\overbrace{ F_{D} - F_{EF} }^{ F_{e} } + K_{P}F_{e} + K_{D}\dot{F}_{e} = 0
+$$
+$$
+(K_{P} - I)F_{e} + K_{D}\dot{F}_{e} = 0
+$$
 
 
 #### Direct Force Control
