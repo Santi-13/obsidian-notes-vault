@@ -131,8 +131,16 @@ g(x)=3*1/ (e^x) |red|dashed
 
 Unlike the graph, the **error's energy** wont just dissipate, but will oscillate under a zone (denoted by the blue line), this is due to the discrepancies between the **calculated** ***system's*** $\tilde{\eta}_{\tau}$ and the **real** $\tilde{\eta}$. If we include this in the equation, we get something similar to another ***Lyapunov Equation***.
 $$
-\dot{F}_{E} = K_{D}^{-1} (K_{P} - I)F_{e} + \tilde{\eta} - 
+\dot{F}_{E} = K_{D}^{-1} (K_{P} - I)F_{e} +\underbrace{  \tilde{\eta} - \tilde{\eta}_{\tau} }_{ B }
 $$
+$$
+\dot{V} \leq -\alpha V + \beta
+$$
+From our understanding of ***[[Lyapunov With Perturbations]]***, we now that we can limit this *oscillation zones* to be:
+$$
+\beta/\alpha
+$$
+
 
 #### Direct Force Control
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
