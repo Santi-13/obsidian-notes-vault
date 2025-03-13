@@ -104,8 +104,9 @@ K_{D}\overbrace{ (\dot{F}_{D} - \dot{F}_{EF}) }^{ \dot{F}_{e} })
 $$
 Substituting, we also cancel $\tilde{\eta}$.
 $$
-J^T F_{EF} = J^T
+\cancel{ J^T } F_{EF} = \cancel{ J^T }(F_{D} + K_{P}F_{e} + K_{D}\dot{F}_{e})
 $$
+
 
 
 #### Direct Force Control
