@@ -56,7 +56,7 @@ Cuando el *sistema* se encuentra con un objeto, podríamos agregar esto a nuestr
 
 En vez de esto, **agregamos** un término de **torque externo**, ocasionalmente llamado **external *wrench***.
 $$
-B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} } + \underbrace{ J^T(q)F_{EF}
+B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} } - \underbrace{ J^T(q)F_{EF}
  }_{ \text{Fuerza Externa} }$$
 Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada. 
 
@@ -67,11 +67,23 @@ $$
 $$
 We dismiss the non-static noise, leaving us with:
 $$
+\cancel{ B(q)\ddot{q} } + \cancel{ C(\dot{q},q)\dot{q} } + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} } - \underbrace{ J^T(q)F_{EF}
+ }_{ \text{Fuerza Externa} }
+$$
+$$
 \underbrace{ G(q)- \eta }_{ \tilde{\eta} }= \tau- J^T F_{EF}
 $$
 Then, we can propose our *control action* $\tau$ so we can dismiss the remaining **system dynamics** $\tilde{\eta}$.
 $$
-\tau=
+\tau=\tilde{\eta}+J^T F_{EF}
+$$
+If instead of the end-effectors **experienced force**, we use a **desired force vector**.
+$$
+\tau= \tilde{\eta}+J^T F_{D}
+$$
+We can then substitute in our **systems equation**:
+$$
+ G(q) = \tilde{\eta}+J^T F_{D} +  \eta -  J^TF_{EF}
 $$
 
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
