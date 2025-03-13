@@ -60,7 +60,7 @@ B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t
  }_{ \text{Fuerza Externa} }$$
 Cabe aclarar que **no** estamos controlando la fuerza de las juntas, sino que simplemente estamos aplicando una acción en contra de la fuerza encontrada. 
 
-##### Suposición 1. Cuando hace contacto con algo solido
+##### Indirect Force Control
 When the end-effector makes contact with, for example, a wall, we want it to stop, or in other words:
 $$
 \ddot{q}=\dot{q}=0
@@ -85,5 +85,11 @@ We can then substitute in our **systems equation**:
 $$
  G(q) = \tilde{\eta}+J^T F_{D} +  \eta -  J^TF_{EF}
 $$
-
+$$
+ \cancel{ G(q) =  G(q) } \cancel{ - \eta + \eta } +J^T F_{D}  -  J^TF_{EF}
+$$
+$$
+J^T(F_{D}-F_{EF}) = 0
+$$
+This basically tells us that, for any ***non-singularity*** robot position (that is, $J$ is defined), this can only become true when the *end-effector* experiences a force 
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
