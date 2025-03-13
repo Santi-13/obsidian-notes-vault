@@ -91,5 +91,15 @@ $$
 $$
 J^T(F_{D}-F_{EF}) = 0
 $$
-This basically tells us that, for any ***non-singularity*** robot position (that is, $J$ is defined), this can only become true when the *end-effector* experiences a force 
+This basically tells us that, for any ***non-singularity*** robot position (that is, $J$ is defined), this can only become true when the *end-effector* experiences a force equal to a desired force we assign to it.
+
+Now, we can also design our **control law** to function with a **PD Controller**, allowing for greater control over its behavior. For our assumptions of the **system dynamics** $\tilde{\eta}$:
+$$
+\tau= \tilde{\eta}+J^T F_{D}
+$$
+We design our control as:
+$$
+\tau= \tilde{\eta} + J^T (F_{D} + K_{P}(F_{D} - F_{EF}) + K_{D}(F_{D}do - F_{EF})) 
+$$
+#### Direct Force Control
 TODAS LAS RESTRICCIONES APLICADAS AL VECTOR DE FUERZA PUEDEN SER ESCRITAS COMO RESTRICCIONES AL VECTOR DE VELOCIDAD DEL EFECTOR FINAL.
