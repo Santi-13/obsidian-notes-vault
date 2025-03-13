@@ -93,5 +93,12 @@ $$
 $\text{Where:}$
 $Q_{a}\subset \mathrm{R}^n: \text{Configuration space (positions of } q_{a} \text{)}$
 $TQ_{a}: \text{Tangent bundle of }Q_{a} \text{, representing positions and velocities  } (q_{a}, q_{b})$
-$\psi_{0},\psi_{1},\psi_{2} \geq 0: \text{Bounds on perturbation magnitude}$
+$\psi_{0},\psi_{1},\psi_{2} \geq 0: \text{Bounds on perturbation magnitude where:}$
+$\psi_{0}: \text{Constant Disturbances (e.g. sensor noise)}$
+$\psi_{1}: \text{Uncnertainties that scale with position.}$
+$\psi_{2}: \text{Velocity-dependent disturbances}$
 
+We follow the same procedure to propose a **control input** $\tau$ to cancel *nonlinear* terms and enforce *linear dynamics*:
+$$
+\tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
+$$
