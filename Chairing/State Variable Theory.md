@@ -115,3 +115,7 @@ q_{a} \\
 q_{b}
 \end{bmatrix} + \underbrace{ \begin{bmatrix} 0 \\ I \end{bmatrix} }_{ B } \psi
 $$
+Where we said our perturbations $\psi$ are bounded by:
+$$
+\lvert\lvert \psi \rvert\rvert^2 \leq \psi_{0} + \psi_{1}\lvert\lvert q_{a} \rvert\rvert^2 + \psi_{2} \lvert\lvert q_{b} \rvert\rvert^2
+$$
