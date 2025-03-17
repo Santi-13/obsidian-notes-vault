@@ -98,7 +98,8 @@ $\psi_{0}: \text{Constant Disturbances (e.g. sensor noise)}$
 $\psi_{1}: \text{Uncnertainties that scale with position.}$
 $\psi_{2}: \text{Velocity-dependent disturbances}$
 
-Here, $TQ_{a}$ represents all posible states $(q_{a}, q_{b})$ where $q_{b}=\dot{q}_{a}$ are velocities. It essentially **formalizes** the **state-space** of the *system* as a
+Here, $TQ_{a}$ represents all posible states $(q_{a}, q_{b})$ where $q_{b}=\dot{q}_{a}$ are velocities. It essentially **formalizes** the **state-space** of the *system* as pairs of *positions* and *velocities*.
+
 We follow the same procedure to propose a **control input** $\tau$ to cancel *nonlinear* terms and enforce *linear dynamics*:
 $$
 \tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
