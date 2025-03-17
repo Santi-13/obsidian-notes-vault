@@ -125,3 +125,7 @@ Thus we get the final equation that provides ***ultimate boundedness*** to our *
 $$
 \frac{d}{dt} V(\mathrm{x}) \leq -\alpha V(\mathrm{x}) + \beta
 $$
+Which has the following solution
+$$
+V(t) \leq V(0) e^{-\alpha t} + \frac{\beta}{a} ( 1 - e^{-\alpha t})
+$$
