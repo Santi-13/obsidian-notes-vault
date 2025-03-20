@@ -60,4 +60,46 @@ While the full process can be quite technical for the purpose of learning agents
 
 ![[Pasted image 20250320105533.png]]
 
-Based on these scores, we have multiple strategies to select the tokens to complete the sentence. The easiest being to always take the token with the maximum score.
+Based on these scores, we have multiple strategies to select the tokens to complete the sentence. The easiest being to always take the token with the maximum score. But there are more advanced decoding strategies. For example, _beam search_ explores multiple candidate sequences to find the one with the maximum total score–even if some individual tokens have lower scores.
+#### Parameters for *Beam Search*:
+- **Sentence to decode from** (`inputs`): the input sequence to your decoder.
+- **Number of steps** (`max_new_tokens`): the number of tokens to generate.
+- **Number of beams** (`num_beams`): the number of beams to use.
+- **Length penalty** (`length_penalty`): the length penalty to apply to outputs. `length_penalty` > 0.0 promotes longer sequences, while `length_penalty` < 0.0 encourages shorter sequences. This parameter will not impact the beam search paths, but only influence the choice of sequences in the end towards longer or shorter sequences.
+- **Number of return sequences** (`num_return_sequences`): the number of sequences to be returned at the end of generation. Should be `<= num_beams`.
+
+If you want to know more about decoding, you can take a look at the [NLP course](https://huggingface.co/learn/nlp-course).
+
+## Attention is all you need
+A key aspect of the Transformer architecture is **Attention**. When predicting the next word, not every word in a sentence is equally important; words like “France” and “capital” in the sentence _“The capital of France is …”_ carry the most meaning.
+
+![[Pasted image 20250320110233.png]]
+
+This process of identifying the most relevant words to predict the next token has proven to be incredibly effective.
+
+Although the basic principle of LLMs—predicting the next token—has remained consistent since GPT-2, there have been significant advancements in scaling neural networks and making the attention mechanism work for longer and longer sequences.
+
+If you’ve interacted with LLMs, you’re probably familiar with the term _context length_, which refers to the maximum number of tokens the LLM can process, and the maximum _attention span_ it has.
+
+## Prompting the LLM is important
+Considering that the only job of an LLM is to predict the next token by looking at every input token, and to choose which tokens are “important”, the wording of your input sequence is very important.
+
+The input sequence you provide an LLM is called _a prompt_. Careful design of the prompt makes it easier **to guide the generation of the LLM toward the desired output**.
+
+## How are LLMs trained?
+LLMs are trained on large datasets of text, where they learn to predict the next word in a sequence through a self-supervised or masked language modeling objective.
+
+From this unsupervised learning, the model learns the structure of the language and **underlying patterns in text, allowing the model to generalize to unseen data**.
+
+After this initial _pre-training_, LLMs can be fine-tuned on a supervised learning objective to perform specific tasks. For example, some models are trained for conversational structures or tool usage, while others focus on classification or code generation.
+
+## How can I use LLMs?
+
+You have two main options:
+
+1. **Run Locally** (if you have sufficient hardware).
+    
+2. **Use a Cloud/API** (e.g., via the Hugging Face Serverless Inference API).
+    
+
+Throughout this course, we will primarily use models via APIs on the Hugging Face Hub. Later on, we will explore how to run these models locally on your hardware.
