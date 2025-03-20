@@ -24,7 +24,7 @@ Although **LLMs** can only generate text, developers have found ways to add addi
 
 For example, if I write an Agent to act as my personal assistant (like Siri) on my computer, and I ask it to “send an email to my Manager asking to delay today’s meeting”, I can give it some code to send emails. This will be a new Tool the Agent can use whenever it needs to send an email. We can write it in Python:
 
-```
+```python
 def send_message_to(recipient, message):
     """Useful to send an e-mail message to a recipient"""
     ...

@@ -34,7 +34,7 @@ The output from a tool call is another type of message in the conversation. Tool
 ## How do we give tools to an LLM?
 The complete answer may seem overwhelming, but we essentially use the system prompt to provide textual descriptions of available tools to the model:
 
-```
+```python
 system_message = """You are an AI assistant designed to help users effectively and accurately. Your primary goal is to provide helpful, precise, and clear responses.
 
 You have access to the following tools:
@@ -49,7 +49,7 @@ For this to work, we have to be very precise and accurate about:
 
 This is the reason why tool descriptions are usually provided using expressive but precise structures, such as computer languages or JSON. It’s not _necessary_ to do it like that, any precise and coherent format would work. For example:
 
-```
+```python
 Tool Name: calculator, Description: Multiply two integers., Arguments: a: int, b: int, Outputs: int
 ```
 
@@ -63,7 +63,7 @@ We will leverage Python’s introspection features to leverage the source code a
 
 After we are done, we’ll only need to use a Python decorator to indicate that the `calculator` function is a tool:
 
-```
+```python
 @tools
 def calculator(a: int, b: int) -> int:
     """Multiply two integers."""
@@ -76,7 +76,7 @@ As you can see, it’s the same thing we wrote manually before!
 ### Generic Tool implementation
 We create a generic `Tool` class that we can reuse whenever we need to use a tool.
 
-```
+```python
 class Tool:
     """
     A class representing a reusable piece of code (Tool).

@@ -21,7 +21,7 @@ We are talking about special tokens again, because they are what models use to d
 
 System messages (also called System Prompts) define **how the model should behave**. They serve as **persistent instructions**, guiding every subsequent interaction. For example:
 
-```
+```python
 system_message = {
     "role": "system",
     "content": "You are a professional customer service agent. Always be polite, clear, and helpful."
@@ -36,7 +36,7 @@ A conversation consists of alternating messages between a Human (user) and an LL
 
 Chat templates help maintain context by preserving conversation history, storing previous exchanges between the user and the assistant. This leads to more coherent multi-turn conversations.
 
-```
+```python
 conversation = [
     {"role": "user", "content": "I need help with my order"},
     {"role": "assistant", "content": "I'd be happy to help. Could you provide your order number?"},
@@ -48,7 +48,7 @@ conversation = [
 
 For example, this is how the SmolLM2 chat template would format the previous exchange into a prompt:
 
-```
+```python
 <|im_start|>system
 You are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>
 <|im_start|>user
@@ -83,7 +83,7 @@ In `transformers`, chat templates include [Jinja2 code](https://jinja.palletsp
 
 This structure **helps maintain consistency across interactions and ensures the model responds appropriately to different types of inputs**. Here is a simplified version of the `SmolLM2-135M-Instruct` chat template:
 
-```
+```python
 {% for message in messages %}
 {% if loop.first and messages[0]['role'] != 'system' %}
 <|im_start|>system
@@ -97,7 +97,7 @@ You are a helpful AI assistant named SmolLM, trained by Hugging Face
 
 Given these:
 
-```
+```python
 messages = [
     {"role": "system", "content": "You are a helpful assistant focused on technical topics."},
     {"role": "user", "content": "Can you explain what a chat template is?"},
@@ -108,7 +108,7 @@ messages = [
 
 The previous chat template will produce the following string:
 
-```
+```python
 <|im_start|>system
 You are a helpful assistant focused on technical topics.<|im_end|>
 <|im_start|>user
@@ -125,7 +125,7 @@ The `transformers` library will take care of chat templates for you as part of
 
 The easiest way to ensure your LLM receives a  conversation correctly formatted is to use the `chat_template` from the model’s tokenizer. To convert it into a prompt, we load the *tokenizer* and call `apply_chat_template`:
 
-```
+```python title="tokenizer.py"
 from transformers import AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("HuggingFaceTB/SmolLM2-1.7B-Instruct")
