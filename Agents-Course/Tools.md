@@ -57,3 +57,22 @@ When we pass the previous string as part of the input to the LLM, the model will
 
 If we want to provide additional tools, we must be consistent and always use the same format. This process can be fragile, and we might accidentally overlook some details.
 ### Auto-formatting Tool sections
+We could provide the Python source code as the _specification_ of the tool for the LLM, but the way the tool is implemented does not matter. All that matters is its name, what it does, the inputs it expects and the output it provides.
+
+We will leverage Python’s introspection features to leverage the source code and build a tool description automatically for us. All we need is that the tool implementation uses type hints, docstrings, and sensible function names. We will write some code to extract the relevant portions from the source code.
+
+After we are done, we’ll only need to use a Python decorator to indicate that the `calculator` function is a tool:
+
+```
+@tools
+def calculator(a: int, b: int) -> int:
+    """Multiply two integers."""
+    return a * b
+
+print(calculator.to_string())
+```
+
+As you can see, it’s the same thing we wrote manually before!
+### Generic Tool implementation
+We create a generic `Tool` class that we can reuse whenever we need to use a tool.
+
