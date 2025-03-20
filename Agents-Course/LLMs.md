@@ -60,3 +60,4 @@ While the full process can be quite technical for the purpose of learning agents
 
 ![[Pasted image 20250320105533.png]]
 
+Based on these scores, we have multiple strategies to select the tokens to complete the sentence. The easiest being to always take the token with the maximum score.
