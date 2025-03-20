@@ -81,4 +81,27 @@ Because each instruct model uses different conversation formats and special toke
 
 In `transformers`, chat templates include [Jinja2 code](https://jinja.palletsprojects.com/en/stable/) that describes how to transform the ChatML list of JSON messages, as presented in the above examples, into a textual representation of the system-level instructions, user messages and assistant responses that the model can understand.
 
-This structure **helps maintain consistency across interactions and ensures the model responds appropriately to different types of inputs**.
+This structure **helps maintain consistency across interactions and ensures the model responds appropriately to different types of inputs**. Here is a simplified version of the `SmolLM2-135M-Instruct` chat template:
+
+```
+{% for message in messages %}
+{% if loop.first and messages[0]['role'] != 'system' %}
+<|im_start|>system
+You are a helpful AI assistant named SmolLM, trained by Hugging Face
+<|im_end|>
+{% endif %}
+<|im_start|>{{ message['role'] }}
+{{ message['content'] }}<|im_end|>
+{% endfor %}
+```
+
+Given these:
+
+```
+messages = [
+    {"role": "system", "content": "You are a helpful assistant focused on technical topics."},
+    {"role": "user", "content": "Can you explain what a chat template is?"},
+    {"role": "assistant", "content": "A chat template structures conversations between users and AI models..."},
+    {"role": "user", "content": "How do I use it ?"},
+]
+```
