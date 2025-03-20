@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Agents"
             }
+          },
+          {
+            "id": "486f91ec1194ab6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agents-Course/Agents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agents"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +237,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "da6a1b9b22dd30d3",
+  "active": "486f91ec1194ab6a",
   "lastOpenFiles": [
-    "AI/Neural Networks.md",
+    "Sin título.md",
     "Agents-Course/Agents.md",
+    "AI/Neural Networks.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "Agents-Course",
     "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
@@ -236,7 +251,6 @@
     "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
     "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
-    "Sin título.md",
     "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Sin título 1.md",
