@@ -32,3 +32,18 @@ There are 3 types of transformers:
 Although Large Language Models come in various forms, LLMs are typically decoder-based models with billions of parameters.
 
 The underlying principle of an LLM is simple yet highly effective: **its objective is to predict the next token, given a sequence of previous tokens**. A “token” is the unit of information an LLM works with. You can think of a “token” as if it was a “word”, but for efficiency reasons LLMs don’t use whole words.
+
+Each LLM has some **special tokens** specific to the model. The LLM uses these tokens to open and close the structured components of its generation. For example, to indicate the start or end of a sequence, message, or response. Moreover, the input prompts that we pass to the model are also structured with special tokens. The most important of those is the **End of sequence token** (EOS).
+
+The forms of special tokens are highly diverse across model providers.
+
+The table below illustrates the diversity of special tokens.
+
+| **Model**       | **Provider**                | **EOS Token**           | **Functionality**             |
+| --------------- | --------------------------- | ----------------------- | ----------------------------- |
+| **GPT4**        | OpenAI                      | `<\|endoftext\|>`       | End of message text           |
+| **Llama 3**     | Meta (Facebook AI Research) | `<\|eot_id\|>`          | End of sequence               |
+| **Deepseek-R1** | DeepSeek                    | `<\|end_of_sentence\|>` | End of message text           |
+| **SmolLM2**     | Hugging Face                | `<\|im_end\|>`          | End of instruction or message |
+| **Gemma**       | Google                      | `<end_of_turn>`         | End of conversation turn      |
+
