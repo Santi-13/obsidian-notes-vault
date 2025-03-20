@@ -105,3 +105,18 @@ messages = [
     {"role": "user", "content": "How do I use it ?"},
 ]
 ```
+
+The previous chat template will produce the following string:
+
+```
+<|im_start|>system
+You are a helpful assistant focused on technical topics.<|im_end|>
+<|im_start|>user
+Can you explain what a chat template is?<|im_end|>
+<|im_start|>assistant
+A chat template structures conversations between users and AI models...<|im_end|>
+<|im_start|>user
+How do I use it ?<|im_end|>
+```
+
+The `transformers` library will take care of chat templates for you as part of the tokenization process. Read more about how transformers uses chat templates [here](https://huggingface.co/docs/transformers/main/en/chat_templating#how-do-i-use-chat-templates). All we have to do is structure our messages in the correct way and the tokenizer will take care of the rest.
