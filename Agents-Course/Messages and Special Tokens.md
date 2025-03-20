@@ -120,3 +120,23 @@ How do I use it ?<|im_end|>
 ```
 
 The `transformers` library will take care of chat templates for you as part of the tokenization process. Read more about how transformers uses chat templates [here](https://huggingface.co/docs/transformers/main/en/chat_templating#how-do-i-use-chat-templates). All we have to do is structure our messages in the correct way and the *tokenizer* will take care of the rest.
+
+### Messages to prompt
+
+The easiest way to ensure your LLM receives a  conversation correctly formatted is to use the `chat_template` from the model’s tokenizer. To convert it into a prompt, we load the *tokenizer* and call `apply_chat_template`:
+
+```
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("HuggingFaceTB/SmolLM2-1.7B-Instruct")
+rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+```
+
+The `rendered_prompt` returned by this function is now ready to use as the input for the model you chose!
+
+> This `apply_chat_template()` function will be used in the backend of your API, when you interact with messages in the ChatML format.
+
+If you want a deeper dive now, check out:
+
+- [Hugging Face Chat Templating Guide](https://huggingface.co/docs/transformers/main/en/chat_templating)
+- [Transformers Documentation](https://huggingface.co/docs/transformers)
