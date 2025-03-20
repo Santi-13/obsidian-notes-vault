@@ -24,6 +24,12 @@ Tool Name: calculator, Description: Multiply two integers., Arguments: a: int, b
 
 You should think step by step in order to fulfill the objective with a reasoning devided in Thought/Action/Observation that can repeat multiple times if needed.
 
-You should first reflect with: 'Thought: {your_thoughts}' on the current situation, then (if necessary), call a tool with the proper JSON formatting ''
+You should first reflect with: 'Thought: {your_thoughts}' on the current situation, then (if necessary), call a tool with the proper JSON formatting 'Action: {JSON_BLOB}', or print your final answer starting with the prefix 'Final Answer:'
 """
 ```
+
+We see here that in the System Message we defined :
+- The _Agent’s behavior_.
+- The _Tools our Agent has access to_, as we described in the previous section.
+- The _Thought-Action-Observation Cycle_, that we bake into the LLM instructions.
+
