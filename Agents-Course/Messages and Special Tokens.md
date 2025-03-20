@@ -61,3 +61,24 @@ It's ORDER-123<|im_end|>
 ```
 
 Templates can handle complex multi-turn conversations while maintaining context.
+
+## Chat-Templates
+As mentioned, chat templates are essential for **structuring conversations between language models and users**. They guide how message exchanges are formatted into a single prompt.
+### Base Models vs. Instruct Models
+Another point we need to understand is the difference between a Base Model vs. an Instruct Model:
+
+- _A Base Model_ is trained on raw text data to predict the next token.
+- An _Instruct Model_ is fine-tuned specifically to follow instructions and engage in conversations. For example, `SmolLM2-135M` is a base model, while `SmolLM2-135M-Instruct` is its instruction-tuned variant.
+
+To make a Base Model behave like an instruct model, we need to **format our prompts in a consistent way that the model can understand**. This is where chat templates come in.
+
+_ChatML_ is one such template format that structures conversations with clear role indicators (system, user, assistant). If you have interacted with some AI API lately, you know that’s the standard practice.
+
+It’s important to note that a base model could be fine-tuned on different chat templates, so when we’re using an instruct model we need to make sure we’re using the correct chat template.
+
+### Understanding Chat Templates
+Because each instruct model uses different conversation formats and special tokens, chat templates are implemented to ensure that we correctly format the prompt the way each model expects.
+
+In `transformers`, chat templates include [Jinja2 code](https://jinja.palletsprojects.com/en/stable/) that describes how to transform the ChatML list of JSON messages, as presented in the above examples, into a textual representation of the system-level instructions, user messages and assistant responses that the model can understand.
+
+This structure **helps maintain consistency across interactions and ensures the model responds appropriately to different types of inputs**.
