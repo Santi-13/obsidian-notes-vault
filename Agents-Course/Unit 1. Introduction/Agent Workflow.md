@@ -33,4 +33,4 @@ We see here that in the System Message we defined :
 - The _Tools our Agent has access to_, as we described in the previous section.
 - The _Thought-Action-Observation Cycle_, that we bake into the LLM instructions.
 
-**The interplay of Thought, Action, and Observation empowers AI agents to solve complex tasks iteratively**.
+**The interplay of Thought, Action, and Observation empowers AI agents to solve complex tasks iteratively.**.
