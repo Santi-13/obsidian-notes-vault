@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents-Course/Tools.md",
+                "file": "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools"
+              "title": "Agent Workflow"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents-Course/Tools.md",
+                "file": "Agents-Course/Unit 1. Introduction/Tools.md",
                 "mode": "source",
                 "source": false
               },
@@ -224,10 +224,12 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Agents-Course/Messages and Special Tokens.md",
-    "Agents-Course/Tools.md",
-    "Agents-Course/LLMs.md",
-    "Agents-Course/Agents.md",
+    "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
+    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
+    "Agents-Course/Unit 1. Introduction/Tools.md",
+    "Agents-Course/Unit 1. Introduction",
+    "Agents-Course/Unit 1. Introduction/LLMs.md",
+    "Agents-Course/Unit 1. Introduction/Agents.md",
     "Chairing/State Variable Theory.md",
     "images/Pasted image 20250320110233.png",
     "images/Pasted image 20250320105533.png",
@@ -260,10 +262,8 @@
     "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
     "Chairing/Properties & Definitions/Positive Definite Matrix.md",
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
-    "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
     "Chairing/pdfs/Lyapunov no Perturbations.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
-    "Chairing/pdfs",
     "Canvas.canvas",
     "Chairing/Properties & Definitions/Untitled.canvas",
     "images/Pasted image 20250211172003.png",
