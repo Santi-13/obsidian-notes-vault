@@ -17,7 +17,7 @@ We are talking about special tokens again, because they are what models use to d
 
 ## Messages: The Underlying System of LLMs
 
-### [](https://huggingface.co/learn/agents-course/unit1/messages-and-special-tokens#system-messages)System Messages
+### System Messages
 
 System messages (also called System Prompts) define **how the model should behave**. They serve as **persistent instructions**, guiding every subsequent interaction. For example:
 
@@ -29,3 +29,35 @@ system_message = {
 ```
 
 When using Agents, the System Message also **gives information about the available tools, provides instructions to the model on how to format the actions to take, and includes guidelines on how the thought process should be segmented.**
+
+### Conversations: User and Assistant Messages
+
+A conversation consists of alternating messages between a Human (user) and an LLM (assistant).
+
+Chat templates help maintain context by preserving conversation history, storing previous exchanges between the user and the assistant. This leads to more coherent multi-turn conversations.
+
+```
+conversation = [
+    {"role": "user", "content": "I need help with my order"},
+    {"role": "assistant", "content": "I'd be happy to help. Could you provide your order number?"},
+    {"role": "user", "content": "It's ORDER-123"},
+]
+```
+ 
+ As we just explained, we always concatenate all the messages in the conversation and pass it to the LLM as a single stand-alone sequence. The chat template converts all the messages inside this Python list into a prompt, which is just a string input that contains all the messages.
+
+For example, this is how the SmolLM2 chat template would format the previous exchange into a prompt:
+
+```
+<|im_start|>system
+You are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>
+<|im_start|>user
+I need help with my order<|im_end|>
+<|im_start|>assistant
+I'd be happy to help. Could you provide your order number?<|im_end|>
+<|im_start|>user
+It's ORDER-123<|im_end|>
+<|im_start|>assistant
+```
+
+Templates can handle complex multi-turn conversations while maintaining context.
