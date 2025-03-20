@@ -18,7 +18,14 @@ The **scope of possible actions** depends on what the agent **has been equipp
 The most common **AI model** found in **agents** are **LLM** (*Large Language Model*), which take ***Text*** as an input and outputs ***Text*** as well. We may also use *Vision Language Models* (**VLM**), but we will focus on **LLMs**.
 
 ## How does an AI take action on its environment?
-Although **LLMs** can only generate text, developers have found ways to add additional functionality (called ***Tools***) to their AI models. Basically:
-__
-	An Agent can perform ANY tasl we implement via Tools to complete Actions
-__
+Although **LLMs** can only generate text, developers have found ways to add additional functionality (called ***Tools***) to their AI models. Basically,	an **Agent** can perform **ANY** task we implement via **Tools** to complete **Actions**.
+
+For example, if I write an Agent to act as my personal assistant (like Siri) on my computer, and I ask it to “send an email to my Manager asking to delay today’s meeting”, I can give it some code to send emails. This will be a new Tool the Agent can use whenever it needs to send an email. We can write it in Python:
+
+```
+def send_message_to(recipient, message):
+    """Useful to send an e-mail message to a recipient"""
+    ...
+```
+
+The **design of the Tools is very important and has a great impact on the quality of your Agent**. Some tasks will require very specific Tools to be crafted, while others may be solved with general purpose tools like “web_search”.
