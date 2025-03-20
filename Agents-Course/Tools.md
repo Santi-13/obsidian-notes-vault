@@ -1,7 +1,6 @@
 #HuggingFace #AI
 #### By: Hugging Face
 ---
-# What are Tools?
 One crucial aspect of AI Agents is their ability to take **actions**. As we saw, this happens through the use of **Tools**.
 
 In this section, we’ll learn what Tools are, how to design them effectively, and how to integrate them into your Agent via the System Message.
@@ -123,3 +122,16 @@ class Tool:
         return self.func(*args, **kwargs)
 ```
 
+We could create a Tool with this class using code like the following:
+
+```python
+calculator_tool = Tool(
+    "calculator",                   # name
+    "Multiply two integers.",       # description
+    calculator,                     # function to call
+    [("a", "int"), ("b", "int")],   # inputs (names and types)
+    "int",                          # output
+)
+```
+
+But we can also use Python’s `inspect` module to retrieve all the information for us! This is what the `@tool` decorator does.
