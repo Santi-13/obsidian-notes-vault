@@ -39,6 +39,20 @@ system_message = """You are an AI assistant designed to help users effectively a
 
 You have access to the following tools:
 {tools_description}
-
 """
 ```
+
+For this to work, we have to be very precise and accurate about:
+
+1. **What the tool does**
+2. **What exact inputs it expects**
+
+This is the reason why tool descriptions are usually provided using expressive but precise structures, such as computer languages or JSON. It’s not _necessary_ to do it like that, any precise and coherent format would work. For example:
+
+```
+Tool Name: calculator, Description: Multiply two integers., Arguments: a: int, b: int, Outputs: int
+```
+
+When we pass the previous string as part of the input to the LLM, the model will recognize it as a tool, and will know what it needs to pass as inputs and what to expect from the output.
+
+If we want to provide additional tools, we must be consistent and always use the same format. This process can be fragile, and we might accidentally overlook some details.
