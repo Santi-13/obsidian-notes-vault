@@ -56,3 +56,4 @@ Tool Name: calculator, Description: Multiply two integers., Arguments: a: int, b
 When we pass the previous string as part of the input to the LLM, the model will recognize it as a tool, and will know what it needs to pass as inputs and what to expect from the output.
 
 If we want to provide additional tools, we must be consistent and always use the same format. This process can be fragile, and we might accidentally overlook some details.
+### Auto-formatting Tool sections
