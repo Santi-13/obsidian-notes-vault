@@ -57,3 +57,6 @@ While the full process can be quite technical for the purpose of learning agents
 
 - Once the input text is **tokenized**, the model computes a representation of the sequence that captures information about the meaning and the position of each token in the input sequence.
 - This representation goes into the model, which outputs scores that rank the likelihood of each token in its vocabulary as being the next one in the sequence.
+
+![[Pasted image 20250320105533.png]]
+
