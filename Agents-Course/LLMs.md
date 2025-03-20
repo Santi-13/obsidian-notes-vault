@@ -46,4 +46,14 @@ The table below illustrates the diversity of special tokens.
 | **Deepseek-R1** | DeepSeek                    | `<\|end_of_sentence\|>` | End of message text           |
 | **SmolLM2**     | Hugging Face                | `<\|im_end\|>`          | End of instruction or message |
 | **Gemma**       | Google                      | `<end_of_turn>`         | End of conversation turn      |
+## Understanding next token prediction.
+LLMs are said to be **autoregressive**, meaning that **the output from one pass becomes the input for the next one**. This loop continues until the model predicts the next token to be the EOS token, at which point the model can stop.
 
+![[Pasted image 20250320105350.png]]
+
+In other words, an LLM will decode text until it reaches the EOS. But what happens during a single decoding loop?
+
+While the full process can be quite technical for the purpose of learning agents, here’s a brief overview:
+
+- Once the input text is **tokenized**, the model computes a representation of the sequence that captures information about the meaning and the position of each token in the input sequence.
+- This representation goes into the model, which outputs scores that rank the likelihood of each token in its vocabulary as being the next one in the sequence.
