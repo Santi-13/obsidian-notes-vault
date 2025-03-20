@@ -29,3 +29,16 @@ What we mean when we talk about _providing tools to an Agent_, is that we **te
 
 The LLM will generate _text_, in the form of code, to invoke that tool. It is the responsibility of the **Agent** to parse the LLM’s output, recognize that a tool call is required, and invoke the tool on the LLM’s behalf. The output from the tool will then be sent back to the LLM, which will compose its final response for the user.
 
+The output from a tool call is another type of message in the conversation. Tool calling steps are typically not shown to the user: the Agent retrieves the conversation, calls the tool(s), gets the outputs, adds them as a new conversation message, and sends the updated conversation to the LLM again. From the user’s point of view, it’s like the LLM had used the tool, but in fact it was our application code (the **Agent**) who did it.
+
+## How do we give tools to an LLM?
+The complete answer may seem overwhelming, but we essentially use the system prompt to provide textual descriptions of available tools to the model:
+
+```
+system_message = """You are an AI assistant designed to help users effectively and accurately. Your primary goal is to provide helpful, precise, and clear responses.
+
+You have access to the following tools:
+{tools_description}
+
+"""
+```
