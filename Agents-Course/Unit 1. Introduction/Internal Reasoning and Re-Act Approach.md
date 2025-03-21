@@ -27,3 +27,9 @@ ReAct is a simple prompting technique that appends “Let’s think step by step
 Indeed, prompting the model to think “step by step” encourages the decoding process toward next tokens **that generate a plan**, rather than a final solution, since the model is encouraged to **decompose** the problem into _sub-tasks_.
 
 This allows the model to consider sub-steps in more detail, which in general leads to less errors than trying to generate the final solution directly.
+
+![[Pasted image 20250321122958.png]]
+
+This is what's behind models like Deepseek R1 or OpenAI's o1, which have been fine-tuned to "think before answering".
+
+These models have been trained to always include specific _thinking_ sections (enclosed between `<think>` and `</think>` special tokens). This is not just a prompting technique like **ReAct**, but a training method where the model learns to generate these sections after analyzing thousands of examples that show what we expect it to do.
