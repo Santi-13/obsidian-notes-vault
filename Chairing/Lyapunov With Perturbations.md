@@ -21,7 +21,7 @@ $$
 $$
 = \underbrace{ \mathrm{x}^TPA\mathrm{x} }_{ Nominal } + \underbrace{ \mathrm{x}^TPv }_{Perturbations}
 $$
-We now must analyze the effect of the **perturbative term** to be able to properly analyze the maximum effect the perturbations can have in our system. 
+`We now must analyze the effect of the **perturbative term** to be able to properly analyze the maximum effect the perturbations can have in our system. 
 
 We use the [[Cauchy-Schwarz Inequality]] to bound it. As $\mathrm{x}^TPv = \langle (P\mathrm{x})^Tv \rangle$:
 $$
