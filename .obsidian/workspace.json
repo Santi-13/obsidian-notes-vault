@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "05616e64ce5aa402",
+        "id": "9c903a5687120fda",
         "type": "tabs",
         "children": [
           {
-            "id": "dc0acfdb86df3210",
+            "id": "b97084bd20716baf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents-Course/Unit 1. Introduction/Internal Reasoning and Re-Act Approach.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internal Reasoning and Re-Act Approach"
-            }
-          },
-          {
-            "id": "486f91ec1194ab6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agents-Course/Unit 1. Introduction/Tools.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tools"
+              "title": "Barrier Lyapunov Function"
             }
           }
         ]
@@ -58,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -92,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 276.5
   },
   "right": {
     "id": "b0c49e444b6c776b",
@@ -167,7 +153,7 @@
               "type": "review-queue-list-view",
               "state": {},
               "icon": "SpacedRepIcon",
-              "title": "Cola de notas a revisar"
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -176,8 +162,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -210,61 +196,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-spaced-repetition:Revisar Tarjetas": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "github-sync:Sync with Remote": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc0acfdb86df3210",
+  "active": "b97084bd20716baf",
   "lastOpenFiles": [
     "Untitled.md",
+    "Chairing/Barrier Lyapunov Function.md",
+    "Sin título.md",
     "Sin título 1.md",
     "Agents-Course/Unit 1. Introduction/Internal Reasoning and Re-Act Approach.md",
-    "Chairing/Barrier Lyapunov Function.md",
-    "Agents-Course/Unit 1. Introduction/LLMs.md",
-    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
-    "Agents-Course/Unit 1. Introduction/Tools.md",
-    "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
-    "Agents-Course/Unit 1. Introduction",
-    "Agents-Course/Unit 1. Introduction/Agents.md",
+    "Chairing/Lyapunov With Perturbations.md",
+    "Chairing/Lyapunov no Perturbations.md",
     "Chairing/State Variable Theory.md",
+    "Chairing/Euler-Lagrange Formulation.md",
+    "Agents-Course/Unit 1. Introduction/Tools.md",
+    "Chairing/Task List.md",
+    "Chairing/Force Control.md",
+    "Purdue.md",
     "images/Pasted image 20250320110233.png",
     "images/Pasted image 20250320105533.png",
     "images/Pasted image 20250320105350.png",
     "images/Pasted image 20250320104544.png",
-    "Sin título.md",
-    "AI/Neural Networks.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+    "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
+    "Agents-Course/Unit 1. Introduction/LLMs.md",
+    "Agents-Course/Unit 1. Introduction/Agents.md",
+    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
+    "Agents-Course/Unit 1. Introduction",
     "Agents-Course",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
-    "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
     "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
-    "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
+    "AI/Background Maths/Multivariate Calculus/Lagrange Multipliers.md",
     "Chairing/Properties & Definitions/Hurwitz Matrix.md",
-    "Chairing/Euler-Lagrange Formulation.md",
-    "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
-    "Control/Drawing 2025-03-10 18.05.32.excalidraw.md",
-    "Chairing/Task List.md",
-    "Chairing/Force Control.md",
+    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
+    "Control/Pole Placement.md",
     "Chairing/Properties & Definitions/Rayleigh Quotient.md",
+    "Chairing/Properties & Definitions/Quadratic Norm Representation.md",
+    "Chairing/Properties & Definitions/Positive Definite Matrix.md",
+    "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
+    "Chairing/pdfs/Lyapunov no Perturbations.pdf",
+    "Canvas.canvas",
+    "NLSC_lecture_notes_2018.pdf",
+    "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
     "Chairing/pdfs/Positive Definite Matrix.pdf",
     "Chairing/pdfs/Peter-Paul Inequality.pdf",
     "Chairing/pdfs/Matrix Calculus Derivative Rules.pdf",
-    "Chairing/pdfs/Cauchy-Schwarz Inequality.pdf",
     "Chairing/pdfs/Rayleigh Quotient.pdf",
-    "Chairing/pdfs/Lyapunov no Perturbations.pdf",
-    "Chairing/pdfs/Lyapunov With Perturbations.pdf",
-    "Canvas.canvas",
     "Chairing/Properties & Definitions/Untitled.canvas",
     "images/Pasted image 20250211172003.png",
     "Pasted image 20250211172001.png",
