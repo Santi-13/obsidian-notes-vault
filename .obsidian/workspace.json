@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Lyapunov With Perturbations.md",
+                "file": "Chairing/Force Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lyapunov With Perturbations"
+              "title": "Force Control"
             }
           }
         ]
@@ -208,14 +208,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bce4445dcac5e7f0",
+  "active": "e95b6f906174bc46",
   "lastOpenFiles": [
+    "Chairing/Lyapunov With Perturbations.md",
     "Chairing/State Variable Theory.md",
     "Chairing/Force Control.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Task List.md",
-    "Chairing/Lyapunov With Perturbations.md",
     "Purdue.md",
     "images/Pasted image 20250320110233.png",
     "images/Pasted image 20250320105533.png",
