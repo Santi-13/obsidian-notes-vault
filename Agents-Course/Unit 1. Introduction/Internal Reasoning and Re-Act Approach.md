@@ -33,3 +33,4 @@ This allows the model to consider sub-steps in more detail, which in general lea
 This is what's behind models like Deepseek R1 or OpenAI's o1, which have been fine-tuned to "think before answering".
 
 These models have been trained to always include specific _thinking_ sections (enclosed between `<think>` and `</think>` special tokens). This is not just a prompting technique like **ReAct**, but a training method where the model learns to generate these sections after analyzing thousands of examples that show what we expect it to do.
+
