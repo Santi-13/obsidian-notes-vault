@@ -34,3 +34,14 @@ This is what's behind models like Deepseek R1 or OpenAI's o1, which have been fi
 
 These models have been trained to always include specific _thinking_ sections (enclosed between `<think>` and `</think>` special tokens). This is not just a prompting technique like **ReAct**, but a training method where the model learns to generate these sections after analyzing thousands of examples that show what we expect it to do.
 
+# Flashcards
+---
+**What do thoughts represent in an AI Agent?**:: The agent's internal reasoning and planning processes to solve tasks, akin to an internal dialogue.
+
+**What is the purpose of the ReAct approach?**:: To encourage the LLM to think step by step, allowing it to decompose problems into sub-tasks and generate a plan rather than a final solution.
+
+**What are some examples of common types of thoughts in an agent?**:: Planning, Analysis, Decision Making, Problem Solving, Memory Integration, Self-Reflection, Goal Setting, Prioritization.
+
+**How does the ReAct approach improve the LLM's performance?**:: By prompting the model to think through sub-steps in detail, leading to fewer errors compared to generating a final solution directly.
+
+**What is the significance of the `<think>` and `</think>` tokens in some models?**:: They indicate specific thinking sections that the model generates after analyzing examples, helping it to structure its reasoning before providing an answer.

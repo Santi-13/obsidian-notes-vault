@@ -180,3 +180,20 @@ def tool(func):
         outputs=outputs
     )
 ```
+
+# Flashcards
+---
+**What is a Tool in the context of AI Agents?**:: A function given to the LLM that fulfills a clear objective, allowing the agent to perform specific actions.
+<!--SR:!2025-03-29,4,270-->
+
+**What are some commonly used tools in AI agents?**:: Web Search, Image Generation, Retrieval, API Interface.
+<!--SR:!2025-03-28,3,250-->
+
+**How do tools work with LLMs?**:: The LLM generates text to invoke tools when needed, and the agent parses the output to call the tool, sending the result back to the LLM for a final response.
+<!--SR:!2025-03-28,3,250-->
+
+**What should a Tool contain?**:: A textual description of its function, a callable to perform the action, arguments with typings, and optional outputs with typings.
+<!--SR:!2025-03-28,3,250-->
+
+**How do we provide tools to an LLM?**:: By using the system prompt to give textual descriptions of available tools, specifying what each tool does and the exact inputs it expects.
+<!--SR:!2025-03-29,4,270-->

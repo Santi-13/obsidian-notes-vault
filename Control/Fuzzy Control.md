@@ -13,7 +13,7 @@ What is Fuzzification?:: Is the process of converting a real value of the univer
 What is a Singleton Fuzzy Set?:: A fuzzy set which is nonzero for all values except one.
 <!--SR:!2024-10-03,14,296-->
 What are some ways to define membership functions and which is the best?:: Asking the control/modeling expert to define them; Using data from the system to generate them; Trial & Error. Trial & Error tends to work the most effectively
-<!--SR:!2024-10-20,24,276-->
+<!--SR:!2025-05-30,66,276-->
 What are some proposed Fuzzy logic operators
 ?
 Zadeh AND:        $\mu_{\overset{\sim}{A}\bigcap \overset{\sim}{B}} = min(\mu_\overset{\sim}{A}(x),\mu_\overset{\sim}{B}(x))$
