@@ -14,3 +14,23 @@ In the observation phase, the agent:
 - **Adapts its Strategy:** Uses this updated context to refine subsequent thoughts and actions.
 
 For example, if a weather API returns the data _“partly cloudy, 15°C, 60% humidity”_, this observation is appended to the agent’s memory (at the end of the prompt).
+
+The Agent then uses it to decide whether additional information is needed or if it’s ready to provide a final answer.
+
+This **iterative incorporation of feedback ensures the agent remains dynamically aligned with its goals**, constantly learning and adjusting based on real-world outcomes.
+
+These observations **can take many forms**, from reading webpage text to monitoring a robot arm’s position. This can be seen like Tool “logs” that provide textual feedback of the Action execution.
+
+| Type of Observation | Example                                                    |
+| ------------------- | ---------------------------------------------------------- |
+| System Feedback     | Error messages, success notifications, status codes        |
+| Data Changes        | Database updates, file system modifications, state changes |
+| Environmental Data  | Sensor readings, system metrics, resource usage            |
+| Response Analysis   | API responses, query results, computation outputs          |
+| Time-based Events   | Deadlines reached, scheduled tasks completed               |
+
+After performing an action, the framework follows these steps in order:
+
+1. **Parse the action** to identify the function(s) to call and the argument(s) to use.
+2. **Execute the action.**
+3. **Append the result** as an **Observation**.
