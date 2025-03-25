@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents-Course/Unit 1. Introduction/Actions.md",
+                "file": "Agents-Course/Unit 1. Introduction/Observations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actions"
+              "title": "Observations"
             }
           },
           {
@@ -224,8 +224,10 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Pasted image 20241024210740.png",
+    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
     "Agents-Course/Unit 1. Introduction/Actions.md",
+    "Agents-Course/Unit 1. Introduction/Observations.md",
+    "Pasted image 20241024210740.png",
     "Agents-Course/Unit 1. Introduction/Internal Reasoning and Re-Act Approach.md",
     "Sin título.md",
     "Untitled.md",
@@ -234,7 +236,6 @@
     "Sin título 1.md",
     "Chairing/Barrier Lyapunov Function.md",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
-    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
     "Agents-Course/Unit 1. Introduction/Tools.md",
     "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
     "Agents-Course/Unit 1. Introduction",

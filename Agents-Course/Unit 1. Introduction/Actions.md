@@ -72,8 +72,10 @@ This approach offers several advantages:
 - **Modularity and Reusability:** Generated code can include functions and modules that are reusable across different actions or tasks.
 - **Enhanced Debuggability:** With a well-defined programming syntax, code errors are often easier to detect and correct.
 - **Direct Integration:** Code Agents can integrate directly with external libraries and APIs, enabling more complex operations such as data processing or real-time decision making.
+
 For example, a Code Agent tasked with fetching the weather might generate the following Python snippet:
 
+```python
 # Code Agent Example: Retrieve Weather Information
 def get_weather(city):
     import requests
@@ -89,6 +91,7 @@ def get_weather(city):
 result = get_weather("New York")
 final_answer = f"The current weather in New York is: {result}"
 print(final_answer)
+```
 
 In this example, the Code Agent:
 
