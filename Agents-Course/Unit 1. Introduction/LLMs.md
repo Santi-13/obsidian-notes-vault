@@ -116,3 +116,4 @@ Throughout this course, we will primarily use models via APIs on the Hugging Fac
 **How are LLMs trained?**:: On large datasets of text using self-supervised or masked language modeling objectives, followed by fine-tuning for specific tasks.
 <!--SR:!2025-03-28,3,250-->
 **What is Attention in the context of Transformers?**:: A mechanism that identifies the most relevant words in a sentence for predicting the next token.
+<!--SR:!2025-03-28,3,250-->

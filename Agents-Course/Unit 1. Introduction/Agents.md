@@ -35,11 +35,16 @@ The **design of the Tools is very important and has a great impact on the quali
 # Flashcards
 ---
 **What is an agent?**:: A system that leverages an AI model to interact with its environment to achieve a user-defined objective, combining reasoning, planning, and execution of actions.
-    
+<!--SR:!2025-03-28,3,250-->
+
 **What are the two main parts of an agent?**:: The Brain (AI Model) and the Body (Capabilities and Tools).
-    
-3. **What does the Brain of an agent do?**:: It handles reasoning and planning, deciding which actions to take based on the situation.
-    
-4. **What type of AI model is most commonly used in agents?**:: Large Language Models (LLMs), which take text as input and output text.
-    
-5. **How can an AI agent take action on its environment?**:: By using additional functionality called Tools, which allow the agent to perform tasks beyond just generating text.
+<!--SR:!2025-03-26,1,230-->
+
+**What does the Brain of an agent do?**:: It handles reasoning and planning, deciding which actions to take based on the situation.
+<!--SR:!2025-03-26,1,230-->
+
+**What type of AI model is most commonly used in agents?**:: Large Language Models (LLMs), which take text as input and output text.
+<!--SR:!2025-03-26,1,230-->
+
+**How can an AI agent take action on its environment?**:: By using additional functionality called Tools, which allow the agent to perform tasks beyond just generating text.
+<!--SR:!2025-03-28,3,250-->

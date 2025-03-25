@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents-Course/Unit 1. Introduction/Agents.md",
+                "file": "Agents-Course/Unit 1. Introduction/LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agents"
+              "title": "LLMs"
             }
           },
           {
@@ -224,9 +224,12 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
+    "Agents-Course/Unit 1. Introduction/Tools.md",
+    "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
+    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
+    "Agents-Course/Unit 1. Introduction/Agents.md",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
     "Agents-Course/Unit 1. Introduction/Observations.md",
-    "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
     "Agents-Course/Unit 1. Introduction/Actions.md",
     "Pasted image 20241024210740.png",
     "Agents-Course/Unit 1. Introduction/Internal Reasoning and Re-Act Approach.md",
@@ -236,10 +239,7 @@
     "images/Pasted image 20250321122958.png",
     "Sin título 1.md",
     "Chairing/Barrier Lyapunov Function.md",
-    "Agents-Course/Unit 1. Introduction/Tools.md",
-    "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
     "Agents-Course/Unit 1. Introduction",
-    "Agents-Course/Unit 1. Introduction/Agents.md",
     "Chairing/State Variable Theory.md",
     "images/Pasted image 20250320110233.png",
     "images/Pasted image 20250320105533.png",

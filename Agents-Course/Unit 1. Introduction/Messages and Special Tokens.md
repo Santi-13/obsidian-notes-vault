@@ -140,3 +140,16 @@ If you want a deeper dive now, check out:
 
 - [Hugging Face Chat Templating Guide](https://huggingface.co/docs/transformers/main/en/chat_templating)
 - [Transformers Documentation](https://huggingface.co/docs/transformers)
+# Flashcards
+---
+**How do LLMs manage chats?**:: Users interact through a chat interface, where messages are concatenated into a single prompt before being fed into the LLM.
+<!--SR:!2025-03-29,4,270-->
+
+**What are chat templates?**:: Structures that format the communication between the user and the agent, ensuring that every model receives the correctly formatted prompt.
+<!--SR:!2025-03-28,3,250-->
+
+**What is the role of system messages in an agent?**:: They define how the model should behave and provide persistent instructions for every subsequent interaction.
+<!--SR:!2025-03-29,4,270-->
+
+**What is the difference between a Base Model and an Instruct Model?**:: A Base Model is trained on raw text data to predict the next token, while an Instruct Model is fine-tuned to follow instructions and engage in conversations.
+<!--SR:!2025-03-26,1,230-->
