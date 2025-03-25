@@ -31,3 +31,15 @@ def send_message_to(recipient, message):
 ```
 
 The **design of the Tools is very important and has a great impact on the quality of your Agent**. Some tasks will require very specific Tools to be crafted, while others may be solved with general purpose tools like “web_search”.
+
+# Flashcards
+---
+**What is an agent?**:: A system that leverages an AI model to interact with its environment to achieve a user-defined objective, combining reasoning, planning, and execution of actions.
+    
+**What are the two main parts of an agent?**:: The Brain (AI Model) and the Body (Capabilities and Tools).
+    
+3. **What does the Brain of an agent do?**:: It handles reasoning and planning, deciding which actions to take based on the situation.
+    
+4. **What type of AI model is most commonly used in agents?**:: Large Language Models (LLMs), which take text as input and output text.
+    
+5. **How can an AI agent take action on its environment?**:: By using additional functionality called Tools, which allow the agent to perform tasks beyond just generating text.

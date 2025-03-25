@@ -3,7 +3,8 @@
     "flashcardTags": [
       "#flashcards",
       "#MachineLearning",
-      "#ControlTheory"
+      "#ControlTheory",
+      "#HuggingFace"
     ],
     "convertFoldersToDecks": false,
     "burySiblingCards": false,

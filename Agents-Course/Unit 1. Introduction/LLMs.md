@@ -101,3 +101,18 @@ You have two main options:
 2. **Use a Cloud/API** (e.g., via the Hugging Face Serverless Inference API).
 
 Throughout this course, we will primarily use models via APIs on the Hugging Face Hub. Later on, we will explore how to run these models locally on your hardware.
+
+
+# Flashcards
+---
+**What are LLMs?**:: A type of AI model that excels at understanding and generating human language, trained on vast amounts of text data.
+<!--SR:!2025-03-28,3,250-->
+**What architecture do most LLMs use?**:: Transformer architecture, based on the “Attention” algorithm.
+<!--SR:!2025-03-26,1,230-->
+**What is the objective of an LLM?**:: To predict the next token, given a sequence of previous tokens.
+<!--SR:!2025-03-28,3,250-->
+**What does autoregressive mean in LLMs?**:: The output from one pass becomes the input for the next one, continuing until the EOS token is predicted.
+<!--SR:!2025-03-29,4,270-->
+**How are LLMs trained?**:: On large datasets of text using self-supervised or masked language modeling objectives, followed by fine-tuning for specific tasks.
+<!--SR:!2025-03-28,3,250-->
+**What is Attention in the context of Transformers?**:: A mechanism that identifies the most relevant words in a sentence for predicting the next token.
