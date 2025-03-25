@@ -100,3 +100,20 @@ In this example, the Code Agent:
 - And uses the print() function to output a final answer.
 
 This method **also follows the stop and parse approach** by clearly delimiting the code block and signaling when execution is complete (here, by printing the final_answer).
+
+# Flashcards
+---
+**What are actions in the context of AI agents?**:: Concrete steps an AI agent takes to interact with its environment, such as retrieving data or controlling devices.
+<!--SR:!2025-03-28,3,250-->
+
+**What are the different types of agents based on how they take actions?**:: JSON Agent, Code Agent, and Function-calling Agent.
+<!--SR:!2025-03-26,1,230-->
+
+**What are some common types of actions that agents can perform?**:: Information Gathering, Tool Usage, Environment Interaction, and Communication.
+<!--SR:!2025-03-28,3,250-->
+
+**What is the Stop and Parse approach?**:: A method where the agent generates its action in a structured format, stops generating additional tokens once the action is complete, and an external parser reads the output to determine which tool to call and the required parameters.
+<!--SR:!2025-03-26,1,230-->
+
+**What are the advantages of using Code Agents over JSON Agents?**:: Code Agents offer expressiveness for complex logic, modularity and reusability of code, enhanced debuggability, and direct integration with external libraries and APIs.
+<!--SR:!2025-03-29,4,270-->
