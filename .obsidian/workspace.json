@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Lyapunov With Perturbations.md",
+                "file": "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lyapunov With Perturbations"
+              "title": "Cauchy-Schwarz Inequality"
             }
           },
           {
@@ -224,6 +224,7 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
+    "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
     "Chairing/State Variable Theory.md",
@@ -257,7 +258,6 @@
     "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
     "AI/Background Maths/Multivariate Calculus/Non linear Least Squares and Steepest Descent.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
-    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
     "Chairing/pdfs/Positive Definite Matrix.pdf",
     "Chairing/pdfs/Peter-Paul Inequality.pdf",
