@@ -1,4 +1,4 @@
-#Chairing #Explanation
+ #Chairing #Explanation
 Let's now develop a similar ***Lyapunov function*** to the one we did in [[Lyapunov no Perturbations]], but adding a **perturbator** variable $v$ to $\dot{\mathrm{x}}$:
 $$
 \dot{\mathrm{x}} = A\mathrm{x} + v
