@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Lyapunov With Perturbations.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lyapunov With Perturbations"
+              "title": "Barrier Lyapunov Function"
             }
           },
           {
@@ -239,8 +239,8 @@
   },
   "active": "3dd9af6f0c41d041",
   "lastOpenFiles": [
-    "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
+    "Chairing/Lyapunov no Perturbations.md",
     "Chairing/State Variable Theory.md",
     "Chairing/Properties & Definitions/Rayleigh Quotient.md",
     "Chairing/Properties & Definitions/Peter-Paul Inequality.md",
