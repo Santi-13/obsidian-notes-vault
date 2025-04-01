@@ -10,4 +10,4 @@ $$
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ 
 $$
-BLF
+The constant $v^+$ is defined 
