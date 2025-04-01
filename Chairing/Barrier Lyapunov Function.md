@@ -10,4 +10,4 @@ $$
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ 
 $$
-The constant $v^+$ is defined 
+The constant $x^+$ is defined 
