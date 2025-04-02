@@ -51,4 +51,4 @@ V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert x \rvert\rvert^2_{P} } \right
 $$
 $\text{Where:}$
 $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error.}$
-$\tilde{K}_{P} $
+$\tilde{K}_{D} = K_{D} + K_{D}^0$
