@@ -46,11 +46,11 @@ $$
 #### Structure of BLF
 The proposed *Barrier Lyapunov Function* is:
 $$
-V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) tr(\tilde{K}_{D} \tilde{K}_{D}^T)
+V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)
 $$
 $\text{Where:}$
 $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error}$.
 $\tilde{K}_{D} = K_{D} + K_{D}^0: \text{Derivative parameter estimation error}$.
-$\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r$.
+$\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r, r>0, i=1,2$ 
 
-The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The 
+The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T)$ & $\text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)$ are scalars penalizing **estimation errors** in the adaptive controller.
