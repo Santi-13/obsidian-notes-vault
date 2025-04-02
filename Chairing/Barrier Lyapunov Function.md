@@ -19,10 +19,13 @@ Where $x^+(\mathrm{x}_{j})$ is updated based on the other robot's state to avoid
 #### Barrier Lyapunov Function
 From our ***[[Euler-Lagrange Formulation]]***, we can get our *joints' acceleration* as:
 $$
-\ddot{q}= B^{-1}(q) (\tau-C(\dot{q},q) \dot{q} - G(q)) + M^{-1}\tau + \eta
+\ddot{q}= B^{-1}(q) (\tau-C(\dot{q},q) \dot{q} - G(q)) + B^{-1}\tau + \eta
 $$
 We can propose a **PD controller** that compensates for the dynamics such as:
 $$
-u= MK_{p}q + MK_{D} \dot{q} + C(q,\dot{q})\dot{q} + G(q) 
+u= BK_{p}q + BK_{D} \dot{q} + C(q,\dot{q})\dot{q} + G(q) 
 $$
-After substituting, we get
+After substituting, we get:
+$$
+
+$$
