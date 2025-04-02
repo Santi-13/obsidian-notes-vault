@@ -60,7 +60,7 @@ $\tau: \text{ Actuator torques/forces}$
 
 Solving for $\ddot{q}$:
 $$
-\ddot{q}= B^{-1}(q) (\tau-C(\dot{q},q) \dot{q} - G(q)
+\ddot{q}= B^{-1}(q) (\tau-C(\dot{q},q) \dot{q} - G(q) )
 $$
 We substitute in the equation for the end-effector's acceleration:
 $$

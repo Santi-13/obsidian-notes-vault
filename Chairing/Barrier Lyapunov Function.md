@@ -16,3 +16,8 @@ $$
 $$
 Where $x^+(\mathrm{x}_{j})$ is updated based on the other robot's state to avoid collisions.
 
+#### Barrier Lyapunov Function
+From our ***[[Euler-Lagrange Formulation]]***, we can get our *joints' acceleration* as:
+$$
+\ddot{q}= B^{-1}(q) (\tau-C(\dot{q},q) \dot{q} - G(q)) + M^{-1}u + \eta
+$$
