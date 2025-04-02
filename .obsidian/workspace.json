@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Properties & Definitions/Trace Operator.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trace Operator"
+              "title": "Barrier Lyapunov Function"
             }
           },
           {
@@ -238,11 +238,11 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Chairing/Properties & Definitions/Frobenius Norm.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Properties & Definitions/Trace Operator.md",
+    "Chairing/Properties & Definitions/Frobenius Norm.md",
     "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/Barrier Lyapunov Function.md",
-    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Properties & Definitions/Invariant Sets.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
