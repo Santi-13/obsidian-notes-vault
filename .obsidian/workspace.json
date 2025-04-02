@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Properties & Definitions/Trace Operator.md",
+                "file": "Chairing/Properties & Definitions/Frobenius Norm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trace Operator"
+              "title": "Frobenius Norm"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Chairing/Properties & Definitions/Frobenius Norm.md",
+    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/Properties & Definitions/Trace Operator.md",
+    "Chairing/Properties & Definitions/Frobenius Norm.md",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov With Perturbations.md",
@@ -270,7 +271,6 @@
     "images/Pasted image 20250320105350.png",
     "images/Pasted image 20250320104544.png",
     "AI/Neural Networks.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "Agents-Course",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
     "Chairing/pdfs/Positive Definite Matrix.pdf",
