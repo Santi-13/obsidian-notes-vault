@@ -45,3 +45,4 @@ $$
 = A\mathrm{x} + B\eta
 $$
 #### Structure of BLF
+The proposed *Lyapunov Function* 
