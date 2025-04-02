@@ -18,7 +18,6 @@ $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ (\mathrm{x}_{j}), \text{ }\text{ }\text{ } i,j \in \{ 1,2 \}, \text{ }\text{ }\text{ } i \neq j
 $$
 Where $x^+(\mathrm{x}_{j})$ is updated based on the other robot's state to avoid collisions.
-
 #### Barrier Lyapunov Function
 From our ***[[Euler-Lagrange Formulation]]***, we can get our *joints' acceleration* as:
 $$
@@ -33,3 +32,16 @@ $$
 \ddot{q} = K_{p}q + K_{D}\dot{q} + \eta
 $$
 Where $\eta$ represents **unmodeled dynamics/external perturbations**. In ***[[#^6c6b52|state-space form]]***:
+$$
+\dot{\mathrm{x}} = \begin{bmatrix}
+0 & I \\
+K_{p}  & K_{D}
+\end{bmatrix} \mathrm{x} + \begin{bmatrix}
+0 \\
+I
+\end{bmatrix} \eta
+$$
+$$
+= A\mathrm{x} + B\eta
+$$
+#### Structure of BLF
