@@ -7,9 +7,7 @@ q \\
 \dot{q}
 \end{bmatrix}
 $$
-
 ^6c6b52
-
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ 
 $$
@@ -47,8 +45,9 @@ $$
 #### Structure of BLF
 The proposed *Barrier Lyapunov Function* is:
 $$
-V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert x \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) tr(\tilde{K}_{D} \tilde{K}_{D}^T)
+V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) tr(\tilde{K}_{D} \tilde{K}_{D}^T)
 $$
 $\text{Where:}$
 $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error.}$
 $\tilde{K}_{D} = K_{D} + K_{D}^0: \text{Derivative parameter estimation error}$
+$\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r$
