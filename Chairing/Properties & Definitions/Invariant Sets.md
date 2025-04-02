@@ -3,3 +3,4 @@ A set $\mathcal{C}$ is called *invariant* if any trajectory starting inside a sp
 $$
 x(0) \in \mathcal{C} \implies x(t) \in \mathcal{C}, \text{ } \forall t \geq 0
 $$
+Its complement $\mathcal{C}^\mathcal{C}$ represents all states outside $\mathcal{C}$, which are considered *unsafe*.
