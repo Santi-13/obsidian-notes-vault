@@ -25,4 +25,4 @@ We can propose a **PD controller** that compensates for the dynamics such as:
 $$
 u= MK_{p}q + MK_{D} \dot{q} + C(q,\dot{q})\dot{q} + G(q) 
 $$
-After substituting, we get>
+After substituting, we get
