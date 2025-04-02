@@ -52,3 +52,4 @@ $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error}
 $\tilde{K}_{D} = K_{D} + K_{D}^0: \text{Derivative parameter estimation error}$.
 $\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r$.
 
+The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$.
