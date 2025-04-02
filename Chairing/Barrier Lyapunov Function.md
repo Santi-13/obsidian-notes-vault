@@ -29,3 +29,4 @@ After substituting, we get:
 $$
 \ddot{q} = K_{p}q + K_{D}\dot{q} + \eta
 $$
+Where $\eta$ represents **unmodeled dynamics/external perturbations**. In *state-space* form ($x=[q; \dot{q}]$):
