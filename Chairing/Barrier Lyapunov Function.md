@@ -45,4 +45,7 @@ $$
 = A\mathrm{x} + B\eta
 $$
 #### Structure of BLF
-The proposed *Lyapunov Function* 
+The proposed *Barrier Lyapunov Function* is:
+$$
+V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert x \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T)
+$$
