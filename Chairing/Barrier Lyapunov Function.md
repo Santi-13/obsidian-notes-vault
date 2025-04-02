@@ -55,3 +55,6 @@ $\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}
 $r: \text{Adjusts the decay rate of the decaying gain.}$
 
 The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T)$ & $\text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)$ are scalars penalizing **estimation errors** in the adaptive controller.
+
+$$
+\lambda_{i}(t) = \lambda_{i,0} \left(\frac{x^+ - \lVert \mathrm{x} \rVert_P^2}{x^+}\right)^r$$
