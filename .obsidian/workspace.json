@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Barrier Lyapunov Function.md",
+                "file": "Chairing/Properties & Definitions/Trace Operator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Barrier Lyapunov Function"
+              "title": "Trace Operator"
             }
           },
           {
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "right": {
     "id": "b0c49e444b6c776b",
@@ -239,8 +238,10 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Chairing/Euler-Lagrange Formulation.md",
+    "Chairing/Properties & Definitions/Frobenius Norm.md",
+    "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Barrier Lyapunov Function.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Properties & Definitions/Invariant Sets.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
@@ -271,8 +272,6 @@
     "AI/Neural Networks.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "Agents-Course",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
     "Chairing/pdfs/Quadratic Norm Representation.pdf",
     "Chairing/pdfs/Positive Definite Matrix.pdf",
     "Chairing/pdfs/Peter-Paul Inequality.pdf",

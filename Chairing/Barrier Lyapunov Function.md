@@ -11,6 +11,7 @@ $$
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ 
 $$
+^0f3d2e
 The constant $x^+$ is defined as the boundary of the state, in the case of two **cobots** working on the same **workspace**, this constant is constantly updated by the state of the other robot. This **dynamic constraint** is defined:
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ (\mathrm{x}_{j}), \text{ }\text{ }\text{ } i,j \in \{ 1,2 \}, \text{ }\text{ }\text{ } i \neq j
@@ -52,4 +53,4 @@ $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error}
 $\tilde{K}_{D} = K_{D} + K_{D}^0: \text{Derivative parameter estimation error}$.
 $\lambda_{1,2}(t): \text{Time-varying adaptive gains decaying as } \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r$.
 
-The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$.
+The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The 
