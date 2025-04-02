@@ -27,5 +27,5 @@ u= BK_{p}q + BK_{D} \dot{q} + C(q,\dot{q})\dot{q} + G(q)
 $$
 After substituting, we get:
 $$
-\ddot{q} = K_{p}q + K_{D}\dot{q} + 
+\ddot{q} = K_{p}q + K_{D}\dot{q} + \eta
 $$
