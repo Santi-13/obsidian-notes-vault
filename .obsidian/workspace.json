@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Properties & Definitions/Frobenius Norm.md",
+                "file": "Chairing/Properties & Definitions/Trace Operator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frobenius Norm"
+              "title": "Trace Operator"
             }
           },
           {
@@ -238,9 +238,9 @@
   },
   "active": "dc0acfdb86df3210",
   "lastOpenFiles": [
-    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
-    "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Properties & Definitions/Frobenius Norm.md",
+    "Chairing/Properties & Definitions/Trace Operator.md",
+    "Chairing/Properties & Definitions/Hurwitz Matrix.md",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov With Perturbations.md",
