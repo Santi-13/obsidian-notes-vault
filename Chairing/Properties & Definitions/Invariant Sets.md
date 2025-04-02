@@ -1,2 +1,2 @@
 #Chairing #Definition 
-A set $\mathcal{C}$
+A set $\mathcal{C}$ 
