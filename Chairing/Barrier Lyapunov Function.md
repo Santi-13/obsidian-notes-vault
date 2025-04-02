@@ -7,6 +7,9 @@ q \\
 \dot{q}
 \end{bmatrix}
 $$
+
+^6c6b52
+
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ 
 $$
@@ -29,4 +32,4 @@ After substituting, we get:
 $$
 \ddot{q} = K_{p}q + K_{D}\dot{q} + \eta
 $$
-Where $\eta$ represents **unmodeled dynamics/external perturbations**. In *state-space* form ($x=[q; \dot{q}]$):
+Where $\eta$ represents **unmodeled dynamics/external perturbations**. In ***[[#^6c6b52|state-space form]]***:
