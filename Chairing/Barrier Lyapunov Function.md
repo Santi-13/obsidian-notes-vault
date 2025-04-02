@@ -47,5 +47,8 @@ $$
 #### Structure of BLF
 The proposed *Barrier Lyapunov Function* is:
 $$
-V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert x \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T)
+V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert x \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)tr(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) tr(\tilde{K}_{D} \tilde{K}_{D}^T)
 $$
+$\text{Where:}$
+$\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error.}$
+$\tilde{K}$
