@@ -1,6 +1,6 @@
 #Explanation #Chairing 
 
-***Barrier Lyapunov Functions*** (**BLF**) enforce **state constraints** by designing the ***Lyapunov Function*** $V_{B}$ to grow unbounded as $x$ approaches the constraint boundary. For our system, we define our **constraint** as:
+***Barrier Lyapunov Functions*** (**BLF**) enforce **state constraints** by designing the ***Lyapunov Function*** $V_{B}$ to grow unbounded as $x$ approaches the constraint boundary, effectively making sure that the system ***never*** *violates constraints*. For our system, we define our **constraint** as:
 $$
 \mathrm{x} = \begin{bmatrix}
 q \\
@@ -15,7 +15,7 @@ The constant $x^+$ is defined as the boundary of the state, in the case of two *
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} < x^+ (\mathrm{x}_{j}), \text{ }\text{ }\text{ } i,j \in \{ 1,2 \}, \text{ }\text{ }\text{ } i \neq j
 $$
-Where $x^+(\mathrm{x}_{j})$ is updated based on the other robot's state to avoid collisions.
+Where $x^+(\mathrm{x}_{j})$ is updated based on the other robot's state to avoid collisions. 
 #### Barrier Lyapunov Function
 From our ***[[Euler-Lagrange Formulation]]***, we can get our *joints' acceleration* as:
 $$
