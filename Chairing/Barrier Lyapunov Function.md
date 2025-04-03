@@ -105,7 +105,10 @@ $$
 $$
 = \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\mathrm{x}}^TP\mathrm{x}
 $$
-$\text{And:}$
+And given the derivative of the trace is:
 $$
-\frac{d}{dt} 
+\text{tr}()
+$$
+$$
+\frac{d}{dt} ( \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) ) = 
 $$
