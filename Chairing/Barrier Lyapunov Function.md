@@ -95,6 +95,10 @@ From its definition, its clear that the proposed ***BLF*** covers the first two 
 $$
 \frac{d}{dt} V_{B} = \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \frac{d}{dt} ( \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) ) + \frac{d}{dt} (\lambda_{2}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T))
 $$
+$\text{Where:}$
 $$
-= \frac{d}{dt} \ln(x^+) - \frac{d}{dt} \ln(x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}) 
+\frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) = \cancel{ \frac{d}{dt} \ln(x^+) } - \frac{d}{dt} \ln(x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}) 
+$$
+$$
+= -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (x^+ -x^TPx)
 $$
