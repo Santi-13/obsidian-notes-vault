@@ -93,5 +93,5 @@ In summary:
 #### Derivative of the BLF
 From its definition, its clear that the proposed ***BLF*** covers the first two requirements of any ***Lyapunov Function***. Now, its derivative is derived as follows:
 $$
-\frac{d}{dt} V_{B}
+\frac{d}{dt} V_{B} = 
 $$
