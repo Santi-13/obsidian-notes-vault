@@ -68,4 +68,8 @@ Then:
 $$
 x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}  \approx 1
 $$
-So our 
+So our term adapts **fully**:
+$$
+\lambda_{i}(t) \to \lambda_{i,0}⋅ 1^r = \lambda_{i,0}⋅
+$$
+
