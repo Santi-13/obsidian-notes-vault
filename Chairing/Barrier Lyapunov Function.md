@@ -123,3 +123,4 @@ $$
 $$
 = \frac{\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \text{tr}\{ ( \lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ ( \lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
 $$
+We can substitute $\dot{\mathrm{x}}$ for $A\mathrm{x} + B\eta$
