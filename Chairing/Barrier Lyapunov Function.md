@@ -105,3 +105,7 @@ $$
 $$
 = \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\mathrm{x}}^TP\mathrm{x}
 $$
+$\text{And:}$
+$$
+\frac{d}{dt} 
+$$
