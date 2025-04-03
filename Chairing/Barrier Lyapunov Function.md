@@ -118,5 +118,6 @@ $$
 $$
 $\text{So finally:}$
 $$
-\frac{d}{dt} V_{B} = \frac{\mathrm{x}^TP\mathrm{x}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\lambda_{1}}(t) \text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) + 2\lambda_{1}(t) \text{tr}( \tilde{K}_{P}^T \dot{\tilde{K}_{P}} ) + \dot{\lambda_{2}}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T) + 2\lambda_{2}(t) \text{tr}( \tilde{K}_{D}^T \dot{\tilde{K}_{D}} )  
+\frac{d}{dt} V_{B} = \frac{\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\lambda_{1}}(t) \text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) + 2\lambda_{1}(t) \text{tr}( \tilde{K}_{P}^T \dot{\tilde{K}_{P}} ) + \dot{\lambda_{2}}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T) + 2\lambda_{2}(t) \text{tr}( \tilde{K}_{D}^T \dot{\tilde{K}_{D}} )  
 $$
+
