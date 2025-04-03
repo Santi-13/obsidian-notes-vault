@@ -143,6 +143,8 @@ $$
 I
 \end{bmatrix} \begin{bmatrix}
 \tilde{K}_P  & \tilde{K}_{D}\mathrm{x}
+\end{bmatrix} = 2\mathrm{x}^TP\begin{bmatrix}
+
 \end{bmatrix}
 $$
 
