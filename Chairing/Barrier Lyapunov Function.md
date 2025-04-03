@@ -90,3 +90,8 @@ In summary:
 | ----------------------- | ---------------------------- | ----------------------------- | ------------------------- |
 | **Far from constraint** | $x^+−∥\mathrm{x}∥_{P}^2≈x^+$ | $λ_{i}(t)≈λ_{i,0}$            | *Negligible* ($ln⁡(1)=0$) |
 | **Near constraint**     | $x^+−∥\mathrm{x}∥_{P}^2→0$   | $λ_i(t)→0$                    | *Dominant* ($ln⁡(∞)$)     |
+#### Derivative of the BLF
+From its definition, its clear that the proposed ***BLF*** covers the first two requirements of any ***Lyapunov Function***. Now, its derivative is derived as follows:
+$$
+\frac{d}{dt} V_{B}
+$$
