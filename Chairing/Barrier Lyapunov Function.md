@@ -103,7 +103,7 @@ $$
 = -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (\cancel{ x^+ } - \mathrm{x}^TP\mathrm{x})
 $$
 $$
-= \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\mathrm{x}}^TP\mathrm{x}
+= \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \mathrm{x}^TP\dot{\mathrm{x}}
 $$
 And given the derivative of the trace is:
 $$
