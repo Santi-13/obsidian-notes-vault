@@ -72,4 +72,9 @@ So our term adapts **fully**:
 $$
 \lambda_{i}(t) \to \lambda_{i,0}⋅ 1^r = \lambda_{i,0}⋅
 $$
+On the contrary
 
+| **State**               | **Distance to Boundary**     | **Adaptive Gain λi(t)λi​(t)** | **Barrier Term**        |
+| ----------------------- | ---------------------------- | ----------------------------- | ----------------------- |
+| **Far from constraint** | $x^+−∥\mathrm{x}∥_{P}^2≈x^+$ | $λ_{i}(t)≈λ_{i,0}$            | Negligible ($ln⁡(1)=0$) |
+| **Near constraint**     | x+−∥x∥P2→0x+−∥x∥P2​→0        | λi(t)→0λi​(t)→0               | Dominant (ln⁡(∞)ln(∞))  |
