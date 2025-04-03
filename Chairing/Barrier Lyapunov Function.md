@@ -144,8 +144,16 @@ I
 \end{bmatrix} \begin{bmatrix}
 \tilde{K}_P  & \tilde{K}_{D}\mathrm{x}
 \end{bmatrix} = 2\mathrm{x}^TP\begin{bmatrix}
-
-\end{bmatrix}
+0 \\
+I
+\end{bmatrix} \begin{bmatrix}
+I & 0
+\end{bmatrix}\tilde{K}_{P} \mathrm{x} + 2\mathrm{x}^TP\begin{bmatrix}
+0 \\
+I
+\end{bmatrix} \begin{bmatrix}
+0 & I
+\end{bmatrix}\tilde{K}_{D} \mathrm{x}
 $$
 
 $$
