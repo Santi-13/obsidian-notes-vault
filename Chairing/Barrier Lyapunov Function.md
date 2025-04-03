@@ -65,3 +65,7 @@ $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} \ll x^+
 $$
 Then:
+$$
+x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}  \approx 1
+$$
+So our 
