@@ -60,3 +60,8 @@ The **adaptive gain term** $\lambda_{1,2}(t)$ is defined as:
 $$
 \lambda_{i} = \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r, r>0, i=1,2
 $$
+Where the exponent $r$ tunes how *sharply* adaptation **decays** near the *boundary*; and $\lambda_{i,0}$ represents a **constant** baseline **adaptation rate** for when the system is far from the *constraints*. Formally, as:
+$$
+\lvert\lvert \mathrm{x} \rvert\rvert^2_{P} \ll x^+
+$$
+Then:
