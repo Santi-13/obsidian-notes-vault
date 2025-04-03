@@ -60,7 +60,7 @@ The **adaptive gain term** $\lambda_{1,2}(t)$ is defined as:
 $$
 \lambda_{i} = \lambda_{i,0}\left( \frac{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}}{x^+} \right)^r, r>0, i=1,2
 $$
-Where the exponent $r$ tunes how *sharply* adaptation **decays** near the *boundary*; and $\lambda_{i,0}$ represents a **constant** baseline **adaptation rate** for when the system is far from the *constraints*. Formally, as:
+Where the exponent $r$ tunes how *sharply* adaptation **decays** near the *boundary*; and $\lambda_{i,0}$ represents a **constant** baseline **adaptation rate** for when the system **is far** from the *constraints*. Formally, as:
 $$
 \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} \ll x^+
 $$
@@ -72,9 +72,21 @@ So our term adapts **fully**:
 $$
 \lambda_{i}(t) \to \lambda_{i,0}⋅ 1^r = \lambda_{i,0}⋅
 $$
-On the contrary
+On the contrary, when the system **approaches** the *constraint*:
+$$
+\lvert\lvert \mathrm{x} \rvert\rvert^2_{P} \to x^+
+$$
+Then:
+$$
+x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}  \to 0
+$$
+So adaptation is **suppresed** to prioritize **safety**:
+$$
+\lambda_{i}(t) \to \lambda_{i,0}⋅ 0^r = 0
+$$
+In summary:
 
-| **State**               | **Distance to Boundary**     | **Adaptive Gain λi(t)λi​(t)** | **Barrier Term**        |
-| ----------------------- | ---------------------------- | ----------------------------- | ----------------------- |
-| **Far from constraint** | $x^+−∥\mathrm{x}∥_{P}^2≈x^+$ | $λ_{i}(t)≈λ_{i,0}$            | Negligible ($ln⁡(1)=0$) |
-| **Near constraint**     | x+−∥x∥P2→0x+−∥x∥P2​→0        | λi(t)→0λi​(t)→0               | Dominant (ln⁡(∞)ln(∞))  |
+| **State**               | **Distance to Boundary**     | **Adaptive Gain λi(t)λi​(t)** | **Barrier Term**          |
+| ----------------------- | ---------------------------- | ----------------------------- | ------------------------- |
+| **Far from constraint** | $x^+−∥\mathrm{x}∥_{P}^2≈x^+$ | $λ_{i}(t)≈λ_{i,0}$            | *Negligible* ($ln⁡(1)=0$) |
+| **Near constraint**     | $x^+−∥\mathrm{x}∥_{P}^2→0$   | $λ_i(t)→0$                    | *Dominant* ($ln⁡(∞)$)     |
