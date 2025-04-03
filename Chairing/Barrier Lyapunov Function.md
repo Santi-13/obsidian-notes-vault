@@ -100,5 +100,6 @@ $$
 \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) = \cancel{ \frac{d}{dt} \ln(x^+) } - \frac{d}{dt} \ln(x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}) 
 $$
 $$
-= -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (x^+ - \mathrm{x}^TP\mathrm{x})
+= -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (\cancel{ x^+ } - \mathrm{x}^TP\mathrm{x})
 $$
+Accord
