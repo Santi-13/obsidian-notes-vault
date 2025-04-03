@@ -145,3 +145,17 @@ I
 \tilde{K}_P  & \tilde{K}_{D}\mathrm{x}
 \end{bmatrix}
 $$
+
+$$
+\begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}^T
+\begin{bmatrix}
+PA+A^TP+Q & PB \\
+B^TP & -\epsilon I
+\end{bmatrix} \begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}
+$$
