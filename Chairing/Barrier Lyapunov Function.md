@@ -128,3 +128,9 @@ We can [[#^4ce3d1|substitute]] $\dot{\mathrm{x}}$ for $A\mathrm{x} + B\eta$:
 $$
 = \underbrace{ \frac{\mathrm{x}^TP( A\mathrm{x} + B\eta)}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} }_{ \text{System Dynamics Term} } + \text{tr}\{ ( \lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ ( \lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
 $$
+
+##### Simplifying the Dynamics Term
+We can expand $A=\begin{bmatrix}0 & I \\ K_{P} & K_{D}\end{bmatrix}$ and $B=\begin{bmatrix}0 \\ I\end{bmatrix}$:
+$$
+\mathrm{x}^TP(A\mathrm{x} + B\eta) = \underbrace{ \mathrm{x}^TPA\mathrm{x} }_{ \text{Nominal} } + \underbrace{ \mathrm{x}^TPB\eta }_{ \text{Perturbative} }
+$$
