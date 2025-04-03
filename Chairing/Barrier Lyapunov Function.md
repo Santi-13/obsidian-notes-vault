@@ -107,7 +107,7 @@ $$
 $$
 And given the derivative of the trace is:
 $$
-\frac{d}{dt} \text{tr}( \tilde{K}_{P} \tilde{K}_{P}^T ) =
+\frac{d}{dt} \text{tr}( \tilde{K}_{P} \tilde{K}_{P}^T ) = 2\text{tr}( \tilde{K}_{P}^T \dot{\tilde{K}_{P}}  )
 $$
 $$
 \frac{d}{dt} ( \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) ) = 
