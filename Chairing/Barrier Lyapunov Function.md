@@ -80,7 +80,7 @@ Then:
 $$
 x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}  \to 0
 $$
-So adaptation is **suppresed** to prioritize **safety**:
+So adaptation is **suppressed** to prioritize **safety**:
 $$
 \lambda_{i}(t) \to \lambda_{i,0}⋅ 0^r = 0
 $$
@@ -90,4 +90,3 @@ In summary:
 | ----------------------- | ---------------------------- | ----------------------------- | ------------------------- |
 | **Far from constraint** | $x^+−∥\mathrm{x}∥_{P}^2≈x^+$ | $λ_{i}(t)≈λ_{i,0}$            | *Negligible* ($ln⁡(1)=0$) |
 | **Near constraint**     | $x^+−∥\mathrm{x}∥_{P}^2→0$   | $λ_i(t)→0$                    | *Dominant* ($ln⁡(∞)$)     |
-It is important to note that the gains $K_P$ and $K_D$ are updated using the same **adaptive gain term** $\lambda_{i}, i=1,2$ on another equation or adaptation law
