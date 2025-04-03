@@ -50,7 +50,7 @@ V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}
 $$
 $\text{Where:}$
 $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error}$.
-$\tilde{K}_{D} = K_{D} + K_{D}^0: \text{Derivative parameter estimation error}$.
+$\tilde{K}_{D} = K_{D} - K_{D}^0: \text{Derivative parameter estimation error}$.
 $\lambda_{1,2}(t): \text{Time-varying adaptive gains}$. 
 $r: \text{Adjusts the decay rate of the decaying gain.}$
 
