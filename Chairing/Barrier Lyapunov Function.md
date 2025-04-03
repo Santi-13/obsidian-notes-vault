@@ -54,7 +54,7 @@ $\tilde{K}_{D} = K_{D} - K_{D}^0: \text{Derivative parameter estimation error}$.
 $\lambda_{1,2}(t): \text{Time-varying adaptive gains}$. 
 $r: \text{Adjusts the decay rate of the decaying gain.}$
 
-The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T)$ & $\text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)$ are scalars penalizing **estimation errors** in the adaptive controller.
+The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T)$ & $\text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)$ are scalars penalizing **estimation errors** in the adaptive controller, and is equivalent to the ***[[Frobenius Norm|Squared Frobenius norm]]*** $\lvert\lvert \tilde{K}_{P} \rvert\rvert^2_{F}$.
 
 The **adaptive gain term** $\lambda_{1,2}(t)$ is defined as:
 $$
