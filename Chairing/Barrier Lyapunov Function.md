@@ -134,3 +134,14 @@ We can expand $A=\begin{bmatrix}0 & I \\ K_{P} & K_{D}\end{bmatrix}$ and $B=\beg
 $$
 \mathrm{x}^TP(A\mathrm{x} + B\eta) = \underbrace{ \mathrm{x}^TPA\mathrm{x} }_{ \text{Nominal} } + \underbrace{ \mathrm{x}^TPB\eta }_{ \text{Perturbative} }
 $$
+
+
+
+$$
+2\mathrm{x}^TP\begin{bmatrix}
+0 \\
+I
+\end{bmatrix} \begin{bmatrix}
+\tilde{K}_P  & \tilde{K}_{D}\mathrm{x}
+\end{bmatrix}
+$$
