@@ -102,4 +102,6 @@ $$
 $$
 = -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (\cancel{ x^+ } - \mathrm{x}^TP\mathrm{x})
 $$
-Accord
+$$
+= \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\mathrm{x}}^TP\mathrm{x}
+$$
