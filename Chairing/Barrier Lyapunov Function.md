@@ -46,7 +46,7 @@ $$
 #### Structure of BLF
 The proposed *Barrier Lyapunov Function* is:
 $$
-V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) + \lambda_{2}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)
+V_{B} = \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \lambda_{1}(t)\text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \} + \lambda_{2}(t) \text{tr}\{ \tilde{K}_{D} \tilde{K}_{D}^T \}
 $$
 $\text{Where:}$
 $\tilde{K}_{P} = K_{P} - K_{P}^0: \text{Proportional parameter estimation error}$.
@@ -54,7 +54,7 @@ $\tilde{K}_{D} = K_{D} - K_{D}^0: \text{Derivative parameter estimation error}$.
 $\lambda_{1,2}(t): \text{Time-varying adaptive gains}$. 
 $r: \text{Adjusts the decay rate of the decaying gain.}$
 
-The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T)$ & $\text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T)$ are scalars penalizing **estimation errors** in the adaptive controller, and is equivalent to the ***[[Frobenius Norm|Squared Frobenius norm]]*** $\lvert\lvert \tilde{K}_{P} \rvert\rvert^2_{F}$.
+The logarithmic term $\ln\left( \frac{x^+}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2} \right)$ becomes singular as the *state* approaches the boundary $x^+$, ensuring our ***[[#^0f3d2e|boundary condition]]***. The ***[[Trace Operator|trace terms]]*** $\text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \}$ & $\text{tr}\{ \tilde{K}_{D} \tilde{K}_{D}^T \}$ are scalars penalizing **estimation errors** in the adaptive controller, and is equivalent to the ***[[Frobenius Norm|Squared Frobenius norm]]*** $\lvert\lvert \tilde{K}_{P} \rvert\rvert^2_{F}$.
 
 The **adaptive gain term** $\lambda_{1,2}(t)$ is defined as:
 $$
@@ -93,7 +93,7 @@ In summary:
 #### Derivative of the BLF
 From its definition, its clear that the proposed ***BLF*** covers the first two requirements of any ***Lyapunov Function***. Now, its derivative is derived as follows:
 $$
-\frac{d}{dt} V_{B} = \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \frac{d}{dt} ( \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) ) + \frac{d}{dt} (\lambda_{2}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T))
+\frac{d}{dt} V_{B} = \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \frac{d}{dt} ( \lambda_{1}(t)\text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \} ) + \frac{d}{dt} (\lambda_{2}(t) \text{tr}\{ \tilde{K}_{D} \tilde{K}_{D}^T \})
 $$
 $\text{Where:}$
 $$
@@ -107,7 +107,7 @@ $$
 $$
 And given the derivative of the trace is:
 $$
-\frac{d}{dt} \text{tr}( \tilde{K}_{P} \tilde{K}_{P}^T ) = 2\text{tr}( \tilde{K}_{P}^T \dot{\tilde{K}_{P}}  )
+\frac{d}{dt} \text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \} = 2\text{tr}\{ \tilde{K}_{P}^T \dot{\tilde{K}_{P}} \} 
 $$
 $\text{Then:}$ 
 $$

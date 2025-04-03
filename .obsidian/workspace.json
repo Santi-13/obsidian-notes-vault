@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Properties & Definitions/Trace Operator.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trace Operator"
+              "title": "Barrier Lyapunov Function"
             }
           }
         ],
@@ -239,8 +239,8 @@
   },
   "active": "486f91ec1194ab6a",
   "lastOpenFiles": [
-    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Properties & Definitions/Trace Operator.md",
+    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
     "Chairing/Lyapunov no Perturbations.md",

@@ -6,9 +6,9 @@ $$
 It has the following ***properties***:
 
 - **Linearity:** $\text{tr}\{ cA + B \} = c \text{ }\text{tr}\{ A \} + \text{tr}\{ B \}$.
-- **Invariance under permutations:** $\text{tr}\{ ABC \} = \text{tr}(BCA) = \text{tr}(CAB)$.
-- **Trace of transpose:** $\text{tr}(A) = \text{tr}(A^T)$.
-- **Trace of a scalar:** If $a \in \mathrm{R}, \text{tr}(a)=a$
+- **Invariance under permutations:** $\text{tr}\{ ABC \} = \text{tr}\{ BCA \} = \text{tr}\{ CAB \}$.
+- **Trace of transpose:** $\text{tr}\{ A \} = \text{tr}\{ A^T \}$.
+- **Trace of a scalar:** If $a \in \mathrm{R}, \text{tr}\{ a \}=a$
 
 For example, for:
 $$
@@ -18,5 +18,5 @@ A = \begin{bmatrix}
 \end{bmatrix}
 $$
 $$
-\text{tr}(A) = 1 + 4 = 5
+\text{tr}\{ A \} = 1 + 4 = 5
 $$
