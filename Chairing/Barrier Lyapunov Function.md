@@ -93,5 +93,8 @@ In summary:
 #### Derivative of the BLF
 From its definition, its clear that the proposed ***BLF*** covers the first two requirements of any ***Lyapunov Function***. Now, its derivative is derived as follows:
 $$
-\frac{d}{dt} V_{B} = 
+\frac{d}{dt} V_{B} = \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) + \frac{d}{dt} ( \lambda_{1}(t)\text{tr}(\tilde{K}_{P} \tilde{K}_{P}^T) ) + \frac{d}{dt} (\lambda_{2}(t) \text{tr}(\tilde{K}_{D} \tilde{K}_{D}^T))
+$$
+$$
+= \frac{d}{dt} \ln(x^+) - \frac{d}{dt} \ln(x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}) 
 $$
