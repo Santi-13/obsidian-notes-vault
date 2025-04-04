@@ -33,6 +33,9 @@ To do this, we may simply propose a ***PD controller*** for the **torque** $\tau
 $$
 \tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
 $$
+$$
+\tau=J^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
+$$
 When substituting into the dynamics we get:
 $$
 \dot{q}_{b} = f(q_{a},q_{b}) + g(q_{a})(\cancel{ \Omega(\Omega^{-1} }[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] \cancel{ - \langle \lambda(t),f(q_{a}) \rangle ) +\langle \lambda(t), f(q_{a}) \rangle })
