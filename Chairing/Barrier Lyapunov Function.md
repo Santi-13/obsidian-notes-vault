@@ -101,10 +101,10 @@ $$
 \frac{d}{dt} \ln\left( \frac{ x^+ }{ x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P} } \right) = \cancel{ \frac{d}{dt} \ln(x^+) } - \frac{d}{dt} \ln(x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}) 
 $$
 $$
-= -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (\cancel{ x^+ } - \mathrm{x}^TP\mathrm{x})
+= -\frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \frac{d}{dt} (\cancel{ x^+ } - 2\mathrm{x}^TP\mathrm{x})
 $$
 $$
-= \frac{1}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \mathrm{x}^TP\dot{\mathrm{x}}
+= \frac{2}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} \mathrm{x}^TP\dot{\mathrm{x}}
 $$
 And given the derivative of the trace is:
 $$
@@ -119,20 +119,20 @@ $$
 $$
 $\text{So finally:}$
 $$
-\frac{d}{dt} V_{B} = \frac{\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\lambda_{1}}(t) \text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \} + 2\lambda_{1}(t) \text{tr}\{ \tilde{K}_{P}^T \dot{\tilde{K}_{P}} \} + \dot{\lambda_{2}}(t) \text{tr}\{ \tilde{K}_{D} \tilde{K}_{D}^T \} + 2\lambda_{2}(t) \text{tr}\{ \tilde{K}_{D}^T \dot{\tilde{K}_{D}} \}  
+\frac{d}{dt} V_{B} = \frac{2\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \dot{\lambda_{1}}(t) \text{tr}\{ \tilde{K}_{P} \tilde{K}_{P}^T \} + 2\lambda_{1}(t) \text{tr}\{ \tilde{K}_{P}^T \dot{\tilde{K}_{P}} \} + \dot{\lambda_{2}}(t) \text{tr}\{ \tilde{K}_{D} \tilde{K}_{D}^T \} + 2\lambda_{2}(t) \text{tr}\{ \tilde{K}_{D}^T \dot{\tilde{K}_{D}} \}  
 $$
 $$
-= \frac{\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \text{tr}\{ ( 2\lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ ( 2\lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
+= \frac{2\mathrm{x}^TP\dot{\mathrm{x}}}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \text{tr}\{ ( 2\lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ ( 2\lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
 $$
 We can [[#^4ce3d1|substitute]] $\dot{\mathrm{x}}$ for $A\mathrm{x} + B\eta$:
 $$
-= \underbrace{ \frac{\mathrm{x}^TP( A\mathrm{x} + B\eta)}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} }_{ \text{System Dynamics Term} } + \text{tr}\{ ( 2\lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ (2 \lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
+= \underbrace{ \frac{2\mathrm{x}^TP( A\mathrm{x} + B\eta)}{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} }_{ \text{System Dynamics Term} } + \text{tr}\{ ( 2\lambda_{1}\dot{\tilde{K}_{P}} + \dot{\lambda_{1}}(t)\tilde{K}_{P}) \tilde{K}_{P}^T \} + \text{tr}\{ (2 \lambda_{2}\dot{\tilde{K}_{D}} + \dot{\lambda_{2}}(t)\tilde{K}_{D}) \tilde{K}_{D}^T \}
 $$
 
 ##### Simplifying the Dynamics Term
 We can expand $A=\begin{bmatrix}0 & I \\ K_{P} & K_{D}\end{bmatrix}$ and $B=\begin{bmatrix}0 \\ I\end{bmatrix}$:
 $$
-\mathrm{x}^TP(A\mathrm{x} + B\eta) = \underbrace{ \mathrm{x}^TPA\mathrm{x} }_{ \text{Nominal} } + \underbrace{ \mathrm{x}^TPB\eta }_{ \text{Perturbative} }
+2\mathrm{x}^TP(A\mathrm{x} + B\eta) = \underbrace{ 2\mathrm{x}^TPA\mathrm{x} }_{ \text{Nominal} } + \underbrace{ 2\mathrm{x}^TPB\eta }_{ \text{Perturbative} }
 $$
 
 
