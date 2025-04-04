@@ -34,7 +34,7 @@ $$
 \tau=\Omega^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
 $$
 $$
-\tau=J^{-1}[g^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )] - \langle \lambda(t),f(q_{a}) \rangle 
+\tau=(J^T)^{-1}[B^{-1}(q_{a})( - K_{P}q_{a} - K_{D}q_{b} - f(q_{a},q_{b}) )]
 $$
 When substituting into the dynamics we get:
 $$
