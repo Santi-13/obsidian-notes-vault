@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/State Variable Theory.md",
+                "file": "Chairing/Euler-Lagrange Formulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State Variable Theory"
+              "title": "Euler-Lagrange Formulation"
             }
           },
           {
@@ -239,8 +239,8 @@
   },
   "active": "3dd9af6f0c41d041",
   "lastOpenFiles": [
-    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/State Variable Theory.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Properties & Definitions/Matrix Calculus Derivative Rules.md",
     "Chairing/Lyapunov no Perturbations.md",
