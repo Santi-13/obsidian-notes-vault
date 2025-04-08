@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Untitled.md",
+                "file": "Chairing/Ziegler-Nichols.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Ziegler-Nichols"
             }
           },
           {
@@ -240,7 +240,7 @@
   "active": "3dd9af6f0c41d041",
   "lastOpenFiles": [
     "Chairing/Barrier Lyapunov Function.md",
-    "Chairing/Untitled.md",
+    "Chairing/Ziegler-Nichols.md",
     "Chairing/State Variable Theory.md",
     "Control/Pole Placement.md",
     "Chairing/Euler-Lagrange Formulation.md",
