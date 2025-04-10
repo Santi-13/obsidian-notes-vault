@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Multivariate Calculus/Jacobian.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jacobian"
+              "title": "Variance of Higher-Dimensional Datasets"
             }
           },
           {
@@ -237,8 +237,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3dd9af6f0c41d041",
+  "active": "bce4445dcac5e7f0",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
+    "AI/Background Maths/Multivariate Calculus/Jacobian.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/Lyapunov With Perturbations.md",
     "Chairing/State Variable Theory.md",
@@ -264,8 +266,6 @@
     "Agents-Course/Unit 1. Introduction/LLMs.md",
     "Agents-Course/Unit 1. Introduction/Agent Workflow.md",
     "Pasted image 20241024210740.png",
-    "Sin título.md",
-    "Untitled.md",
     "images/Pasted image 20250321122958.png",
     "Agents-Course/Unit 1. Introduction",
     "images/Pasted image 20250320110233.png",
