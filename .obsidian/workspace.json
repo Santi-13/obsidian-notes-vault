@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variance of Higher-Dimensional Datasets"
+              "title": "Dot Product"
             }
           },
           {
@@ -239,10 +239,10 @@
   },
   "active": "3dd9af6f0c41d041",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
     "AI/Python Solutions.md",
     "Agents-Course/Access Tokens.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "Agents-Course/Unit 2. Agentic Frameworks/Unit 2.1 smolagents Framework/Why use smolagents.md",
     "Agents-Course/Unit 2. Agentic Frameworks/Unit 2.1 smolagents Framework/Introduction to smolagents.md",
     "Agents-Course/Unit 2. Agentic Frameworks/Unit 2.1 smolagents Framework/Building Agents That Use Code.md",

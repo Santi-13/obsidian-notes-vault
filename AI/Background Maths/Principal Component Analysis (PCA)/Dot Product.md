@@ -11,3 +11,4 @@ The **length** or **magnitude** of $x$ is defined as the *square root* of the **
 $$
 \lvert\lvert x \rvert\rvert = \sqrt{ x^Tx } = \sqrt{ x\cdot x } 
 $$
+yes
