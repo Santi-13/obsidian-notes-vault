@@ -79,6 +79,8 @@ H=\begin{bmatrix}
 0 & 2
 \end{bmatrix}
 $$
+<!--SR:!2025-04-12,3,252-->
+
 <!--SR:!2025-04-02,44,290-->
 
 What is the Hessian for?

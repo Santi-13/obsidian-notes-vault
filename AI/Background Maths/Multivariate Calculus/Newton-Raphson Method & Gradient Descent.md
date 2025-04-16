@@ -59,7 +59,7 @@ d
 \end{bmatrix}
 $$
 To find the optimal direction to move in, we need to optimize the best values for $\hat{r}$. For that, let us remember that the dot product of two vectors is the projection of the first unto the second. Which can be expressed in terms of an angle $\theta$:
-![[Dot Product]]
+![[Excalidraw/Dot Product]]
 $$
 df =|\nabla f| \cdot |\hat{r}| \cdot \cos(\theta)
 $$
@@ -84,5 +84,5 @@ This not only sets the step size, but can also change direction too. This method
 ### Flashcards
 ---
 What is the ***Newton-Raphson Method***?:: The ***Newton-Raphson Method*** is an iterative approach to finding the roots of an equation without having to calculate every possible value.
-<!--SR:!2025-04-08,14,250-->
+<!--SR:!2025-05-14,35,250-->
 
