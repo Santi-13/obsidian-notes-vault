@@ -1,4 +1,4 @@
-#HuggingFace #AI
+#HuggingFace #Unit1
 #### By: Hugging Face
 ---
 One crucial aspect of AI Agents is their ability to take **actions**. As we saw, this happens through the use of **Tools**.

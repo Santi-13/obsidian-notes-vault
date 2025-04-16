@@ -1,4 +1,4 @@
-#HuggingFace #AI
+#HuggingFace #Unit1
 #### By: Hugging Face
 ---
 Thoughts represent the **Agent’s internal reasoning and planning processes** to solve the task.

@@ -1,4 +1,4 @@
-#HuggingFace #AI
+#HuggingFace #Unit1
 #### By: Hugging Face
 ---
 Now that we understand how LLMs work, let’s look at **how they structure their generations through chat templates**.
