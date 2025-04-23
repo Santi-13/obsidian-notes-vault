@@ -3,7 +3,7 @@
 ---
 The ***Inner*** or ***Dot Product*** allows us to talk about **geometric** properties in a **vector space**. 
 
-A familiar example may be the ***Dot Product*** between two vectors $x,y \in \mathrm{Re}^n$, which is defined as:
+A familiar example may be the ***Dot Product*** between two vectors $x,y \in \mathbb{R}^n$, which is defined as:
 $$
 x \cdot y = x^Ty = \sum_{i=1}^n x_{i}y_{i} 
 $$
