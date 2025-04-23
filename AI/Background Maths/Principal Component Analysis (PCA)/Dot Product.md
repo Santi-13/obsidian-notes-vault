@@ -9,6 +9,5 @@ x \cdot y = x^Ty = \sum_{i=1}^n x_{i}y_{i}
 $$
 The **length** or **magnitude** of $x$ is defined as the *square root* of the **dot product** of $x$ with itself.
 $$
-\lvert\lvert x \rvert\rvert = \sqrt{ x^Tx } = \sqrt{ x\cdot x } 
+\lvert\lvert x \rvert\rvert = \sqrt{ x^Tx } = \sqrt{ x\cdot x } = \sqrt{ \sum^n_{i=1} x_{i}^2 }
 $$
-yes
