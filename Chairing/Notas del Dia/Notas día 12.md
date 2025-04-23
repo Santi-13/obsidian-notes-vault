@@ -17,7 +17,7 @@ $$
 $$
 
 $$
-\ddot{q}^* = h(t); q^* \in \mathrm{Re}^n; q^* = [q_{i}^*]_{i=1,\dots,n}
+\ddot{q}^* = h(t); q^* \in \mathbb{R}^n; q^* = [q_{i}^*]_{i=1,\dots,n}
 $$
 Where:
 $$

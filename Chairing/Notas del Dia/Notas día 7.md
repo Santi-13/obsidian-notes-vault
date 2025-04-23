@@ -62,7 +62,7 @@ $$
 $$
 We can use the Peter-Paul inequality to decouple the uncertainty from the dynamics of the system. The theorem is as follows:
 $$
-x^T y \leq (1+\theta) \lvert \lvert x \rvert  \rvert^2+(1-\theta^{-1})\lvert \lvert y \rvert  \rvert^2,\dots x,y \in \mathrm{Re}^n,\theta \in \mathrm{Re}^+  
+x^T y \leq (1+\theta) \lvert \lvert x \rvert  \rvert^2+(1-\theta^{-1})\lvert \lvert y \rvert  \rvert^2,\dots x,y \in \mathbb{R}^n,\theta \in \mathbb{R}^+  
 $$
 
 Then if $q^TP=x^T$, and $v=y$, then:
