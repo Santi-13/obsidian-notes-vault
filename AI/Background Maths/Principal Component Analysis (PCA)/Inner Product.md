@@ -7,7 +7,15 @@ For any vectors $u,v,w$ in a vector space $V$, the ***inner product*** is a func
 $$
 \langle ⋅, ⋅ \rangle : V \times V \to \mathbb{R} \text{ or } \mathbb{C} 
 $$
-It has the following properties:
-- Symmetric
-
-$\mathrm{Re}$
+It has to be **symmetric**:
+$$
+\langle u,v \rangle= \langle v,u \rangle 
+$$
+**Positive definite**:
+$$
+\langle u,u \rangle \geq 0 \text{ and } \langle u,u \rangle =0 \iff u=0
+$$
+And **Bilinear**, that is, linear in both of its arguments, for a constant $\lambda$:
+$$
+\langle \lambda u,v \rangle=c \langle u,v \rangle  
+$$
