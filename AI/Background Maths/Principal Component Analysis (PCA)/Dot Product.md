@@ -14,7 +14,7 @@ $$
 For two vectors $x=\begin{bmatrix}1 \\ 2\end{bmatrix}$ and $y=\begin{bmatrix}2 \\ 1\end{bmatrix}$, we are interested in the **distance** and **angle** between them. 
 ![[Pasted image 20250423114148.png]]
 
-The **distance** is simply defined as the ***dot product*** of the difference of the vectors:
+The **distance** is simply defined as the square root of the ***dot product*** of the difference of the vectors:
 $$
 d(x,y) = \lvert\lvert x-y \rvert\rvert = \sqrt{ 2 } 
 $$
