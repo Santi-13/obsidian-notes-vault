@@ -15,7 +15,13 @@ $$
 $$
 \langle u,u \rangle \geq 0 \text{ and } \langle u,u \rangle =0 \iff u=0
 $$
-And **Bilinear**, that is, linear in both of its arguments, for a constant $\lambda$:
+And **bilinear**, that is, linear in both of its arguments, for a constant $\lambda$:
 $$
 \langle \lambda u,v \rangle=c \langle u,v \rangle  
+$$
+$$
+\langle u+v,w \rangle =\langle u,w \rangle + \langle v,w \rangle 
+$$
+$$
+\langle \lambda u+v,w \rangle = \lambda \langle u,w \rangle +\langle v,w \rangle 
 $$
