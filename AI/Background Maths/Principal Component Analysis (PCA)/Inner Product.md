@@ -25,3 +25,9 @@ $$
 $$
 \langle \lambda u+v,w \rangle = \lambda \langle u,w \rangle +\langle v,w \rangle 
 $$
+$$
+\beta(\mathrm{x}, \mathrm{y}) = \mathrm{x}^T \begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix} \mathrm{y}
+$$
