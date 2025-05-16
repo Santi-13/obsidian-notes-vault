@@ -1,3 +1,3 @@
 $$
-\mathcal{L} {\ddot{x}(t)} = s^2X(s) - sx(0) - \dot{x}(0).
+s^2 + 3s + 6 = (s + \frac{3}{2})^2 + \frac{15}{4}
 $$
