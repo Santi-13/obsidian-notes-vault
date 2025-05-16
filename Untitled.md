@@ -1,3 +1,3 @@
 $$
-(A + B + C)s^2 + (5A + 9B + 12C)s + (4A + 8B + 32C) = 3s 2 + 5s
+\mathcal{L} {\ddot{x}(t)} = s^2X(s) - sx(0) - \dot{x}(0).
 $$
