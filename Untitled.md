@@ -1,3 +1,3 @@
 $$
-\mathcal{L}{-at}.
+(A + B + C)s2 + 5s.
 $$
