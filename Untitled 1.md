@@ -1,7 +1,13 @@
 $$
 6x
 $$
-
+Question 1.
+$$
+\text{mod} = |1+1i| = \sqrt{ 2 }
+$$
+$$
+\text{ang} = \arctan\left( \frac{1}{1} \right) = 45°
+$$
 Question 3. 
 $$
 v(t) = 2t - \sin(t \text{ rad})
@@ -20,3 +26,10 @@ $$
 \frac{1}{2} + \frac{1}{4} +  \frac{1}{8} + \dots \approx 1
 $$
 
+Question 6.
+$$
+X(s)+2 = -3X(s)
+$$
+$$
+
+$$
