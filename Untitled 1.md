@@ -4,6 +4,12 @@ $$
 
 
 Question 4. 
+$$
+\tan(45) \times adj = opposite
+$$
+$$
+opposite = 1 
+$$
 
 Question 5. As the denominator expands to infinity, the series goes as...
 $$
