@@ -43,3 +43,24 @@ $$
 
 Control
 Question 1.
+Poles 
+$$
+= -2, -1
+$$
+
+Question 2.
+$$
+\frac{A}{s+1} + \frac{B}{s+2} = A(s+2) + B(s+1) = 1
+$$
+$$
+A + B = 0
+$$
+$$
+2A+B=1
+$$
+$$
+B= -1, A = 1
+$$
+$$
+L^{-1} = \frac{A}{s+1} + \frac{B}{s+2}
+$$
