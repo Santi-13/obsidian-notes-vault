@@ -1,0 +1,9 @@
+$$
+6x
+$$
+
+
+Question 5. As the denominator expands to infinity, the series goes as...
+$$
+\frac{1}{2} + \frac{1}{4} +  \frac{1}{8} + \dots
+$$
