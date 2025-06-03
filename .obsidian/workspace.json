@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a5aad529aeed6419",
+        "id": "2e8df6d06e5125ea",
         "type": "tabs",
         "children": [
           {
-            "id": "49bc3ec8218f9deb",
+            "id": "f89f557806b0781c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Chairing/pdfs/State Variable Theory.pdf"
+                "file": "Chairing/pdfs/State Variable Theory good.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "State Variable Theory"
+              "title": "State Variable Theory good"
             }
           }
         ]
@@ -181,11 +181,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "49bc3ec8218f9deb",
+  "active": "09055649d6028e91",
   "lastOpenFiles": [
+    "Chairing/pdfs/State Variable Theory good.pdf",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/State Variable Theory.md",
-    "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/Lyapunov no Perturbations.md",
