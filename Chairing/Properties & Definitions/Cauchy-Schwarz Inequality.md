@@ -4,3 +4,4 @@ The ***Cauchy-Schwarz Inequality*** relates the **inner product** of two vectors
 $$
 \lvert \mathrm{x}^Ty \rvert \leq \lvert\lvert \mathrm{x} \rvert\rvert \text{ } \lvert\lvert y \rvert\rvert 
 $$
+
