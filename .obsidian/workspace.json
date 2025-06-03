@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/State Variable Theory.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State Variable Theory"
+              "title": "Barrier Lyapunov Function"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "49bc3ec8218f9deb",
   "lastOpenFiles": [
-    "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/State Variable Theory.md",
+    "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
