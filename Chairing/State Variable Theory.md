@@ -9,9 +9,14 @@ q_{a} = q \\
  q_{b} = \dot{q} 
 \end{cases} $$
 Then, the *dynamics* of the proposed **state variables** are:
-$$ \dot{q}_{a}=\dot{q}=q_{b} $$
+$$
+\dot{q}_{a}=\dot{q}=q_{b} 
+$$
+a
+
 $$ 
-\dot{q}_{b} = \ddot{q} = B^{-1}(q_{a}) [ \Omega\tau +\phi_{diss}(q_{b},q_{a},t) + \langle \lambda(t),f(q_{a}) \rangle- C(q_{b},q_{a})q_{b} - G(q_{a}) ] $$ $$ =f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle) $$
+\dot{q}_{b} = \ddot{q} = B^{-1}(q_{a}) [ \Omega\tau +\phi_{diss}(q_{b},q_{a},t) + \langle \lambda(t),f(q_{a}) \rangle- C(q_{b},q_{a})q_{b} - G(q_{a}) ] 
+$$ $$ =f(q_{a},q_{b}) + g(q_{a})(\Omega\tau +\langle \lambda(t), f(q_{a}) \rangle) $$
 $\text{Where:}$
 $g(q_{a})=B^{-1}(q_{a})$ 
 $f(q_{a},q_{b})=-B^{-1}(q_{a})(C(q_{b},q_{a})q_{b} + G(q_{a}))$
