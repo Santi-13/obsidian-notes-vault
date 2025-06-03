@@ -11,10 +11,12 @@
             "id": "49bc3ec8218f9deb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "Chairing/pdfs/State Variable Theory.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "State Variable Theory"
             }
           }
         ]
@@ -181,8 +183,8 @@
   },
   "active": "49bc3ec8218f9deb",
   "lastOpenFiles": [
-    "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/State Variable Theory.md",
+    "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
