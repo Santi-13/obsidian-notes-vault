@@ -11,14 +11,12 @@
             "id": "f89f557806b0781c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
-                "mode": "source",
-                "source": false
+                "file": "Chairing/pdfs/State Variable Theory.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Cauchy-Schwarz Inequality"
+              "icon": "lucide-file-text",
+              "title": "State Variable Theory"
             }
           }
         ]
@@ -183,9 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f89f557806b0781c",
+  "active": "09055649d6028e91",
   "lastOpenFiles": [
-    "Chairing/pdfs/State Variable Theory good.pdf",
+    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
+    "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Barrier Lyapunov Function.md",
     "Chairing/State Variable Theory.md",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
