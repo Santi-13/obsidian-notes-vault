@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
+                "file": "Chairing/Barrier Lyapunov Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cauchy-Schwarz Inequality"
+              "title": "Barrier Lyapunov Function"
             }
           }
         ]
