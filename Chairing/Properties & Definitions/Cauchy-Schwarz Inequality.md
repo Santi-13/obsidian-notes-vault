@@ -1,5 +1,5 @@
 #Chairing #Definition  
-aaaa
+aaa
 
 The ***Cauchy-Schwarz Inequality*** relates the **inner product** of two vectors to its norms. For any vectors $\mathrm{x},\mathrm{y} \in \mathrm{R}^n$
 $$
