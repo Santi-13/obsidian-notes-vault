@@ -136,12 +136,37 @@ $$
 $$
 To bound $\dot{V}_{B} <0$, we analyze the previous expansion, as both terms are scalar:
 $$
-= \mathrm{x}^TPA\mathrm{x} + \mathrm{x}^TA^TP\mathrm{x} + \mathrm{x}^TPB\eta + \eta^TB^T
+= \mathrm{x}^TPA\mathrm{x} + \mathrm{x}^TA^TP\mathrm{x} + \mathrm{x}^TPB\eta + \eta^TB^TP\mathrm{x}
 $$
-
-
 $$
-2\mathrm{x}^TP\begin{bmatrix}
+=\begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}^T
+\underbrace{ \begin{bmatrix}
+PA+A^TP & PB \\
+B^TP & 0
+\end{bmatrix} }_{ M } \begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}
+$$
+As we want $M$ to be negative, we add a $Q$ matrix and a scalar term$\epsilon$:
+$$
+=\begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}^T
+\begin{bmatrix}
+PA+A^TP+Q & PB \\
+B^TP & -\epsilon I
+\end{bmatrix} \begin{bmatrix}
+\mathrm{x} \\
+\eta
+\end{bmatrix}
+$$
+$$
+=2\mathrm{x}^TP\begin{bmatrix}
 0 \\
 I
 \end{bmatrix} \begin{bmatrix}
@@ -159,16 +184,6 @@ I
 \end{bmatrix}\tilde{K}_{D} \mathrm{x}
 $$
 
-$$
-\begin{bmatrix}
-\mathrm{x} \\
-\eta
-\end{bmatrix}^T
-\begin{bmatrix}
-PA+A^TP+Q & PB \\
-B^TP & -\epsilon I
-\end{bmatrix} \begin{bmatrix}
-\mathrm{x} \\
-\eta
-\end{bmatrix}
-$$
+
+
+
