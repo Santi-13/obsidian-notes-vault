@@ -166,3 +166,20 @@ B^TP & -\epsilon I
 \end{bmatrix} + \epsilon \eta^T\eta - \mathrm{x}^TQ\mathrm{x}
 $$
 
+Further expanding the $A$ term, if we say:
+$$
+A = \begin{bmatrix}
+0 & I \\
+K_{P} + K_{P}^0 - K_{P}^0 & K_{D} + K_{D}^0 - K_{D}^0
+\end{bmatrix} = \underbrace{ \begin{bmatrix}
+0 & I \\
+K_{P}^0 & K_{D}^0
+\end{bmatrix} }_{ A_{0} } + \underbrace{ \begin{bmatrix}
+0 & I \\
+K_{P} - K_{P}^0 & K_{D} - K_{D}^0
+\end{bmatrix} }_{ A_{P} }
+$$
+Then our *dynamics term* would become:
+$$
+2\mathrm{x}^TP()  
+$$
