@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chairing/Barrier Lyapunov Function.md",
+                "file": "Chairing/Lyapunov no Perturbations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Barrier Lyapunov Function"
+              "title": "Lyapunov no Perturbations"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "f89f557806b0781c",
   "lastOpenFiles": [
-    "Chairing/Euler-Lagrange Formulation.md",
+    "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Barrier Lyapunov Function.md",
+    "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "Chairing/State Variable Theory.md",
