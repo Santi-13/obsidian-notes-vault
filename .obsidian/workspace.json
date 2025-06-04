@@ -183,16 +183,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f3ef615f193bc71",
+  "active": "f89f557806b0781c",
   "lastOpenFiles": [
+    "Chairing/Euler-Lagrange Formulation.md",
+    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
-    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/State Variable Theory.md",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/Lyapunov no Perturbations.md",
-    "Chairing/Force Control.md",
-    "Chairing/Euler-Lagrange Formulation.md"
+    "Chairing/Force Control.md"
   ]
 }
