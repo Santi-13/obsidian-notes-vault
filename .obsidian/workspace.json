@@ -185,9 +185,10 @@
   },
   "active": "f89f557806b0781c",
   "lastOpenFiles": [
+    "Chairing/Properties & Definitions/Trace Operator.md",
+    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
-    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
