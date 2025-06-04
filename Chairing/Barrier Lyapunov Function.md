@@ -151,7 +151,7 @@ B^TP & 0
 \eta
 \end{bmatrix}
 $$
-As we want $M$ to be negative, we add a $Q$ matrix and a scalar term$\epsilon$:
+As we want $M$ to be negative, we add a $Q$ matrix and a scalar term $\epsilon$:
 $$
 =\begin{bmatrix}
 \mathrm{x} \\
@@ -163,27 +163,6 @@ B^TP & -\epsilon I
 \end{bmatrix} \begin{bmatrix}
 \mathrm{x} \\
 \eta
-\end{bmatrix}
+\end{bmatrix} + \epsilon \eta^T\eta - \mathrm{x}^TQ\mathrm{x}
 $$
-$$
-=2\mathrm{x}^TP\begin{bmatrix}
-0 \\
-I
-\end{bmatrix} \begin{bmatrix}
-\tilde{K}_P  & \tilde{K}_{D}\mathrm{x}
-\end{bmatrix} = 2\mathrm{x}^TP\begin{bmatrix}
-0 \\
-I
-\end{bmatrix} \begin{bmatrix}
-I & 0
-\end{bmatrix}\tilde{K}_{P} \mathrm{x} + 2\mathrm{x}^TP\begin{bmatrix}
-0 \\
-I
-\end{bmatrix} \begin{bmatrix}
-0 & I
-\end{bmatrix}\tilde{K}_{D} \mathrm{x}
-$$
-
-
-
 
