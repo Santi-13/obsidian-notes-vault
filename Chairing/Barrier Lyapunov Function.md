@@ -134,7 +134,10 @@ We can expand $A=\begin{bmatrix}0 & I \\ K_{P} & K_{D}\end{bmatrix}$ and $B=\beg
 $$
 2\mathrm{x}^TP(A\mathrm{x} + B\eta) = \underbrace{ 2\mathrm{x}^TPA\mathrm{x} }_{ \text{Nominal} } + \underbrace{ 2\mathrm{x}^TPB\eta }_{ \text{Perturbative} }
 $$
-
+To bound $\dot{V}_{B} <0$, we analyze the previous expansion, as both terms are scalar:
+$$
+= \mathrm{x}^TPA\mathrm{x} + \mathrm{x}^TA^TP\mathrm{x} + \mathrm{x}^TPB\eta + \eta^TB^T
+$$
 
 
 $$
