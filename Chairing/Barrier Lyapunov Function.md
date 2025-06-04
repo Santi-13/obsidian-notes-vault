@@ -181,5 +181,12 @@ K_{P} - K_{P}^0 & K_{D} - K_{D}^0
 $$
 Then our *dynamics term* would become:
 $$
-2\mathrm{x}^TP()  
+2\mathrm{x}^TP(( A_{0} + A_{P} )\mathrm{x} + B\eta ) =   
+$$
+
+
+
+Control law 
+$$
+\tau_{BLF} = C\dot{q} + \eta + B_{K_{P}} + B_{K_{D}}
 $$
