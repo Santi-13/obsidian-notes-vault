@@ -188,5 +188,6 @@ $$
 
 Control law 
 $$
-\tau_{BLF} = C\dot{q} + \eta + B_{K_{P}} + B_{K_{D}}
+\tau_{BLF} = C\dot{q} + \eta + BK_{P} + BK_{D}
 $$
+$$ \frac{d}{dt} V_{B} = \frac{2\mathrm{x}^TP \dot{\mathrm{x}} }{x^+ - \lvert\lvert \mathrm{x} \rvert\rvert^2_{P}} + \text{adaptive terms for...}$$
