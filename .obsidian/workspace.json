@@ -11,13 +11,11 @@
             "id": "f89f557806b0781c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Chairing/Barrier Lyapunov Function.md",
-                "mode": "source",
-                "source": false
+                "file": "Chairing/pdfs/Barrier Lyapunov Function.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
               "title": "Barrier Lyapunov Function"
             }
           }
@@ -183,10 +181,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f3ef615f193bc71",
+  "active": "f89f557806b0781c",
   "lastOpenFiles": [
-    "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Barrier Lyapunov Function.md",
+    "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
     "Chairing/Euler-Lagrange Formulation.md",
