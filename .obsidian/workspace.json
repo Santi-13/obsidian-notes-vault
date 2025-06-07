@@ -184,6 +184,7 @@
   "active": "f89f557806b0781c",
   "lastOpenFiles": [
     "Chairing/Barrier Lyapunov Function.md",
+    "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
@@ -192,7 +193,6 @@
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "Chairing/State Variable Theory.md",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf",
-    "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/Force Control.md"
   ]
 }
