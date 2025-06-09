@@ -11,12 +11,14 @@
             "id": "f89f557806b0781c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Chairing/pdfs/Barrier Lyapunov Function.pdf"
+                "file": "Chairing/Force Control.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Barrier Lyapunov Function"
+              "icon": "lucide-file",
+              "title": "Force Control"
             }
           }
         ]
@@ -183,8 +185,8 @@
   },
   "active": "f89f557806b0781c",
   "lastOpenFiles": [
-    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
+    "Chairing/Barrier Lyapunov Function.md",
     "Chairing/Properties & Definitions/Trace Operator.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",

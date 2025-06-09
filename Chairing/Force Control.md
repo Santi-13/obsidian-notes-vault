@@ -47,7 +47,7 @@ $$
 $$
 #### Control de fuerza
 La idea principal es parecida al resto de controladores en el sentido de que tenemos un sistema con retroalimentación, cuyo error se alimenta a un controlador para llegar a una trayectoria deseada.
-
+	
 Normalmente, el sistema lo representamos con las formulas de [[Euler-Lagrange Formulation|Euler-Lagrange]].
 $$
 B(q)\ddot{q} + C(\dot{q},q)\dot{q} + G(q) = \tau + \underbrace{ \eta(q,\dot{q},t) }_{ \text{incertidumbre} }
