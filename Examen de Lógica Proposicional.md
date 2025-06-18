@@ -17,6 +17,7 @@
 El argumento no es válido, ya que no sigue las premisas del argumento y hay casos en los que, aunque $p$ implique $q$ y $r$ implique $q$, $r$ no satisface $\neg p$.
 
 2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia.
+i)
 
 | $p$ | $q$ | $p \leftrightarrow q$ | $p ∨ q$ | $𝑞 ∧ 𝑝$ | $(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$ | \*  |
 | --- | --- | --------------------- | ------- | --------- | ----------------------- | --- |
@@ -25,6 +26,9 @@ El argumento no es válido, ya que no sigue las premisas del argumento y hay cas
 | F   | V   | F                     | V       | F         | F                       | V   |
 | F   | F   | V                     | F       | F         | V                       | V   |
 \* la expresión entera
+
+ii) 
+
 
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
