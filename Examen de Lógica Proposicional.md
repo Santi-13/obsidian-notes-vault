@@ -60,6 +60,7 @@ Que puede representarse como (𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬�
 
 *Por leyes distributivas y commutativas, se puede representar como:*
 $(𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 ∨ 𝑟)$
-$p \vee ($
+$p \vee [( q \vee r) \wedge ( t \vee \neg q ) \wedge ( \neg t \vee r )]$
+*Dando validez al camino de arriba de la propuesta.*
 5. (20 pts) Demostrar por inducción matemática que
 
