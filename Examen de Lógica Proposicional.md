@@ -30,14 +30,14 @@ i)
 \* la expresión entera
 
 ii) 
-$$(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$$
-$$( \neg p \to q ) → (𝑞 ∧ 𝑝)$$
-$$\neg( \neg p \to q ) \vee (𝑞 ∧ 𝑝)$$
+$$p \leftrightarrow q \equiv (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$$
+$$
+(p \to q) \wedge (q \to p) \equiv (p \vee q) \to (q \wedge p)
+$$
+$$
+(\neg p \vee q) \wedge (p \vee \neg q) \equiv
+$$
 
-$$
-A \rightarrow B \equiv \neg A \vee B
-$$
-$$(\neg p \vee q) \wedge (\neg q \vee p)$$
 ---
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
