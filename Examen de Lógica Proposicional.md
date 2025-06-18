@@ -18,14 +18,13 @@ El argumento no es válido, ya que no sigue las premisas del argumento y hay cas
 
 2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia.
 
-
-| $p$ | $q$ | $p \$ |     |     |     |
-| --- | --- | ----- | --- | --- | --- |
-|     |     |       |     |     |     |
-|     |     |       |     |     |     |
-|     |     |       |     |     |     |
-|     |     |       |     |     |     |
-
+| $p$ | $q$ | $p \leftrightarrow q$ | $p ∨ q$ | $𝑞 ∧ 𝑝$ | $(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$ | \*  |
+| --- | --- | --------------------- | ------- | --------- | ----------------------- | --- |
+| V   | V   | V                     | V       | V         | V                       | V   |
+| V   | F   | F                     | V       | F         | F                       | V   |
+| F   | V   | F                     | V       | F         | F                       | V   |
+| F   | F   | V                     | F       | F         | V                       | V   |
+\* la expresión entera
 
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
