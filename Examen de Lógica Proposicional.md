@@ -38,7 +38,13 @@ $$
 (\neg p \vee q) \wedge (p \vee \neg q) \equiv (p \vee q) \to (q \wedge p)
 $$
 $$
-(\neg p \vee q) \wedge (p \vee \neg q) \equiv (p \vee q) \to (q \wedge p)
+\underbrace{ (\neg p \wedge p) }_{ Contradicción } \vee (\neg p \wedge \neg q) \vee (q \wedge p) \vee \underbrace{ (q \wedge \neg q) }_{ Contradicción } \equiv (p \vee q) \to (q \wedge p)
+$$
+$$
+F \text{ } \vee (\neg p \wedge \neg q) \vee (q \wedge p) \vee F \equiv (p \vee q) \to (q \wedge p)
+$$
+$$
+(\neg p \wedge \neg q) \vee (q \wedge p) \equiv (p \vee q) \to (q \wedge p)
 $$
 
 ---
