@@ -77,7 +77,7 @@ $$(𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 �
 $$p \vee [( q \vee r) \wedge ( t \vee \neg q ) \wedge ( \neg t \vee r )]$$
 *Dando validez al camino de arriba de la propuesta. A su vez simplificamos lo de dentro.*
 $$p \vee [( r \vee q ) \wedge ( r \vee \neg t ) \wedge ( t \vee \neg q ) ]$$
-$$p \vee [ r \vee \underbrace{ (q \wedge \neg t) \cancel{ \wedge ( t \vee \neg q ) } }_{ \text{Son equivalentes, se simplifica} } ]$$
+$$p \vee [ r \vee (q \wedge \neg t) \wedge ( t \vee \neg q )  ]$$
 *Por lo que podemos concluir que la red propuesta es válida y tiene la solución más sencilla.*
 
 5. (20 pts) Demostrar por inducción matemática que
