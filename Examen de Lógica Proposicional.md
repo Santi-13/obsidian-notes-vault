@@ -86,5 +86,15 @@ Describa rigurosamente cada paso de la prueba de inducción.
 
 *Sí se cumple, primero asumimos el número natural positivo más pequeño posible para este caso: $n=m+1$*.
 $$
-\sum^{m+1}_{i=m} (a_{i})
+\sum^{m+1}_{i=m} (a_{i}+b_{i}) = (a_{m}+b_{m}) + (a_{m+1} + b_{m+1})=
+$$
+$$
+\sum^{m+1}_{i=m} (a_{i}) + \sum^{m+1}_{i=m} (b_{i}) = (a_{m} + a_{m+1}) + (b_{m} + b_{m+1}) 
+$$
+*Por propiedades conmutativas y asociativas de la suma decimos que:*
+$$
+(a_{m}+b_{m}) + (a_{m+1} + b_{m+1}) = (a_{m} + a_{m+1}) + (b_{m} + b_{m+1}) 
+$$
+$$
+
 $$
