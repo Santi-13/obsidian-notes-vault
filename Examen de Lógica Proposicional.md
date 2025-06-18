@@ -44,10 +44,10 @@ $p \vee q ∨ r ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
 
-$p $
-$\neg r \vee s$
-$\neg r \vee t$
-$s \vee q ∨ r ∨ m$
+Because:
+$p \to q \equiv \neg p \vee q$
+
+$s \vee s ∨ t ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
 
@@ -57,6 +57,8 @@ $s \vee q \vee r \vee m$
 Que puede representarse como (𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 ∨ 𝑟) Se propone la siguiente red como una solución equivalente mas sencilla como un mínimo de componentes.
 ![[Pasted image 20250618113435.png]]
 ¿Son las redes equivalentes? Justifique detalladamente su respuesta utilizando argumentos de lógica proposicional.
+
+*Por leyes distributivas y commutativas, se puede*
 
 5. (20 pts) Demostrar por inducción matemática que
 
