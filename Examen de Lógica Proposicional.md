@@ -31,9 +31,17 @@ ii)
 $p∨q$
 $𝑞 ∧ 𝑝$
 ---
-$\then$
+$\therefore $
+
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
+
+$\neg p ∨ s$
+$\neg r ∨ (s ∧ t)$
+$p ∨ r ∨ m$
+---
+$\therefore s ∨ t ∨ m$
+
 
 
 4. (20 pts) Considere la siguiente red.
