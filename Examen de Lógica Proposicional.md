@@ -79,10 +79,11 @@ $$p \vee [( q \vee r) \wedge ( t \vee \neg q ) \wedge ( \neg t \vee r )]$$
 $$p \vee [( r \vee q ) \wedge ( r \vee \neg t ) \wedge ( t \vee \neg q ) ]$$
 $$p \vee [ r \vee (q \wedge \neg t) \wedge ( t \vee \neg q )  ]$$
 $$
-p \vee [ (r \wedge t) \vee (r \wedge \neg q)]
+p \vee [ (r \wedge t) \vee (r \wedge \neg q) \vee \underbrace{ (q \wedge \neg t \wedge t) }_{ F } \vee \underbrace{ (q \wedge \neg t \wedge \neg q) }_{ F }]
 $$
-$(r \land t) \lor (r \land \neg q) \lor F$ $\equiv (r \land t) \lor (r \land \neg q)$
-
+$$ 
+p \vee [(r \land t) \lor (r \land \neg q)]
+$$
 *Por lo que podemos concluir que la red propuesta es válida y tiene la solución más sencilla.*
 
 5. (20 pts) Demostrar por inducción matemática que
