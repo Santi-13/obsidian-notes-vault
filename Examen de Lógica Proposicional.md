@@ -17,6 +17,25 @@
 El argumento no es válido, ya que no sigue las premisas del argumento y hay casos en los que, aunque $p$ implique $q$ y $r$ implique $q$, $r$ no satisface $\neg p$.
 
 2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia.
-3. 
-4. (25 pts) Resolver por resolución
+
+
+| $p$ | $q$ | $p \$ |     |     |     |
+| --- | --- | ----- | --- | --- | --- |
+|     |     |       |     |     |     |
+|     |     |       |     |     |     |
+|     |     |       |     |     |     |
+|     |     |       |     |     |     |
+
+
+3. (25 pts) Resolver por resolución.
+![[Pasted image 20250618113416.png]]
+
+
+4. (20 pts) Considere la siguiente red.
+![[Pasted image 20250618113424.png]]
+Que puede representarse como (𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 ∨ 𝑟) Se propone la siguiente red como una solución equivalente mas sencilla como un mínimo de componentes.
+![[Pasted image 20250618113435.png]]
+¿Son las redes equivalentes? Justifique detalladamente su respuesta utilizando argumentos de lógica proposicional.
+
+5. (20 pts) Demostrar por inducción matemática que
 
