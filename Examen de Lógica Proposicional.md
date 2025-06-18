@@ -98,7 +98,15 @@ $$
 $$
 (a_{m}+b_{m}) + (a_{m+1} + b_{m+1}) = (a_{m}+b_{m}) + (a_{m+1} + b_{m+1})
 $$
-*Ahora, asumimos como hipótesis que existe un valor $k$ tal que $k>m$ para la que este argumento es valido.*
+*Con esto, asumimos como hipótesis que existe un valor $k$ tal que $k>m$ para la que este argumento es valido.*
 $$
-\sum_{i=m}^{k}(a_{i}+b_{i}) = \sum_{i=m}^{k}(a_{i})
+\sum_{i=m}^{k}(a_{i}+b_{i}) = \sum_{i=m}^{k}(a_{i}) + \sum_{i=m}^{k}(b_{i})
+$$
+*Por lo que ahora podemos probar si para un número consecutivo a $k$, es decir, $k+1$ también es valido.*
+$$
+\sum_{i=m}^{k+1}(a_{i}+b_{i}) = \sum_{i=m}^{k+1}(a_{i}) + \sum_{i=m}^{k+1}(b_{i})
+$$
+*Resolviendo primero el lado izquierdo obtenemos que:*
+$$
+\sum_{i=m}^{k+1}(a_{i}+b_{i}) = 
 $$
