@@ -30,12 +30,13 @@ i)
 ii) 
 $p∨q$
 $𝑞 ∧ 𝑝$
+
 ---
 $\therefore $
 
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
-
+$\neg p \vee q$
 $\neg p ∨ s$
 $(\neg r ∨ s) ∧ (\neg r ∨ t)$
 $p ∨ r ∨ m$
