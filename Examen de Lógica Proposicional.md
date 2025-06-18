@@ -37,14 +37,21 @@ $\therefore $
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
 $\neg p \vee q$
-$\neg p ∨ s$
-$(\neg r ∨ s) ∧ (\neg r ∨ t)$
+$\neg q ∨ s$
+$\neg r \vee s$
+$\neg r \vee t$
+$p \vee q ∨ r ∨ m$
+---
+$\therefore s ∨ t ∨ m$
+
+$\neg p \vee s$
+$\neg r \vee s$
+$\neg r \vee t$
 $p ∨ r ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
 
-
-
+$s \vee q \vee r \vee m$
 4. (20 pts) Considere la siguiente red.
 ![[Pasted image 20250618113424.png]]
 Que puede representarse como (𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 ∨ 𝑟) Se propone la siguiente red como una solución equivalente mas sencilla como un mínimo de componentes.
