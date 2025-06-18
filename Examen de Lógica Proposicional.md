@@ -1,6 +1,7 @@
 *Nombre: Santiago Peñúñuri Félix*
 *Carrera (Institución): Ingeniería Mecatrónica*
 
+---
 1. (25 pts) Determinar la validez del siguiente argumento: 𝑝 → 𝑞, 𝑟 → 𝑞, 𝑟 ⊨ ¬$p$ 
 
 | p   | r   | q   | $\neg p$ | $p \to q$ | $r \to q$ | $r ⊨ \neg p$ |
@@ -16,6 +17,7 @@
 
 El argumento no es válido, ya que no sigue las premisas del argumento y hay casos en los que, aunque $p$ implique $q$ y $r$ implique $q$, $r$ no satisface $\neg p$.
 
+---
 2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia.
 i)
 
@@ -29,11 +31,10 @@ i)
 
 ii) 
 $$(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$$
-$$( \neg p \to q ) → (\neg q \to p)$$
-$$$$
----
-$\therefore $
+$$( \neg p \to q ) → (𝑞 ∧ 𝑝)$$
+$$\neg( \neg p \to q ) \vee (𝑞 ∧ 𝑝)$$
 
+---
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
 $\neg p \vee q$
