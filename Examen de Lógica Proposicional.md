@@ -34,6 +34,10 @@ $$(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$$
 $$( \neg p \to q ) → (𝑞 ∧ 𝑝)$$
 $$\neg( \neg p \to q ) \vee (𝑞 ∧ 𝑝)$$
 
+$$
+A \rightarrow B \equiv \neg A \vee B
+$$
+$$(\neg p \vee q) \wedge (\neg q \vee p)$$
 ---
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
