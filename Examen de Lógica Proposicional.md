@@ -58,7 +58,8 @@ Que puede representarse como (𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬�
 ![[Pasted image 20250618113435.png]]
 ¿Son las redes equivalentes? Justifique detalladamente su respuesta utilizando argumentos de lógica proposicional.
 
-*Por leyes distributivas y commutativas, se puede*
-
+*Por leyes distributivas y commutativas, se puede representar como:*
+$(𝑝 ∨ 𝑞 ∨ 𝑟) ∧ (𝑝 ∨ 𝑡 ∨ ¬𝑞) ∧ (𝑝 ∨ ¬𝑡 ∨ 𝑟)$
+$p \vee ($
 5. (20 pts) Demostrar por inducción matemática que
 
