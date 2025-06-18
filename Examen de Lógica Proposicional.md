@@ -37,7 +37,7 @@ $\therefore $
 ![[Pasted image 20250618113416.png]]
 
 $\neg p ∨ s$
-$\neg r ∨ (s ∧ t)$
+$(\neg r ∨ s) ∧ (\neg r ∨ t)$
 $p ∨ r ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
