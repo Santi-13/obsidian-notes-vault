@@ -119,6 +119,6 @@ $$
 = \sum_{i=m}^{k}(a_{i}) + a_{k+1} + \sum_{i=m}^{k}(b_{i})  + b_{k+1}
 $$
 $$
-\sum_{i=m}^{k+1}(a_{i}) + \sum_{i=m}^{k+1}(b_{i})
+= \sum_{i=m}^{k+1}(a_{i}) + \sum_{i=m}^{k+1}(b_{i})
 $$
 *Por lo que podemos concluir que la proposición es valida para todo $m < n ∈\text{Naturales Positivos}$*.
