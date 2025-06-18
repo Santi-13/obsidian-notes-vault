@@ -44,10 +44,10 @@ $p \vee q ∨ r ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
 
-$\neg p \vee s$
+$p $
 $\neg r \vee s$
 $\neg r \vee t$
-$p ∨ r ∨ m$
+$s \vee q ∨ r ∨ m$
 ---
 $\therefore s ∨ t ∨ m$
 
