@@ -28,9 +28,9 @@ i)
 \* la expresión entera
 
 ii) 
-$p∨q$
-$𝑞 ∧ 𝑝$
-
+$$(𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝)$$
+$$( \neg p \to q ) → (\neg q \to p)$$
+$$$$
 ---
 $\therefore $
 
@@ -67,4 +67,6 @@ $$p \vee [ r \vee \underbrace{ (q \wedge \neg t) \cancel{ \wedge ( t \vee \neg q
 *Por lo que podemos concluir que la red propuesta es válida y tiene la solución más sencilla.*
 
 5. (20 pts) Demostrar por inducción matemática que
+![[Pasted image 20250618121542.png]]
+Describa rigurosamente cada paso de la prueba de inducción.
 
