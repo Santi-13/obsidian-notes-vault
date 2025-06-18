@@ -14,7 +14,9 @@
 | F   | F   | V   | V        | V         | V         | F            |
 | F   | F   | F   | V        | V         | V         | F            |
 
-El argumento no es válido, ya que no sigue las 
+El argumento no es válido, ya que no sigue las premisas del argumento y hay casos en los que, aunque $p$ implique $q$ y $r$ implique $q$, $r$ no satisface $\neg p$.
 
-2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia
+2. (25 pts) Mostrar i) por tablas de verdad y ii) por algebra de proposiciones, si la expresión 𝑝 ↔ 𝑞 ≡ (𝑝 ∨ 𝑞) → (𝑞 ∧ 𝑝) es efectivamente una equivalencia.
+3. 
+4. (25 pts) Resolver por resolución
 
