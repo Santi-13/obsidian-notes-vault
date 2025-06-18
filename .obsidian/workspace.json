@@ -11,14 +11,12 @@
             "id": "f89f557806b0781c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Examen de Lógica Proposicional.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250618113416.png"
               },
-              "icon": "lucide-file",
-              "title": "Examen de Lógica Proposicional"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250618113416"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6ce99c6f820efe55",
@@ -186,12 +183,15 @@
   },
   "active": "f89f557806b0781c",
   "lastOpenFiles": [
+    "Pasted image 20250423114148.png",
+    "Pasted image 20241024210740.png",
+    "Pasted image 20241022205004.png",
     "Pasted image 20250618121542.png",
+    "Examen de Lógica Proposicional.md",
     "Pasted image 20250618113435.png",
     "Pasted image 20250618113424.png",
     "Pasted image 20250618113416.png",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
-    "Examen de Lógica Proposicional.md",
     "Agents-Course/Unit 1. Introduction/Observations.md",
     "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
     "Agents-Course/Unit 1. Introduction/Tools.md",
