@@ -28,8 +28,10 @@ i)
 \* la expresión entera
 
 ii) 
-
-
+$p∨q$
+$𝑞 ∧ 𝑝$
+---
+$\then$
 3. (25 pts) Resolver por resolución.
 ![[Pasted image 20250618113416.png]]
 
