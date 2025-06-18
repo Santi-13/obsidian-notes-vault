@@ -35,7 +35,10 @@ $$
 (p \to q) \wedge (q \to p) \equiv (p \vee q) \to (q \wedge p)
 $$
 $$
-(\neg p \vee q) \wedge (p \vee \neg q) \equiv
+(\neg p \vee q) \wedge (p \vee \neg q) \equiv (p \vee q) \to (q \wedge p)
+$$
+$$
+(\neg p \vee q) \wedge (p \vee \neg q) \equiv (p \vee q) \to (q \wedge p)
 $$
 
 ---
