@@ -84,3 +84,7 @@ $$p \vee [ r \vee \underbrace{ (q \wedge \neg t) \cancel{ \wedge ( t \vee \neg q
 ![[Pasted image 20250618121542.png]]
 Describa rigurosamente cada paso de la prueba de inducción.
 
+*Sí se cumple, primero asumimos el número natural positivo más pequeño posible para este caso: $n=m+1$*.
+$$
+\sum^{m+1}_{i=m} (a_{i})
+$$
