@@ -7,14 +7,15 @@
 
 | $p$ | $q$ | $r$ | $p\to q$ | $q\to r$ | $p\to r$ | $(p\to q) \wedge (q\to r)$ | $\text{Todo}$ |
 | --- | --- | --- | -------- | -------- | -------- | -------------------------- | ------------- |
-| V   | F   | V   | F        | V        | V        |                            |               |
-| V   | V   | V   | V        | V        | V        |                            |               |
-| V   | F   | F   | F        | V        | F        |                            |               |
-| V   | V   | F   | V        | F        | F        |                            |               |
-| F   | F   | V   | V        | V        | V        |                            |               |
-| F   | V   | V   | V        | V        | V        |                            |               |
-| F   | F   | F   | V        | V        | V        |                            |               |
-| F   | V   | F   | V        | F        | V        |                            |               |
+| V   | F   | V   | F        | V        | V        | F                          | V             |
+| V   | V   | V   | V        | V        | V        | V                          | V             |
+| V   | F   | F   | F        | V        | F        | F                          | V             |
+| V   | V   | F   | V        | F        | F        | F                          | V             |
+| F   | F   | V   | V        | V        | V        | V                          | V             |
+| F   | V   | V   | V        | V        | V        | V                          | V             |
+| F   | F   | F   | V        | V        | V        | V                          | V             |
+| F   | V   | F   | V        | F        | V        | F                          | V             |
+*Se ve entonces que el argumento se cumple para todas las condiciones, por lo que es una **tautología**.*
 
 2. (25 pts) Demostrar la validez del siguiente argumento:
 	Si me gustan las matemáticas, entonces estudio.
@@ -44,6 +45,19 @@ r\to \neg q \equiv \neg r \vee \neg q \\
 \end{matrix}
 $$
 *Para demostrar la validez del argumento, hacemos la tabla de verdad.*
+
+| $p$ | $q$ | $r$ | $\neg p$ | $\neg q$ | $\neg r$ | $\neg p\vee q$ | $$  |
+| --- | --- | --- | -------- | -------- | -------- | -------------- | --- |
+| V   | F   | V   |          |          |          |                |     |
+| V   | V   | V   |          |          |          |                |     |
+| V   | F   | F   |          |          |          |                |     |
+| V   | V   | F   |          |          |          |                |     |
+| F   | F   | V   |          |          |          |                |     |
+| F   | V   | V   |          |          |          |                |     |
+| F   | F   | F   |          |          |          |                |     |
+| F   | V   | F   |          |          |          |                |     |
+
+
 
 3. (25 pts) Demuestre por contradicción.
 $$
