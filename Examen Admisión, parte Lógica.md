@@ -33,8 +33,9 @@ $$
 	Si me gustan las matemáticas, entonces estudio.
 $$p\to q$$
 	Yo estudio o repruebo.
-$$q \vee$$
+$$q \vee r$$
 	Si repruebo, entonces no me gustan las matemáticas.
+$$r\to \neg q$$
 3. (25 pts) Demuestre por contradicción.
 $$
 \begin{matrix}
