@@ -37,25 +37,19 @@ $$p\to q$$
 $$q \vee r$$
 	Si repruebo, entonces no me gustan las matemáticas.
 $$r\to \neg q$$
-*Por leyes de equivalencia, podemos decir:*
-$$
-\begin{matrix}
-p\to q \equiv \neg p \vee q \\
-r\to \neg q \equiv \neg r \vee \neg q \\
-\end{matrix}
-$$
-*Para demostrar la validez del argumento, hacemos la tabla de verdad.*
 
-| $p$ | $q$ | $r$ | $p\to q$ | $q\vee r$ | $\neg q$ | $r\to \neg q$ |     |     |
-| --- | --- | --- | -------- | --------- | -------- | ------------- | --- | --- |
-| V   | V   | V   | V        | V         | F        |               |     |     |
-| V   | V   | F   | V        | V         | F        |               |     |     |
-| V   | F   | V   | F        | V         | V        |               |     |     |
-| V   | F   | F   | F        | F         | V        |               |     |     |
-| F   | V   | V   | V        | V         | F        |               |     |     |
-| F   | V   | F   | V        | V         | F        |               |     |     |
-| F   | F   | V   | V        | V         | V        |               |     |     |
-| F   | F   | F   | V        | F         | V        |               |     |     |
+*Para demostrar la validez del argumento, hacemos la tabla de verdad. Revisando el caso en el que todas las premisas sean verdaderas al mismo tiempo.* 
+
+| $p$ | $q$ | $r$ | $p\to q$ | $q\vee r$ | $\neg q$ | $r\to \neg q$ | $\text{Todo}$ |     |
+| --- | --- | --- | -------- | --------- | -------- | ------------- | ------------- | --- |
+| V   | V   | V   | V        | V         | F        | F             | F             |     |
+| V   | V   | F   | V        | V         | F        | V             | V             |     |
+| V   | F   | V   | F        | V         | V        | V             | F             |     |
+| V   | F   | F   | F        | F         | V        | V             | F             |     |
+| F   | V   | V   | V        | V         | F        | F             | F             |     |
+| F   | V   | F   | V        | V         | F        | V             | F             |     |
+| F   | F   | V   | V        | V         | V        | V             | V             |     |
+| F   | F   | F   | V        | F         | V        | V             | F             |     |
 
 
 
