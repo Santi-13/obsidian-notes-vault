@@ -11,10 +11,24 @@
 	Si repruebo, entonces no me gustan las matemáticas.
 
 3. (25 pts) Demuestre por contradicción.
-$$\neg(p \vee s)$$
-$$p \vee (q \wedge r)$$
----
-$$\therefore \neg q$$
+$$
+\begin{matrix}
+\neg(p \vee s) \\
+p \vee (q \wedge r) \\
+--- \\
+\therefore \neg q
+\end{matrix}
+$$
 
 
 4. (25 pts) La secuencia de Fibonnaci $\{ f_{n} \}$ se define como:
+$$ \begin{matrix}
+f_{1} = 1 \\
+f_{2} = 1 \\
+f_{n} = f_{n-1} + f_{n-2}, \forall n \geq 3, n ∈ \text{natural positivo}\
+\end{matrix}
+$$
+Demostrar por inducción matemática que:
+$$
+
+$$
