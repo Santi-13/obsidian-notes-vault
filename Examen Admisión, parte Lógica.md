@@ -65,11 +65,15 @@ $$
 Puede utilizar equivalencias o resolución como parte de la demostración.
 
 *Estamos demostrando por contradicción, así que asumimos lo contrario a lo que queremos demostrar, es decir $\neg \neg q \equiv q$. Así que tenemos estas 3 proposiciones.*
-$\neg(p \vee s) \to \text{Premisa}$
-$p \vee (q \wedge r) \to \text{Premisa}$
-$q \to \text{tC}$
+$\neg(p \vee s) \to \text{Premisa 1}$
+$p \vee (q \wedge r) \to \text{Premisa 2}$
+$q \to \text{Conclusion (contradictoria)}$
 
-$\neg p \wedge \neg s$
+*Por leyes de morgan, la premisa 1 se vuelve.*
+$\neg(p \vee s) \to \neg p \wedge \neg s$
+*De aquí asumimos el caso verdadero, por lo que por ahora asumimos que se cumplen ambas $\neg p$ y $\neg s$.*
+
+
 $p \vee (q \wedge r) \Rightarrow (q \wedge r)$
 
 
