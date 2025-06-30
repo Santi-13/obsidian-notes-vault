@@ -5,11 +5,16 @@
 1. (25 pts) Demostrar la validez del siguiente argumento: $[(p \to q) \wedge (q \to r)] \to (p \to r)$
 *Para demostrar la validez, hacemos la tabla de verdad del argumento.*
 
-| $p$ | $q$ | $r$ | $p\to q$ | $q\to r$ | $p\to r$ |     |
-| --- | --- | --- | -------- | -------- | -------- | --- |
-|     |     |     |          |          |          |     |
-|     |     |     |          |          |          |     |
-|     |     |     |          |          |          |     |
+| $p$ | $q$ | $r$ | $p\to q$ | $q\to r$ | $p\to r$ | $(p\to q) \wedge (q\to r)$ | $\text{Todo}$ |
+| --- | --- | --- | -------- | -------- | -------- | -------------------------- | ------------- |
+| V   | F   | V   | F        | V        | V        |                            |               |
+| V   | V   | V   | V        | V        | V        |                            |               |
+| V   | F   | F   | F        | V        | F        |                            |               |
+| V   | V   | F   | V        | F        | F        |                            |               |
+| F   | F   | V   | V        | V        | V        |                            |               |
+| F   | V   | V   | V        | V        | V        |                            |               |
+| F   | F   | F   | V        | V        | V        |                            |               |
+| F   | V   | F   | V        | F        | V        |                            |               |
 
 1. (25 pts) Demostrar la validez del siguiente argumento:
 	Si me gustan las matemáticas, entonces estudio.
