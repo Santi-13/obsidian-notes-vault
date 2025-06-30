@@ -62,6 +62,13 @@ p \vee (q \wedge r) \\
 \therefore \neg q
 \end{matrix}
 $$
+Puede utilizar equivalencias o resolución como parte de la demostración.
+
+*Estamos demostrando por contradicción, así que asumimos lo contrario a lo que queremos demostrar, es decir $\neg \neg q \equiv q$.*
+$\neg(p \vee s)$
+
+
+$\neg(p \vee s),\quad p \vee (q \wedge r) \ \vdash\ \neg q$
 
 
 4. (25 pts) La secuencia de Fibonnaci $\{ f_{n} \}$ se define como:
