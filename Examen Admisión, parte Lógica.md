@@ -31,11 +31,11 @@ r \equiv \text{Repruebo}
 \end{matrix}
 $$
 *En base a esto, creamos las proposiciones adecuadas.*
-	Si me gustan las matemáticas, entonces estudio.
+	"Si me gustan las matemáticas, entonces estudio."
 $$p\to q$$
-	Yo estudio o repruebo.
+	"Yo estudio o repruebo."
 $$q \vee r$$
-	Si repruebo, entonces no me gustan las matemáticas.
+	"Si repruebo, entonces no me gustan las matemáticas."
 $$r\to \neg q$$
 
 *Para demostrar la validez del argumento, hacemos la tabla de verdad. Revisando el caso en el que todas las premisas sean verdaderas al mismo tiempo.* 
@@ -103,7 +103,7 @@ f_{1}+f_{2}+f_{3} = f_{5}-1 \\
 4 = 4
 \end{matrix}
 $$
-	*Ahora planteamos un caso para hacer la deducción en base a nuesta hipotesis original. En este caso, podemos decir que si para un número cualquiera $k \geq n$ es válido el argumento, entonces existe un número $k+1$ para el que también es válido. Entonces:*
+*Ahora planteamos un caso para hacer la deducción en base a nuesta hipotesis original. En este caso, podemos decir que si para un número cualquiera $k \geq n$ es válido el argumento, entonces existe un número $k+1$ para el que también es válido. Entonces:*
 $$\sum_{i=1}^{k+1} f_{i} = f_{k+3} - 1$$
 *Del lado izquierdo de la ecuacion:*
 $$
