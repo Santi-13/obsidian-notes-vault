@@ -36,6 +36,14 @@ $$p\to q$$
 $$q \vee r$$
 	Si repruebo, entonces no me gustan las matemáticas.
 $$r\to \neg q$$
+*Por leyes de equivalencia, podemos decir:*
+$$
+\begin{matrix}
+p\to q \equiv \neg p \vee q \\
+r\to \neg q \equiv \neg r \vee \neg q \\
+\end{matrix}
+$$
+*Para demostrar la validez del argumento, hacemos la tabla de verdad.*
 
 3. (25 pts) Demuestre por contradicción.
 $$
