@@ -76,3 +76,12 @@ $$
 \sum_{i=1}^n f_{i} = f_{n+2} - 1, \text{para todo } n ∈ \text{natural positivo mayor o igual a 1}
 $$
 Describa rigurosamente la demostración utilizando todos los pasos planteados en clase.
+
+*Para esto, primero planteamos el caso más pequeño posible; Es decir, cuando $n=3$.*
+$$
+\begin{matrix}
+f_{3} = f_{1} + f_{2} = 1 + 1 = 2  \\
+\sum_{i=1}^3f_{i} = f_{5} - 1 \\
+
+\end{matrix}
+$$
