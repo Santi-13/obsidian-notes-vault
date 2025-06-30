@@ -73,8 +73,9 @@ $q \to \text{Conclusion (contradictoria)}$
 $\neg(p \vee s) \to \neg p \wedge \neg s$
 *De aquí asumimos el caso verdadero, por lo que por ahora asumimos que se cumplen ambas $\neg p$ y $\neg s$.*
 
-
-$p \vee (q \wedge r) \Rightarrow (q \wedge r)$
+*En la premisa 2, como ya asumimos $\neg p$, podemos simplificar la disyunción.*
+$p \vee (q \wedge r) \to (q \wedge r)$
+*De igual manera, si asumimos el caso verdadero, se cumplen ambas $q$ y $r$*
 
 
 4. (25 pts) La secuencia de Fibonnaci $\{ f_{n} \}$ se define como:
