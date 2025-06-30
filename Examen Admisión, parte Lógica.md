@@ -65,9 +65,9 @@ $$
 Puede utilizar equivalencias o resolución como parte de la demostración.
 
 *Estamos demostrando por contradicción, así que asumimos lo contrario a lo que queremos demostrar, es decir $\neg \neg q \equiv q$. Así que tenemos estas 3 proposiciones.*
-$\neg(p \vee s)$
-$p \vee (q \wedge r)$
-$q$
+$\neg(p \vee s) \to \text{Premisa}$
+$p \vee (q \wedge r) \to \text{Premisa}$
+$q \to \text{tC}$
 
 $\neg p \wedge \neg s$
 $p \vee (q \wedge r) \Rightarrow (q \wedge r)$
