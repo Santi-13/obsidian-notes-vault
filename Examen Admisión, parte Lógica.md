@@ -46,16 +46,16 @@ r\to \neg q \equiv \neg r \vee \neg q \\
 $$
 *Para demostrar la validez del argumento, hacemos la tabla de verdad.*
 
-| $p$ | $q$ | $r$ | $\neg p$ | $\neg q$ | $\neg r$ | $\neg p\vee q$ | $$  |
-| --- | --- | --- | -------- | -------- | -------- | -------------- | --- |
-| V   | F   | V   |          |          |          |                |     |
-| V   | V   | V   |          |          |          |                |     |
-| V   | F   | F   |          |          |          |                |     |
-| V   | V   | F   |          |          |          |                |     |
-| F   | F   | V   |          |          |          |                |     |
-| F   | V   | V   |          |          |          |                |     |
-| F   | F   | F   |          |          |          |                |     |
-| F   | V   | F   |          |          |          |                |     |
+| $p$ | $q$ | $r$ | $\neg p$ | $\neg q$ | $\neg r$ | $\neg p\vee q$ | $q\vee r$ | $\neg r\vee \neg q$ |
+| --- | --- | --- | -------- | -------- | -------- | -------------- | --------- | ------------------- |
+| V   | F   | V   | F        | V        | F        | F              | V         | V                   |
+| V   | V   | V   | F        | F        | F        | V              | V         | F                   |
+| V   | F   | F   | F        | V        | V        | F              | F         | V                   |
+| V   | V   | F   | F        | F        | V        | V              | V         | V                   |
+| F   | F   | V   | V        | V        | F        | V              | V         | V                   |
+| F   | V   | V   | V        | F        | F        | V              | V         | F                   |
+| F   | F   | F   | V        | V        | V        | F              | F         | V                   |
+| F   | V   | F   | V        | F        | V        | V              | V         | V                   |
 
 
 
