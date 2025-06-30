@@ -104,5 +104,5 @@ f_{k+3} = f_{k+2} + f_{k+1} \Rightarrow f_{k+3} - 1 = f_{k+2} + f_{k+1} - 1 \\
 \sum_{i=1}^{k+1} f_i = f_{k+3} - 1
 \end{matrix}
 $$
-*Por lo que comp*
+*Por lo que comprobamos y damos validez a la demostración ya que nos queda lo mismo de ambos lados de la ecuación para todo $n \geq 3, n \in \text{Naturales Positivos}$.*
 
