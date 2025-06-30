@@ -75,7 +75,9 @@ $\neg(p \vee s) \to \neg p \wedge \neg s$
 
 *En la premisa 2, como ya asumimos $\neg p$, podemos simplificar la disyunción.*
 $p \vee (q \wedge r) \to (q \wedge r)$
-*De igual manera, si asumimos el caso verdadero, se cumplen ambas $q$ y $r$*
+*De igual manera, si asumimos el caso verdadero, se cumplen ambas $q$ y $r$.*
+
+*En este caso, no podemos generar una simplificación que cause una contradicción en alguna de las premisas o argumentos. En todo caso, demuestran que en el caso de que se cumplan las premisas, $q$ es verdadero, lo opuesto a la propuesta sin contradicción original. Por lo que se puede asumir que el argumento es inválido.*
 
 
 4. (25 pts) La secuencia de Fibonnaci $\{ f_{n} \}$ se define como:
