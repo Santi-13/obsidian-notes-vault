@@ -108,7 +108,7 @@ $$
 $$
 \sum_{i=m}^{k}(a_{i}+b_{i}) = \sum_{i=m}^{k}(a_{i}) + \sum_{i=m}^{k}(b_{i})
 $$
-*Por lo que ahora podemos probar si para un número consecutivo a $k$, es decir, $k+1$ también es valido.*
+*Por lo que ahora podemos probar si para un número consecutivo a $k$, es decir, $k+1$ también es valido.* 
 $$
 \sum_{i=m}^{k+1}(a_{i}+b_{i}) = \sum_{i=m}^{k+1}(a_{i}) + \sum_{i=m}^{k+1}(b_{i})
 $$
