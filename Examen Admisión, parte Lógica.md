@@ -91,9 +91,12 @@ $$
 $$
 \begin{matrix}
 \sum_{i=1}^{k+1} f_{i} = f_{k+3} - 1 \\
+\text{Del lado izquierdo:} \\
+\sum_{i=1}^{k+1} f_i=  \sum_{i=1}^{k} f_{i} + f_{k+1}
 
 \end{matrix}
 $$
+
 $$
-\sum_{i=1}^k f_i = f_{k+2} - 1 \tag{HI} 
+\sum_{i=1}^k f_i = f_{k+2} - 1 \tag{HI}
 $$
