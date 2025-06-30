@@ -40,17 +40,17 @@ $$r\to \neg q$$
 
 *Para demostrar la validez del argumento, hacemos la tabla de verdad. Revisando el caso en el que todas las premisas sean verdaderas al mismo tiempo.* 
 
-| $p$ | $q$ | $r$ | $p\to q$ | $q\vee r$ | $\neg q$ | $r\to \neg q$ | $\text{Todo}$ |     |
-| --- | --- | --- | -------- | --------- | -------- | ------------- | ------------- | --- |
-| V   | V   | V   | V        | V         | F        | F             | F             |     |
-| V   | V   | F   | V        | V         | F        | V             | V             |     |
-| V   | F   | V   | F        | V         | V        | V             | F             |     |
-| V   | F   | F   | F        | F         | V        | V             | F             |     |
-| F   | V   | V   | V        | V         | F        | F             | F             |     |
-| F   | V   | F   | V        | V         | F        | V             | F             |     |
-| F   | F   | V   | V        | V         | V        | V             | V             |     |
-| F   | F   | F   | V        | F         | V        | V             | F             |     |
-
+| $p$ | $q$ | $r$ | $p\to q$ | $q\vee r$ | $\neg q$ | $r\to \neg q$ | $\text{Todo}$ |
+| --- | --- | --- | -------- | --------- | -------- | ------------- | ------------- |
+| V   | V   | V   | V        | V         | F        | F             | F             |
+| V   | V   | F   | V        | V         | F        | V             | V             |
+| V   | F   | V   | F        | V         | V        | V             | F             |
+| V   | F   | F   | F        | F         | V        | V             | F             |
+| F   | V   | V   | V        | V         | F        | F             | F             |
+| F   | V   | F   | V        | V         | F        | V             | V             |
+| F   | F   | V   | V        | V         | V        | V             | V             |
+| F   | F   | F   | V        | F         | V        | V             | F             |
+*La contradicción podría venir de la 3ra proposición $r\to \neg q$, pero observamos que para el caso que todas las proposiciones son verdaderas, no se contradice a esta proposición.*
 
 
 3. (25 pts) Demuestre por contradicción.
