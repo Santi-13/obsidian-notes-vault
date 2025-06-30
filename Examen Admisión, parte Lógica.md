@@ -87,24 +87,22 @@ f_{1}+f_{2}+f_{3} = f_{5}-1 \\
 4 = 4
 \end{matrix}
 $$
-	*Ahora planteamos un caso para hacer la deducción. En este caso, podemos decir que si para un número cualquiera $k \geq n$ es válido el argumento, entonces existe un número $k+1$ para el que también es válido. Entonces:*
+	*Ahora planteamos un caso para hacer la deducción en base a nuesta hipotesis original. En este caso, podemos decir que si para un número cualquiera $k \geq n$ es válido el argumento, entonces existe un número $k+1$ para el que también es válido. Entonces:*
 $$\sum_{i=1}^{k+1} f_{i} = f_{k+3} - 1$$
 *Del lado izquierdo de la ecuacion:*
 $$
 \sum_{i=1}^{k+1} f_i=  \sum_{i=1}^{k} f_{i} + f_{k+1}
 $$
-
-
+*Por nuestra hipotesis original:*
+$$
+\sum_{i=1}^{k} f_{i} + f_{k+1} = f_{k+2} - 1 + f_{k+1}
+$$
+*De aquí, podemos obtener $f_{k+3}$ basado en la definición de la secuencia de Fibonacci:*
 $$
 \begin{matrix}
-
-\text{Por nuestra hipotesis:} \\
-= f_{k+2} - 1 + f_{k+1} \\
 f_{k+3} = f_{k+2} + f_{k+1} \Rightarrow f_{k+3} - 1 = f_{k+2} + f_{k+1} - 1 \\
 \sum_{i=1}^{k+1} f_i = f_{k+3} - 1
 \end{matrix}
 $$
+*Por lo que comp*
 
-$$
-\sum_{i=1}^k f_i = f_{k+2} - 1 \tag{HI}
-$$
