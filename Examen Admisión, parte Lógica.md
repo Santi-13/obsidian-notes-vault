@@ -16,12 +16,26 @@
 | F   | F   | F   | V        | V        | V        |                            |               |
 | F   | V   | F   | V        | F        | V        |                            |               |
 
-1. (25 pts) Demostrar la validez del siguiente argumento:
+2. (25 pts) Demostrar la validez del siguiente argumento:
 	Si me gustan las matemáticas, entonces estudio.
 	Yo estudio o repruebo.
 	Si repruebo, entonces no me gustan las matemáticas.
 
-2. (25 pts) Demuestre por contradicción.
+*Asignamos variables a los argumentos.*
+$$
+\begin{matrix}
+p \equiv \text{Me gustan las matemáticas} \\
+q \equiv \text{Estudio} \\
+r \equiv \text{Repruebo}
+\end{matrix}
+$$
+*En base a esto, creamos las proposiciones adecuadas.*
+	Si me gustan las matemáticas, entonces estudio.
+$$p\to q$$
+	Yo estudio o repruebo.
+$$q \vee$$
+	Si repruebo, entonces no me gustan las matemáticas.
+3. (25 pts) Demuestre por contradicción.
 $$
 \begin{matrix}
 \neg(p \vee s) \\
