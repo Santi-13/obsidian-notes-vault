@@ -87,4 +87,13 @@ f_{1}+f_{2}+f_{3} = f_{5}-1 \\
 4 = 4
 \end{matrix}
 $$
-*Ahora planteamos una hipótesis para hacer la deducción. En este caso, podemos decir que si para un número cualquiera $k$ es válido el argumento, entonces existe *
+*Ahora planteamos una hipótesis para hacer la deducción. En este caso, podemos decir que si para un número cualquiera $k \geq n$ es válido el argumento, entonces existe un número $k+1$ para el que también es válido. Entonces:*
+$$
+\begin{matrix}
+\sum_{i=1}^{k+1} f_{i} = f_{k+3} - 1 \\
+
+\end{matrix}
+$$
+$$
+\sum_{i=1}^k f_i = f_{k+2} - 1 \tag{HI} 
+$$
