@@ -82,6 +82,9 @@ $$
 \begin{matrix}
 f_{3} = f_{1} + f_{2} = 1 + 1 = 2  \\
 \sum_{i=1}^3f_{i} = f_{5} - 1 \\
-
+f_{1}+f_{2}+f_{3} = f_{5}-1 \\
+1 +1 +2 = 5 - 1 \\
+4 = 4
 \end{matrix}
 $$
+*Ahora planteamos una hipótesis para hacer la deducción. En este caso, podemos decir que si para un número cualquiera $k$ es válido el argumento, entonces existe *
