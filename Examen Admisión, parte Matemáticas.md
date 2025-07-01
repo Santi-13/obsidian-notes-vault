@@ -321,6 +321,21 @@ $$
 $$
 \text{adj}(R) = \begin{bmatrix}
 \cos^2\theta \cos \phi+\sin^2\theta \cos \phi & 0 & \sin \phi \sin^2\theta+\cos^2\theta \sin \phi \\
--\sin \theta \sin \phi & 
+-\sin \theta \sin \phi & \cos \theta \cos^2\phi+\cos \theta \sin^2\phi & \sin \theta \cos \phi \\
+-\cos \theta \sin \phi & -\sin \theta \cos^2\phi-\sin \theta \sin^2\phi & \cos \theta \cos \phi
+\end{bmatrix}^T
+$$
+$$
+= \begin{bmatrix}
+\cos^2\theta \cos \phi+\sin^2\theta \cos \phi & -\sin \theta \sin &  -\cos \theta \sin \phi\\
+0 \phi & \cos \theta \cos^2\phi+\cos \theta \sin^2\phi & -\sin \theta \cos^2\phi-\sin \theta \sin^2\phi \\
+\sin \phi \sin^2\theta+\cos^2\theta \sin \phi & \sin \theta \cos \phi & \cos \theta \cos \phi
+\end{bmatrix}
+$$
+$$
+R^{-1} = \frac{1}{\cos \phi (\cos^2\theta \cos \phi+\sin^2\theta \cos \phi) + \sin \phi(\sin^2\theta \sin \phi+\cos^2\theta \sin \phi)} \begin{bmatrix}
+\cos^2\theta \cos \phi+\sin^2\theta \cos \phi & -\sin \theta \sin &  -\cos \theta \sin \phi\\
+0 \phi & \cos \theta \cos^2\phi+\cos \theta \sin^2\phi & -\sin \theta \cos^2\phi-\sin \theta \sin^2\phi \\
+\sin \phi \sin^2\theta+\cos^2\theta \sin \phi & \sin \theta \cos \phi & \cos \theta \cos \phi
 \end{bmatrix}
 $$
