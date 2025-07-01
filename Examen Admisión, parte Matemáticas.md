@@ -30,9 +30,43 @@ $$
 1.2
 \end{bmatrix}
 $$
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 2 & -2 \\
+-1 & 2 & -1
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+2.0 \\
+1.2
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 1 & -1 \\
+0 & 3 & 0
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+1.0 \\
+20.82
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 1 & -1 \\
+0 & 1 & 0
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+1.0 \\
+6.94
+\end{bmatrix}
+$$
 
 
 
-2. Encuentre la función de transferencia del siguiente circuito.
 
-3. 
+3. Encuentre la función de transferencia del siguiente circuito.
+
+4. 
