@@ -250,7 +250,7 @@ $$
 
 
 6. ![[Pasted image 20250701105815.png]]
-Para las primeras dos demostraciones, simplemente podemos obtener el determinante de estas:
+Para las primeras dos demostraciones, así como para la cuarta simplemente podemos obtener el determinante de estas:
 $$
 R = R_{x}(\theta)R_{y}(\phi) = \begin{bmatrix}
 1 & 0 & 0 \\
@@ -273,6 +273,8 @@ $$
 \begin{matrix}
 \det R_{x}(\theta) = 1 A_{11} = \cos^2 \theta + \sin^2 \theta \neq 0, \forall \theta \in \mathrm{Re} \\
 \det R_{y}(\phi) = 1 A_{22} = \cos^2 \phi + \sin^2 \phi \neq 0, \forall \theta \in \mathrm{Re} \\
-\det R=\cos \phi A_{11}
+\det R=\cos \phi A_{11} + \sin \phi A_{13}  \\
+= \cos \phi (\cos^2\theta \cos \phi+\sin^2\theta \cos \phi) + \sin \phi(\sin^2\theta \sin \phi+\cos^2\theta \sin \phi) \neq 0
 \end{matrix}
 $$
+Como $\phi$ o $\theta$ no tienen un valor que la suma de los cuadrados de sus cosenos y s 
