@@ -190,7 +190,15 @@ $$
 -6 & 1 & 2 \\
 -1 & -2 & -4 \\
 -3 & -6 & 1
-\end{bmatrix}^T
+\end{bmatrix}^T = \begin{bmatrix}
+-6 & -1 & -3 \\
+1 & -2 & -6 \\
+2 & -4 & 1
+\end{bmatrix}
+$$
+	   Después, se usa la formula de $A^{-1}=\frac{1}{\det A} \text{adj}(A)$:
+$$
+\det A=2
 $$
 
 6. 
