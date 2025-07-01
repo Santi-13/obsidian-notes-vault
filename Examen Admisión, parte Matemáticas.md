@@ -303,6 +303,24 @@ $$
 \text{adj}(R_{y}(\phi)) = \begin{bmatrix}
 \cos \phi & 0 & \sin \phi \\ 
  0 & \cos^2\phi+\sin^2\phi & 0 \\
--\sin \phi & 0 & 
+-\sin \phi & 0 & \cos \phi
+\end{bmatrix}^T = \begin{bmatrix}
+\cos \phi & 0 & -\sin \phi \\ 
+ 0 & \cos^2\phi+\sin^2\phi & 0 \\
+\sin \phi & 0 & \cos \phi 
+\end{bmatrix}
+$$
+$$
+R_{y}^{-1} = \frac{1}{\cos^2\phi+\sin^2\phi} \begin{bmatrix}
+\cos \phi & 0 & -\sin \phi \\ 
+ 0 & \cos^2\phi+\sin^2\phi & 0 \\
+\sin \phi & 0 & \cos \phi 
+\end{bmatrix}
+$$
+
+$$
+\text{adj}(R) = \begin{bmatrix}
+\cos^2\theta \cos \phi+\sin^2\theta \cos \phi & 0 & \sin \phi \sin^2\theta+\cos^2\theta \sin \phi \\
+-\sin \theta \sin \phi & 
 \end{bmatrix}
 $$
