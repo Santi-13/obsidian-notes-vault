@@ -169,6 +169,10 @@ A^{-1}A = \begin{bmatrix}
 $$
 
 4. ![[Pasted image 20250701103156.png]]
+	1. Podemos ver que $A$ es invertible por la diagonal de ceros que tiene, ya que esto hace que ninguna fila sea una combinación lineal de las otras.
+	2. Para calcularlo, primero hay que calcular $\text{adj}(A)$:
+$$
 
+$$
 
-5. 
+6. 
