@@ -133,14 +133,67 @@ $$
 1 & -0.5 & 0 & 1.5  & 0\\
 0 & 1 & 1 & 0 & -1 \\
 0 & 0.5 & 1 & 0.5 & 0 \\
-0 & 0.5 & -2 & 0 & 1
+0 & 0.5 & -2 & -1.5 & 1
 \end{bmatrix} \begin{bmatrix}
 5 \\
 5 \\
-13 \\
-3
+3 \\
+-2
 \end{bmatrix}
 $$
+$$
+\begin{bmatrix}
+1 & -0.5 & 0 & 1.5  & 0\\
+0 & 1 & 1 & 0 & -1 \\
+0 & 1 & 2 & 1 & 0 \\
+0 & 1 & -4 & -3 & 2
+\end{bmatrix} \begin{bmatrix}
+5 \\
+5 \\
+6 \\
+-4
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & -0.5 & 0 & 1.5  & 0\\
+0 & 1 & 1 & 0 & -1 \\
+0 & 0 & 1 & 1 & 1 \\
+0 & 0 & -5 & -3 & 3
+\end{bmatrix} \begin{bmatrix}
+5 \\
+5 \\
+1 \\
+-9
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & -0.5 & 0 & 1.5  & 0\\
+0 & 1 & 1 & 0 & -1 \\
+0 & 0 & 1 & 1 & 1 \\
+0 & 0 & -1 & -0.6 & 0.6
+\end{bmatrix} \begin{bmatrix}
+5 \\
+5 \\
+1 \\
+-1.8
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+1 & -0.5 & 0 & 1.5  & 0\\
+0 & 1 & 1 & 0 & -1 \\
+0 & 0 & 1 & 1 & 1 \\
+0 & 0 & 0 & 0.4 & 1.6
+\end{bmatrix} \begin{bmatrix}
+5 \\
+5 \\
+1 \\
+-0.8
+\end{bmatrix}
+$$
+No se puede solucionar, tienes mas incognitas que ecuaciones.
 
 3. Encuentre una matriz A tal que:
 ![[Pasted image 20250701102741.png]]
