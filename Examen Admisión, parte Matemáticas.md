@@ -246,4 +246,11 @@ $$
 \end{bmatrix}
 $$
 
-6. 
+5. ![[Pasted image 20250701105731.png]]
+
+
+6. ![[Pasted image 20250701105815.png]]
+Para las primeras dos demostraciones, simplemente podemos obtener el determinante de estas:
+$$
+\det R_{x}
+$$
