@@ -172,7 +172,17 @@ $$
 	1. Podemos ver que $A$ es invertible por la diagonal de ceros que tiene, ya que esto hace que ninguna fila sea una combinación lineal de las otras.
 	2. Para calcularlo, primero hay que calcular $\text{adj}(A)$:
 $$
-
+\begin{bmatrix}
+A_{11} & A_{12} & A_{13} \\
+A_{21} & A_{22} & A_{23} \\
+A_{31} & A_{32} & A_{33}
+\end{bmatrix}, \text{where } A_{ij} = (-1)^{i+j}|M_{ij}|
+$$
+$$
+\begin{bmatrix}
+-6 & 1 & 2 \\
+-1 & -2 & 
+\end{bmatrix}
 $$
 
 6. 
