@@ -217,17 +217,28 @@ $$
 	3. Para encontrar las velocidades angulares:
 $$
 A^{-1} \begin{bmatrix}
-\dot{\theta_{1}} \\
-\dot{\theta_{2}} \\
-\dot{\theta_{3}}
+\dot{x} \\
+\dot{y} \\
+\dot{z}
 \end{bmatrix} = \begin{bmatrix}
 \frac{6}{13} & \frac{1}{13} & \frac{3}{13} \\
 -\frac{1}{13} & \frac{2}{13} & \frac{6}{13} \\
 -\frac{2}{13} & \frac{4}{13} & -\frac{1}{13}
 \end{bmatrix} \begin{bmatrix}
-\dot{\theta_{1}} \\
-\dot{\theta_{2}} \\
-\dot{\theta_{3}}
+1 \\
+-2 \\
+3
+\end{bmatrix}
+$$
+$$
+= \begin{bmatrix}
+\frac{6}{13}+\frac{1}{13}+\frac{3}{13} \\
+\frac{2}{13}-\frac{4}{13}-\frac{12}{13} \\
+-\frac{6}{13}+\frac{12}{13}-\frac{3}{13}
+\end{bmatrix} = \begin{bmatrix}
+\frac{10}{13} \\
+-\frac{14}{13} \\
+\frac{3}{13}
 \end{bmatrix}
 $$
 
