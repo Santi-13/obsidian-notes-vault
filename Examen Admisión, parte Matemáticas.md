@@ -149,8 +149,26 @@ $$
 $$
 $$
 A^{-1} = \begin{bmatrix}
-
+2 & -3  \\
+-1 & 2
 \end{bmatrix} 
 $$
+Podemos comprobar que si es la inversa multiplicandola para ver si da la identidad.
+$$
+A^{-1}A = \begin{bmatrix}
+2 & -3  \\
+-1 & 2
+\end{bmatrix} \begin{bmatrix}
+2 & 3 \\
+1 & 2
+\end{bmatrix} = 
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
 
-4. 
+4. ![[Pasted image 20250701103156.png]]
+
+
+5. 
