@@ -232,13 +232,17 @@ A^{-1} \begin{bmatrix}
 $$
 $$
 = \begin{bmatrix}
-\frac{6}{13}+\frac{1}{13}+\frac{3}{13} \\
-\frac{2}{13}-\frac{4}{13}-\frac{12}{13} \\
--\frac{6}{13}+\frac{12}{13}-\frac{3}{13}
+\frac{6}{13}-\frac{2}{13}+\frac{9}{13} \\
+-\frac{1}{13}-\frac{4}{13}+\frac{18}{13} \\
+-\frac{2}{13}-\frac{8}{13}-\frac{3}{13}
 \end{bmatrix} = \begin{bmatrix}
-\frac{10}{13} \\
--\frac{14}{13} \\
-\frac{3}{13}
+1 \\
+1 \\
+-1
+\end{bmatrix} = \begin{bmatrix}
+\dot{\theta_{1}} \\
+\dot{\theta_{2}} \\
+\dot{\theta_{3}}
 \end{bmatrix}
 $$
 
