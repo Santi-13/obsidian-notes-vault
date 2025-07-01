@@ -277,4 +277,16 @@ $$
 = \cos \phi (\cos^2\theta \cos \phi+\sin^2\theta \cos \phi) + \sin \phi(\sin^2\theta \sin \phi+\cos^2\theta \sin \phi) \neq 0
 \end{matrix}
 $$
-Como $\phi$ o $\theta$ no tienen un valor que la suma de los cuadrados de sus cosenos y s 
+Como $\phi$ o $\theta$ no tienen un valor que la suma de los cuadrados de sus cosenos y senos sean igual a 0, se puede decir que estas matrices de rotación son ortogonales y no singulares.
+
+Para la inversa, necesitamos los $\text{adj}$.
+$$
+\text{adj}(R_{x}(\theta)) = \begin{bmatrix}
+\cos ^2\theta+\sin^2\theta & 0 & 0 \\
+0 & \cos \theta & \sin \theta \\
+0 & -\sin \theta & \cos \theta
+\end{bmatrix}
+$$
+$$
+R_{x}^{-1} = \frac{1}{}
+$$
