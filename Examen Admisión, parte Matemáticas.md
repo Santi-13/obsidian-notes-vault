@@ -63,7 +63,32 @@ $$
 6.94
 \end{bmatrix}
 $$
-
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 1 & -1 \\
+0 & 0 & 1
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+1.0 \\
+5.94
+\end{bmatrix}
+$$
+Entonces tenemos que:
+$$ F_{3}= 5.94$$
+$$ \begin{matrix}
+F_{2} -F_{3} = 1 \\
+F_{2} - 5.94 = 1 \\
+F_{2} = 6.94
+\end{matrix} $$
+$$
+\begin{matrix}
+F_{1} + F_{2} + F_{3} = 19.62 \\
+F_{1} + 6.94 + 5.94 = 19.62 \\
+F_{1} = 19.62 - 12.88 \\
+F_{1} = 
+\end{matrix}
+$$
 
 
 
