@@ -198,7 +198,17 @@ $$
 $$
 	   Después, se usa la formula de $A^{-1}=\frac{1}{\det A} \text{adj}(A)$:
 $$
-\det A=2
+\begin{matrix}
+\det A=2 A_{11} + (-1) A_{12} + 0 \\
+\det A= 2(-6) -1 (1) = -12-1=-13
+\end{matrix}
+$$
+$$
+A^{-1} = \frac{1}{-13} \begin{bmatrix}
+-6 & -1 & -3 \\
+1 & -2 & -6 \\
+2 & -4 & 1
+\end{bmatrix}
 $$
 
 6. 
