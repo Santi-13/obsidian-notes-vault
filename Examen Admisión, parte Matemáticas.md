@@ -208,6 +208,26 @@ A^{-1} = \frac{1}{-13} \begin{bmatrix}
 -6 & -1 & -3 \\
 1 & -2 & -6 \\
 2 & -4 & 1
+\end{bmatrix} = \begin{bmatrix}
+\frac{6}{13} & \frac{1}{13} & \frac{3}{13} \\
+-\frac{1}{13} & \frac{2}{13} & \frac{6}{13} \\
+-\frac{2}{13} & \frac{4}{13} & -\frac{1}{13}
+\end{bmatrix}
+$$
+	3. Para encontrar las velocidades angulares:
+$$
+A^{-1} \begin{bmatrix}
+\dot{\theta_{1}} \\
+\dot{\theta_{2}} \\
+\dot{\theta_{3}}
+\end{bmatrix} = \begin{bmatrix}
+\frac{6}{13} & \frac{1}{13} & \frac{3}{13} \\
+-\frac{1}{13} & \frac{2}{13} & \frac{6}{13} \\
+-\frac{2}{13} & \frac{4}{13} & -\frac{1}{13}
+\end{bmatrix} \begin{bmatrix}
+\dot{\theta_{1}} \\
+\dot{\theta_{2}} \\
+\dot{\theta_{3}}
 \end{bmatrix}
 $$
 
