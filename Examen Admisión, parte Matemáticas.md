@@ -86,12 +86,29 @@ $$
 F_{1} + F_{2} + F_{3} = 19.62 \\
 F_{1} + 6.94 + 5.94 = 19.62 \\
 F_{1} = 19.62 - 12.88 \\
-F_{1} = 
+F_{1} = 6.74
 \end{matrix}
 $$
 
+Podemos comprobar con las ecuaciones originales:
+$$
+\begin{matrix}
+F_{1} + F_{2} + F_{3} = 19.62 = mg\\
+\end{matrix}
+$$
+$$
+\begin{matrix}
+(F_{1}-F_{3})L = \tau _{x} \\
+(6.74 - 5.94) \times 0.25 = 0.2 \\
+(0.8) \times 0.25 = 0.2 \\
+0.2 = 0.2
+\end{matrix}
+$$
+$$
+\begin{matrix}
+(F_{2} - F_{1})
+\end{matrix}
+$$
+2. Encuentre la función de transferencia del siguiente circuito.
 
-
-3. Encuentre la función de transferencia del siguiente circuito.
-
-4. 
+3. 
