@@ -123,8 +123,34 @@ $$
 1 & 0 & -2 & 0 & 1
 \end{bmatrix} \begin{bmatrix}
 10 \\
-5
+5 \\
+8 \\
+3
 \end{bmatrix}
 $$
 
-3. 
+
+3. Encuentre una matriz A tal que:
+![[Pasted image 20250701102741.png]]
+$$
+A^{-1} = \frac{1}{\det A} \begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+$$
+$$
+A = \begin{bmatrix}
+2 & 3 \\
+1 & 2
+\end{bmatrix}
+$$
+$$
+\det A = (2\times2) - (3 \times 1) = 4-3 = 1
+$$
+$$
+A^{-1} = \begin{bmatrix}
+
+\end{bmatrix} 
+$$
+
+4. 
