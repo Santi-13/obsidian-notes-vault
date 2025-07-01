@@ -257,15 +257,22 @@ R = R_{x}(\theta)R_{y}(\phi) = \begin{bmatrix}
 0 & \cos \theta & -\sin \theta \\
 0 & \sin \theta & \cos \theta
 \end{bmatrix} \begin{bmatrix}
- \\
 \cos \phi & 0 & \sin \phi \\
 0 & 1 & 0 \\
 -\sin \phi & 0 & \cos \phi
 \end{bmatrix}
 $$
 $$
+R = \begin{bmatrix}
+\cos \phi & 0 & \sin \phi \\
+\sin \phi \sin \theta & \cos \theta & -\sin \theta \cos \phi \\
+-\cos \theta \sin \phi & \sin \theta & \cos \theta \cos \phi
+\end{bmatrix}
+$$
+$$
 \begin{matrix}
 \det R_{x}(\theta) = 1 A_{11} = \cos^2 \theta + \sin^2 \theta \neq 0, \forall \theta \in \mathrm{Re} \\
-\det R_{y}(\phi) = 1 A_{22} = \cos^2 \phi + \sin^2 \phi \neq 0, \forall \theta \in \mathrm{Re}
+\det R_{y}(\phi) = 1 A_{22} = \cos^2 \phi + \sin^2 \phi \neq 0, \forall \theta \in \mathrm{Re} \\
+\det R=\cos \phi A_{11}
 \end{matrix}
 $$
