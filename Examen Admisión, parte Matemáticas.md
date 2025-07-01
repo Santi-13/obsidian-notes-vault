@@ -285,8 +285,24 @@ $$
 \cos ^2\theta+\sin^2\theta & 0 & 0 \\
 0 & \cos \theta & \sin \theta \\
 0 & -\sin \theta & \cos \theta
+\end{bmatrix}^T = \begin{bmatrix}
+\cos ^2\theta+\sin^2\theta & 0 & 0 \\
+0 & \cos \theta & -\sin \theta \\
+0 & \sin \theta & \cos \theta
 \end{bmatrix}
 $$
 $$
-R_{x}^{-1} = \frac{1}{}
+R_{x}^{-1} = \frac{1}{\cos^2 \theta + \sin^2 \theta} \begin{bmatrix}
+\cos ^2\theta+\sin^2\theta & 0 & 0 \\
+0 & \cos \theta & -\sin \theta \\
+0 & \sin \theta & \cos \theta
+\end{bmatrix}
+$$
+
+$$
+\text{adj}(R_{y}(\phi)) = \begin{bmatrix}
+\cos \phi & 0 & \sin \phi \\ 
+ 0 & \cos^2\phi+\sin^2\phi & 0 \\
+-\sin \phi & 0 & 
+\end{bmatrix}
 $$
