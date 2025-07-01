@@ -10,8 +10,24 @@
 $$
 \begin{bmatrix}
 1 & 1 & 1 \\
-2. & 0 & -1 \\
-
+0.25 & 0 & -0.25 \\
+-0.125 & 0.25 & -.125
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+0.2 \\
+0.15
+\end{bmatrix}
+$$
+*Por eliminación gaussiana, multiplicamos por 4 la segunda fila y por 8 la tercera. Siguiendo este proceso hasta encontrar la solución.*
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 0 & -1 \\
+-1 & 2 & -1
+\end{bmatrix} \begin{bmatrix}
+19.62 \\
+0.8 \\
+1.2
 \end{bmatrix}
 $$
 
