@@ -252,5 +252,20 @@ $$
 6. ![[Pasted image 20250701105815.png]]
 Para las primeras dos demostraciones, simplemente podemos obtener el determinante de estas:
 $$
-\det R_{x}
+R = R_{x}(\theta)R_{y}(\phi) = \begin{bmatrix}
+1 & 0 & 0 \\
+0 & \cos \theta & -\sin \theta \\
+0 & \sin \theta & \cos \theta
+\end{bmatrix} \begin{bmatrix}
+ \\
+\cos \phi & 0 & \sin \phi \\
+0 & 1 & 0 \\
+-\sin \phi & 0 & \cos \phi
+\end{bmatrix}
+$$
+$$
+\begin{matrix}
+\det R_{x}(\theta) = 1 A_{11} = \cos^2 \theta + \sin^2 \theta \neq 0, \forall \theta \in \mathrm{Re} \\
+\det R_{y}(\phi) = 1 A_{22} = \cos^2 \phi + \sin^2 \phi \neq 0, \forall \theta \in \mathrm{Re}
+\end{matrix}
 $$
