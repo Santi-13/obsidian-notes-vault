@@ -106,9 +106,25 @@ $$
 $$
 $$
 \begin{matrix}
-(F_{2} - F_{1})
+\left( F_{2} - \frac{F_{1} + F_{3}}{2} \right)L = \tau_{y} \\
+\left( 6.94 - \frac{6.74 + 5.94}{2} \right) \times 0.25 = 0.15 \\
+( 6.94 - 6.34 ) \times 0.25 = 0.15 \\
+0.6 \times 0.25 = 0.15 \\
+0.15 = 0.15
 \end{matrix}
 $$
-2. Encuentre la función de transferencia del siguiente circuito.
+2. Un brazo robótico con 5 articulaciones debe posicionar su efector final en *(x,y,z)* sujeto a las siguientes restricciones:
+![[Pasted image 20250701102609.png]]
+$$
+\begin{bmatrix}
+2 & -1 & 0 & 3  & 0\\
+0 & 1 & 1 & 0 & -1 \\
+1 & 0 & 1 & 2 & 0 \\
+1 & 0 & -2 & 0 & 1
+\end{bmatrix} \begin{bmatrix}
+10 \\
+5
+\end{bmatrix}
+$$
 
 3. 
