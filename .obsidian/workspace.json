@@ -39,12 +39,14 @@
             "id": "b0410b29b17a86a1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250423114148.png"
+                "file": "Robotics & Vision.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250423114148"
+              "icon": "lucide-file",
+              "title": "Robotics & Vision"
             }
           }
         ],
@@ -212,23 +214,24 @@
   },
   "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
+    "Cinves/Examen de Lógica Proposicional.md",
+    "Cinves",
+    "images/Pasted image 20250630092730.png",
+    "Pasted image 20250423114148.png",
+    "Pasted image 20241024210740.png",
+    "images/Pasted image 20250701105815.png",
+    "images/Pasted image 20250701102741.png",
+    "images/Pasted image 20250630092748.png",
     "NLSC_lecture_notes_2018.pdf",
-    "Examen Admisión, parte Matemáticas.md",
-    "Pasted image 20250701105815.png",
-    "Pasted image 20250701105731.png",
-    "Pasted image 20250701105730.png",
-    "Pasted image 20250701105728.png",
-    "Pasted image 20250701103156.png",
-    "Pasted image 20250701102741.png",
-    "Pasted image 20250701102609.png",
-    "Examen de Lógica Proposicional.md",
-    "Examen Admisión, parte Lógica.md",
+    "Cinves/Examen Admisión, parte Matemáticas.md",
+    "images/Pasted image 20250701105731.png",
+    "images/Pasted image 20250701105730.png",
+    "images/Pasted image 20250701105728.png",
+    "images/Pasted image 20250701103156.png",
+    "Cinves/Examen Admisión, parte Lógica.md",
     "Control Quiz.md",
-    "Pasted image 20250630092748.png",
-    "Pasted image 20250630092730.png",
     "Untitled 1.md",
     "Untitled.md",
-    "images/Pasted image 20250618113416.png",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
     "Agents-Course/Unit 1. Introduction/Observations.md",
     "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
