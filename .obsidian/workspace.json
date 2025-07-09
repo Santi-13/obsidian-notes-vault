@@ -39,14 +39,12 @@
             "id": "b0410b29b17a86a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Examen Admisión, parte Matemáticas.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250423114148.png"
               },
-              "icon": "lucide-file",
-              "title": "Examen Admisión, parte Matemáticas"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250423114148"
             }
           }
         ],
@@ -212,8 +210,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f3ef615f193bc71",
+  "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
+    "NLSC_lecture_notes_2018.pdf",
+    "Examen Admisión, parte Matemáticas.md",
     "Pasted image 20250701105815.png",
     "Pasted image 20250701105731.png",
     "Pasted image 20250701105730.png",
@@ -224,14 +224,11 @@
     "Examen de Lógica Proposicional.md",
     "Examen Admisión, parte Lógica.md",
     "Control Quiz.md",
-    "Examen Admisión, parte Matemáticas.md",
     "Pasted image 20250630092748.png",
     "Pasted image 20250630092730.png",
     "Untitled 1.md",
     "Untitled.md",
-    "NLSC_lecture_notes_2018.pdf",
     "images/Pasted image 20250618113416.png",
-    "Pasted image 20250423114148.png",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
     "Agents-Course/Unit 1. Introduction/Observations.md",
     "Agents-Course/Unit 1. Introduction/Messages and Special Tokens.md",
