@@ -25,5 +25,9 @@ $$
 $$
 The ***norm*** has also some properties:
 $$
-|| \lambda x || = 
+\begin{matrix}
+|| \lambda x || = | \lambda |\text{ } || x|| \\
+\underbrace{ || x + y|| \leq || x || \text{ } || y || }_{ \text{Triangle Inequality} }
+\end{matrix} 
 $$
+Another inequality important to mention is the ***[[Cauchy-Schwarz Inequality]]***.
