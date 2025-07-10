@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics & Vision.md",
+                "file": "AI/Python Solutions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Robotics & Vision"
+              "title": "Python Solutions"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
+    "Robotics & Vision.md",
     "Cinves/Examen de Lógica Proposicional.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
@@ -251,7 +254,6 @@
     "Chairing/Euler-Lagrange Formulation.md",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
-    "Chairing/State Variable Theory.md",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf"
   ]
 }
