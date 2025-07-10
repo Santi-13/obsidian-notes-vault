@@ -32,7 +32,8 @@ $$
 \end{bmatrix} \mathrm{y}
 $$
 
-The length of a vector $x$ is defined as:
+The **length** or ***norm*** of a vector $x$ is defined as:
 $$
-
+|| x || = \sqrt{ \langle x, x \rangle}
 $$
+AS
