@@ -32,16 +32,3 @@ $$
 \end{bmatrix} \mathrm{y}
 $$
 
-The **length** or ***norm*** of a vector $x$ is defined as:
-$$
-|| x || = \sqrt{ \langle x, x \rangle}
-$$
-Now it depends on how we define the ***inner product***, for instance if we define it as the standard :
-$$
-\langle x,y \rangle = x^Ty
-$$
-Then for a vector $x = \begin{bmatrix}1 \\ 1\end{bmatrix}$:
-$$
-|| x || = \sqrt{ 2 }
-$$
-But if we define it 
