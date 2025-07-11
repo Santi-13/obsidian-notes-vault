@@ -5,5 +5,3 @@ The ***distance*** between two *vectors* is defined as the **length** of the *di
 $$
 d(x,y) = || x-y || = \sqrt{ \langle x-y, x-y \rangle }
 $$
-$$
-$= \\mathbf{a} \\cdot \\mathbf{a} - 2(\\mathbf{a} \\cdot \\mathbf{b}) + \\mathbf{b} \\cdot \\mathbf{b}$$ = |\\mathbf{a}|^2 - 2(\\mathbf{a} \\cdot \\mathbf{b}) + |\\mathbf{b}|^2$
