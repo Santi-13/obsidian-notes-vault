@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distance Between Vectors"
+              "title": "Angles and Orthogonality"
             }
           }
         ]
@@ -185,6 +185,7 @@
   },
   "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
@@ -192,7 +193,6 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Inner Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Introduction.md",
