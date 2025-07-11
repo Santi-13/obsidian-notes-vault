@@ -22,3 +22,6 @@ elements: [
 ]
 ```
 
+They are ***orthogonal*** because their inner product is zero. 
+
+We can also find ***basis vectors*** that are ***orthogonal*** to each other, we do this by **normalizing** the vectors. Which we end up calling an ***orthonormal basis***.
