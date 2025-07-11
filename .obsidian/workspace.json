@@ -183,46 +183,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "f783a32c9af64cb6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "924948dbde749722",
-        "type": "window",
-        "children": [
-          {
-            "id": "3c7ed726b1c24e0d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "25720e09d09cf975",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://dylanhojnoski.github.io/obsidian-graphs-wiki/Elements/2D/Curve",
-                    "title": "Curve - Graphs Wiki",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Curve - Graphs Wiki"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 384,
-        "y": 132,
-        "width": 1024,
-        "height": 801,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "25720e09d09cf975",
+  "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
