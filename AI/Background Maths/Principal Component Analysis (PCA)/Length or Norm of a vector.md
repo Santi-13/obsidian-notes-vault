@@ -3,7 +3,7 @@
 ---
 The **length** or ***norm*** of a vector $x$ is defined as:
 $$
-|| x || = \sqrt{ \langle x, x \rangle} 
+|| x || = \sqrt{ \langle x, x \rangle}
 $$
 Now it depends on how we define the ***[[Inner Product]]***, for instance if we define it as the standard ***[[Excalidraw/Dot Product|Dot Product]]***:
 $$
