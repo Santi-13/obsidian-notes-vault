@@ -42,9 +42,11 @@ It is important to note that `using` only targets names, to import all `names` i
 ```cpp
 #include <chrono>
 
-auto start
+auto start = std::chrono::high_resolution_clock::now();
 
 using namespace std::chrono;
+
+auto end = high_resolution_clock::now();
 ```
 3. The `using` keyword allows derived classes to inherit base class members, including constructors. This is useful for exposing protected members as public in derived classes.
 ```cpp
