@@ -2,7 +2,6 @@
 
 --- 
 ### `<chrono>` 
-Time library.
 ```cpp
 #include<chrono>
 using namespace std::chrono;
@@ -40,5 +39,25 @@ void printVector(const vector<T>& a) {
 
 printVector(a)
 //prints [ 1 2 3 ]
-b.
+b.insert(0.1)
+b.push_back(4.4)
+printVector(b)
+//prints [ 0.1 1.1 2.2 3.3 4.4 ]
 ```
+
+### `<utility>`
+```cpp
+#include<utility>
+using std::swap;
+
+vector<int> a = {1,2,3};
+swap(a[0],a[1])
+printVector(a)
+//prints [ 2 1 3 ]
+```
+
+### `<random>`
+```cpp
+
+```
+
