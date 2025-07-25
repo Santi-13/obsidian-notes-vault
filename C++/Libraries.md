@@ -1,8 +1,9 @@
 #Cpp #Programming
 
 --- 
-```c-like
+### Chrono 
+```cpp
 #include<chrono>
 
-
+int function(int a)
 ```
