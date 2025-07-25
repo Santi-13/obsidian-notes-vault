@@ -1,7 +1,7 @@
 #Cpp #Programming
 
 --- 
-### Chrono 
+### `<chrono>` 
 Time library.
 ```cpp
 #include<chrono>
@@ -22,4 +22,23 @@ int main() {
 	
 	return 0;
 }
+```
+### `<vector>`
+```cpp
+#include<vector>
+vector<int> a = {1,2,3};
+vector<double> b = {1.1,2.2,3.3};
+
+template <typename T>
+void printVector(const vector<T>& a) {
+	std::cout << "[ ";
+	for (const auto& element : a) {
+		std::cout << element << " ";
+	}
+	std::cout << "]" << endl;
+}
+
+printVector(a)
+//prints [ 1 2 3 ]
+b.
 ```
