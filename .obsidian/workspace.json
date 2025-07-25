@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Math/Egyptian Multiplication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Egyptian Multiplication"
             }
           }
         ]
@@ -157,8 +157,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -172,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,6 +195,7 @@
   },
   "active": "b0410b29b17a86a1",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Chairing/Euler-Lagrange Formulation.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
@@ -225,7 +226,6 @@
     "images/Pasted image 20250701103156.png",
     "Cinves/Examen Admisión, parte Lógica.md",
     "Control Quiz.md",
-    "Untitled 1.md",
     "Untitled.md",
     "Agents-Course/Unit 1. Introduction/LLMs.md",
     "Agents-Course/Unit 1. Introduction/Observations.md",
