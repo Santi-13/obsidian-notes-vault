@@ -38,4 +38,14 @@ std::cout << a;
 using std::cout;
 cout << a;
 ```
-3. 
+3. The `using` keyword allows derived classes to inherit base class members, including constructors. This is useful for exposing protected members as public in derived classes.
+```cpp
+class Base {
+protected:
+void foo() { /*...*/ }
+};
+class Derived : public Base {
+public:
+using Base::foo; // Makes Base::foo accessible in Derived
+};
+```
