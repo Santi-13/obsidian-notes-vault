@@ -38,6 +38,14 @@ std::cout << a;
 using std::cout;
 cout << a;
 ```
+It is important to note that `using` only targets names, to import all `names` in a `namespace` into the scope, we use `using namespace`.
+```cpp
+#include <chrono>
+
+auto start
+
+using namespace std::chrono;
+```
 3. The `using` keyword allows derived classes to inherit base class members, including constructors. This is useful for exposing protected members as public in derived classes.
 ```cpp
 class Base {

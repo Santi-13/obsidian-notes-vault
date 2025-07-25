@@ -4,6 +4,6 @@
 ### Chrono 
 ```cpp
 #include<chrono>
-using std::chrono;
+using namespace std::chrono;
 int function(int a)
 ```

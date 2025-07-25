@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Libraries.md",
+                "file": "C++/Tricks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Libraries"
+              "title": "Tricks"
             }
           }
         ],
@@ -210,8 +210,8 @@
   },
   "active": "36f44d929381d923",
   "lastOpenFiles": [
-    "C++/Tricks.md",
     "C++/Libraries.md",
+    "C++/Tricks.md",
     "Math/Euclid's Algorithms.md",
     "Math/Prime Sieve.md",
     "C++",
