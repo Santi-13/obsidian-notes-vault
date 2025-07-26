@@ -56,8 +56,15 @@ printVector(a)
 //prints [ 2 1 3 ]
 ```
 
-### `<random>`
+### `<deque>`
 ```cpp
-
+#include <iostream> 
+#include <deque> 
+int main() { 
+	// Efficiently remove the first element
+	std::deque<int> numbers = {10, 20, 30, 40};  
+	numbers.pop_front(); 
+	// The deque is now [ 20 30 40 ] return 0; 
+}
 ```
 
