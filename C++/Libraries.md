@@ -3,7 +3,8 @@
 --- 
 ### `<chrono>` 
 ```cpp
-#include<chrono>
+#include <iostream> 
+#include <chrono>
 using namespace std::chrono;
 using std::cout;
 
@@ -24,7 +25,8 @@ int main() {
 ```
 ### `<vector>`
 ```cpp
-#include<vector>
+#include <iostream> 
+#include <vector>
 vector<int> a = {1,2,3};
 vector<double> b = {1.1,2.2,3.3};
 
@@ -47,7 +49,8 @@ printVector(b)
 
 ### `<utility>`
 ```cpp
-#include<utility>
+#include <iostream> 
+#include <utility>
 using std::swap;
 
 vector<int> a = {1,2,3};
