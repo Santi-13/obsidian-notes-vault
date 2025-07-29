@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Libraries.md",
+                "file": "C++/Data Structures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Libraries"
+              "title": "Data Structures"
             }
           }
         ],
@@ -208,10 +208,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f3ef615f193bc71",
+  "active": "36f44d929381d923",
   "lastOpenFiles": [
-    "C++/Tricks.md",
     "C++/Libraries.md",
+    "C++/Tricks.md",
+    "C++/Data Structures.md",
     "Math/Euclid's Algorithms.md",
     "Math/Prime Sieve.md",
     "C++",
@@ -248,7 +249,6 @@
     "images/Pasted image 20250701103156.png",
     "Cinves/Examen Admisión, parte Lógica.md",
     "Control Quiz.md",
-    "Untitled.md",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf"
