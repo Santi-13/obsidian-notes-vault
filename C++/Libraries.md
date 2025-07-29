@@ -71,3 +71,24 @@ int main() {
 }
 ```
 
+### `<cctype>`
+```cpp
+#include <iostream>
+#include <string>
+#include <cctype>
+
+std::string toLowerCase(const std::string &input) {
+    std::string result = input;
+    for (char &c : result) {
+        c = std::tolower(static_cast<unsigned char>(c));
+    }
+    return result;
+}
+
+int main() {
+    std::string str = "Hello, World!";
+    std::cout << toLowerCase(str) << std::endl; 
+    // Output: hello, world!
+    return 0;
+}
+```
