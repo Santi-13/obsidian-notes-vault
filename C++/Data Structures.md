@@ -14,4 +14,7 @@ int main() {
 	return 0;
 }
 ```
-They're perfect for situations where you may want to quickly find an item on a ever increasing data set —like finding if a user has already watched a video with millions of views—. They work via a ***hash function***, which assigns a value
+They're perfect for situations where you may want to quickly find an item on a ever increasing data set —like finding if a user has already watched a video with millions of views—. They work via a ***hash function***, which assigns a value to the item being saved based on the `key`. This way, when a user searches for certain value, the input `key` passes through this function, and the result tells the program *where* to look. This allows almost instantaneous response `O(1)` time.
+
+They are called `hash sets` when you only use the `key` and not the `value`. A simple `hash map` may look like this:
+
