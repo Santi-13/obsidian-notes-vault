@@ -101,11 +101,10 @@ int main() {
 Heaps are `priority queues`, basically they are an ordered list that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top. 
 ```cpp
 #include <iostream>
-#include <priority_queue>
+#include <queue>
 
 int main() {
-	std::map<string, int> map;
-
+	std::priority_queue<int> queue;
 
 	return 0;
 }
