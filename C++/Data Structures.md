@@ -128,10 +128,11 @@ int main() {
     return 0;
 }
 ```
-The way heaps work in, for example, `max-heaps` is via **nodes**, each node being an item in the queue, then the structure follows a simple rule, all parent **nodes** must be bigger than their children. Whenever we add an item to the queue, we add it to the lowest available child in the hierarchy and we start comparing.
+The way heaps work in, for example, `max-heaps` is via **nodes**, each node being an item in the queue, then the structure follows a simple rule, all parent **nodes** must be bigger than their children. Whenever we add an item to the queue, we add it to the lowest available child in the hierarchy and we start comparing. For example, let's add a `50` to `queue = [20,15,10,7]`:
 ```
-
       20
     /    \
-   10
+   10    15
+  /  \
+ 7    
 ```
