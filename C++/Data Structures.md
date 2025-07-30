@@ -58,6 +58,6 @@ int main() {
 ```
 
 ### Ordered Maps
-Ordered maps are a type of dictionary, but that is 
+Ordered maps are a type of dictionary, but that is organized from the get-go, facilitating search algorithms, like ***binary tree search***.
 
 ### Heaps
