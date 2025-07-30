@@ -25,5 +25,5 @@ $$
 ---
 #### Flashcards
 What is the ***[[Variance of Higher-Dimensional Datasets|covariance matrix]]***?:: Is a *symmetric*, *positive definite* matrix that explains the relation between components of a dataset.
-<!--SR:!2025-04-10,1,190-->
+<!--SR:!2025-08-01,2,190-->
 
