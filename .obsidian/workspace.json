@@ -11,17 +11,14 @@
             "id": "0085e646a26dfdf4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": -370,
-                  "y": 60.19512195121949,
-                  "zoom": -0.10187961401921382
-                }
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
+              "icon": "lucide-file",
+              "title": "Variance of 1D Datasets"
             }
           }
         ]
@@ -81,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 334.5
   },
   "right": {
     "id": "6ce99c6f820efe55",
@@ -198,6 +195,12 @@
   },
   "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Length or Norm of a vector.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Inner Product.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
+    "Canvas.canvas",
     "Control Quiz.md",
     "images/Pasted image 20241022204915.png",
     "NLSC_lecture_notes_2018.pdf",
@@ -218,18 +221,12 @@
     "Chairing/Euler-Lagrange Formulation.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Length or Norm of a vector.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Inner Product.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
     "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Introduction.md",
     "AI/Python Solutions.md",
     "Robotics & Vision.md",
-    "Cinves/Examen de Lógica Proposicional.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
     "images/Pasted image 20250701105815.png",
