@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2e8df6d06e5125ea",
+        "id": "35e6fb02c6a4f825",
         "type": "tabs",
         "children": [
           {
-            "id": "b0410b29b17a86a1",
+            "id": "0085e646a26dfdf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Prime Sieve.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Prime Sieve"
-            }
-          },
-          {
-            "id": "36f44d929381d923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Data Structures.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Structures"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,13 +189,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36f44d929381d923",
+  "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
-    "Untitled 2.md",
-    "C++/Data Structures.md",
     "Math/Prime Sieve.md",
-    "C++/Libraries.md",
+    "Excalidraw/Diagram Force Transformations.md",
     "C++/Tricks.md",
+    "C++/Libraries.md",
+    "C++/Data Structures.md",
+    "Untitled 2.md",
     "Math/Euclid's Algorithms.md",
     "C++",
     "Math/From Mathematics to General Programming.md",
@@ -248,7 +230,6 @@
     "images/Pasted image 20250701105730.png",
     "images/Pasted image 20250701105728.png",
     "images/Pasted image 20250701103156.png",
-    "Cinves/Examen Admisión, parte Lógica.md",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf"
