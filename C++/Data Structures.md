@@ -14,4 +14,4 @@ int main() {
 	return 0;
 }
 ```
-They're perfect for situations where you may want to quickly find an item on a ever increasing data set 
+They're perfect for situations where you may want to quickly find an item on a ever increasing data set –
