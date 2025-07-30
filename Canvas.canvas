@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"d464936b82987d4f","type":"file","file":"Control/Pole Placement.md","x":-820,"y":-200,"width":480,"height":400},
-		{"id":"0492878f4c310183","type":"file","file":"Control/Linear Quadratic Regulator.md","x":-320,"y":-200,"width":540,"height":400},
+		{"id":"0492878f4c310183","type":"file","file":"Control/Linear Quadratic Regulator.md","x":-320,"y":-200,"width":520,"height":400},
 		{"id":"7e02d86f8bde61bb","type":"text","text":"# Control Theory","x":-820,"y":-300,"width":425,"height":60},
 		{"id":"930a40d552b3eb76","type":"text","text":"# Math & Programming","x":360,"y":-300,"width":425,"height":60},
 		{"id":"7e9df9c1342b9659","type":"file","file":"Math/From Mathematics to General Programming.md","x":360,"y":-200,"width":400,"height":400},
