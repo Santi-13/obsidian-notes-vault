@@ -136,4 +136,4 @@ The way heaps work in, for example, `max-heaps` is via **nodes**, each node bein
   /  \                     /  \           /  \
  7    50 <- add here      7    10        7    10
 ```
-This is a very efficient operation for getting the highest value to the top, and 
+This is a very efficient operation for getting the highest value to the top, which may be useful in some situations.
