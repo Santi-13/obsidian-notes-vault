@@ -2,16 +2,16 @@
 	"nodes":[
 		{"id":"d464936b82987d4f","type":"file","file":"Control/Pole Placement.md","x":-820,"y":-200,"width":480,"height":400},
 		{"id":"0492878f4c310183","type":"file","file":"Control/Linear Quadratic Regulator.md","x":-320,"y":-200,"width":540,"height":400},
-		{"id":"7e02d86f8bde61bb","x":-820,"y":-300,"width":425,"height":60,"type":"text","text":"# Control Theory"},
+		{"id":"7e02d86f8bde61bb","type":"text","text":"# Control Theory","x":-820,"y":-300,"width":425,"height":60},
 		{"id":"930a40d552b3eb76","type":"text","text":"# Math & Programming","x":360,"y":-300,"width":425,"height":60},
-		{"id":"7e9df9c1342b9659","x":360,"y":-200,"width":400,"height":400,"type":"file","file":"Math/From Mathematics to General Programming.md"},
-		{"id":"f12eb6a971c0f46a","x":785,"y":-200,"width":400,"height":400,"type":"file","file":"Math/Prime Sieve.md"},
-		{"id":"f57906fb7c712ee1","x":360,"y":240,"width":400,"height":400,"type":"file","file":"Math/Egyptian Multiplication.md"},
-		{"id":"ca609772d7bf8382","x":-820,"y":240,"width":480,"height":400,"type":"file","file":"Control/Fuzzy Control.md"},
-		{"id":"0426c43b15e6e336","x":-2000,"y":-300,"width":250,"height":60,"type":"text","text":"# Robotics"},
-		{"id":"18aa3f6280c9f372","x":-2000,"y":-200,"width":520,"height":400,"type":"file","file":"Robotics & Vision.md"},
+		{"id":"7e9df9c1342b9659","type":"file","file":"Math/From Mathematics to General Programming.md","x":360,"y":-200,"width":400,"height":400},
+		{"id":"f12eb6a971c0f46a","type":"file","file":"Math/Prime Sieve.md","x":785,"y":-200,"width":400,"height":400},
+		{"id":"f57906fb7c712ee1","type":"file","file":"Math/Egyptian Multiplication.md","x":360,"y":240,"width":400,"height":400},
+		{"id":"ca609772d7bf8382","type":"file","file":"Control/Fuzzy Control.md","x":-820,"y":240,"width":480,"height":400},
+		{"id":"0426c43b15e6e336","type":"text","text":"# Robotics","x":-2000,"y":-300,"width":250,"height":60},
+		{"id":"18aa3f6280c9f372","type":"file","file":"Robotics & Vision.md","x":-2000,"y":-200,"width":520,"height":400},
 		{"id":"e514241d18195c13","type":"text","text":"# AI","x":-1400,"y":-300,"width":250,"height":60},
-		{"id":"e93de33c6903f5d3","x":-1400,"y":-200,"width":520,"height":400,"type":"file","file":"Computación Cognitiva/Computación Cognitiva.md"}
+		{"id":"e93de33c6903f5d3","type":"file","file":"Computación Cognitiva/Computación Cognitiva.md","x":-1400,"y":-200,"width":520,"height":400}
 	],
 	"edges":[]
 }

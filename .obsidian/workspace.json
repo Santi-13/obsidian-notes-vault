@@ -11,10 +11,17 @@
             "id": "0085e646a26dfdf4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Canvas.canvas",
+                "viewState": {
+                  "x": -407.5,
+                  "y": 170,
+                  "zoom": -1.506624096490759
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas"
             }
           }
         ]
@@ -191,6 +198,12 @@
   },
   "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
+    "Control Quiz.md",
+    "images/Pasted image 20241022204915.png",
+    "NLSC_lecture_notes_2018.pdf",
+    "images/Pasted image 20250423114148.png",
+    "images/Pasted image 20241024210740.png",
+    "images/Pasted image 20241022205004.png",
     "Math/Prime Sieve.md",
     "Excalidraw/Diagram Force Transformations.md",
     "C++/Tricks.md",
@@ -219,17 +232,11 @@
     "Cinves/Examen de Lógica Proposicional.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
-    "Pasted image 20250423114148.png",
-    "Pasted image 20241024210740.png",
     "images/Pasted image 20250701105815.png",
     "images/Pasted image 20250701102741.png",
     "images/Pasted image 20250630092748.png",
-    "NLSC_lecture_notes_2018.pdf",
-    "Cinves/Examen Admisión, parte Matemáticas.md",
     "images/Pasted image 20250701105731.png",
     "images/Pasted image 20250701105730.png",
-    "images/Pasted image 20250701105728.png",
-    "images/Pasted image 20250701103156.png",
     "Chairing/pdfs/Barrier Lyapunov Function.pdf",
     "Chairing/pdfs/State Variable Theory.pdf",
     "Chairing/pdfs/Lyapunov With Perturbations.pdf"
