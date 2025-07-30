@@ -14,4 +14,4 @@ int main() {
 	return 0;
 }
 ```
-They're perfect for situations where you may want to quickly find an item on a ever increasing data set –
+They're perfect for situations where you may want to quickly find an item on a ever increasing data set —like finding if a user has already watched a video with millions of views—. They work via a ***hash function***, which assigns a value
