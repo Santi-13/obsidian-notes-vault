@@ -98,7 +98,7 @@ int main() {
 ```
 
 ### Heaps
-Heaps are `priority queues`, basically they are an ordered list that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top.  `C++` heaps are by default `max-heap`.
+Heaps are `priority queues`, basically they are a tree structure with a specific partial order that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top.  `C++` heaps are by default `max-heap`.
 ```cpp
 #include <iostream>
 #include <queue>
