@@ -58,6 +58,44 @@ int main() {
 ```
 
 ### Ordered Maps
-Ordered maps are a type of dictionary, but that is organized from the get-go, facilitating search algorithms, like ***binary tree search***.
+Ordered maps are a type of dictionary, but that is organized from the get-go, facilitating search algorithms, like ***binary tree search***. They have similar methods to **[[#Hash Map/Table/Set|Hash Maps]]**. A simple implementation may look like:
+```cpp
+#include <iostream>
+#include <string>
+#include <map>
+
+using std::cout;
+using std::endl;
+using std::string;
+using std::map;
+
+void printGradebook(const map<string, int>& gradebook) {
+    for (const auto& student : gradebook) {
+        cout << student.first << ": " << student.second << endl;
+    }
+}
+
+int main() {
+    // 1. Create the map
+    map<string, int> gradebook;
+
+    // 2. Add students and scores
+    gradebook["Charlie"] = 88;
+    gradebook["Alice"] = 95;
+    gradebook["Bob"] = 72;
+
+    // 3. Update a score if the student exists
+    if (gradebook.count("Bob")) {
+	    gradebook["Bob"] += 8;
+    }
+
+    // 4. Print the final gradebook
+    std::cout << "Final Gradebook (Alphabetical):" << std::endl;
+    printGradebook(gradebook);
+
+    return 0;
+}
+```
 
 ### Heaps
+Heaps are `priority queues`, basically they are an ordered list that follows a simple
