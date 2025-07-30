@@ -98,15 +98,34 @@ int main() {
 ```
 
 ### Heaps
-Heaps are `priority queues`, basically they are an ordered list that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top. 
+Heaps are `priority queues`, basically they are an ordered list that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top.  `C++` heaps are by default `max-heap`.
 ```cpp
 #include <iostream>
 #include <queue>
 
-int main() {
-	std::priority_queue<int> queue;
+using std::cout;
+using std::endl;
+using std::priority_queue;
 
-	return 0;
+int main() {
+    // 1. Create the priority_queue
+    priority_queue<int> tasks;
+
+    // 2. Add tasks with different priorities
+    tasks.push(10);
+    tasks.push(50);
+    tasks.push(20);
+    tasks.push(40);
+    tasks.push(30);
+
+    // 3. Process all tasks in priority order
+    std::cout << "Processing tasks:" << std::endl;
+    while (!tasks.empty()) {
+        cout << tasks.top() << endl;
+        tasks.pop(); // Erases from list
+    }
+    
+    return 0;
 }
 ```
 The way heaps work in, for example, `max-heaps` is via **nodes**, each node being an item in the queue, then the structure follows a simple rule, all parent **nodes** must be bigger than their children. Whenever we add an item to the queue, we add it to the lowest available child in the hierarchy and we start comparing.
