@@ -37,8 +37,22 @@ int main() {
 	std::unordered_map<string, int> hash_map;
 	hash_map["Coffe Cows"] = 2;
 	hash_map["Milkshake Moose"] = 1;
-	
 
+	printMap(hash_map);
+	/* output:
+	Coffe Cows: 2
+	Milkshake Moose: 1
+	*/
+
+	hash_map["Coffe Cows"] += 5;
+	// Checks if item exists in set
+	if (hash_map.count("Coffe Cows")) {
+		printMap(hash_map);
+		/* output:
+		Coffe Cows: 2
+		Milkshake Moose: 1
+		*/
+	}
 	return 0;
 }
 ```
