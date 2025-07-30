@@ -99,9 +99,20 @@ int main() {
 
 ### Heaps
 Heaps are `priority queues`, basically they are an ordered list that follows a simple algorithm according to its type: a `max-heap` has its biggest value at the top of the list; while a `min-heap` has its lowest value at the top. 
+```cpp
+#include <iostream>
+#include <priority_queue>
 
+int main() {
+	std::map<string, int> map;
+
+
+	return 0;
+}
+```
 The way heaps work in, for example, `max-heaps` is via **nodes**, each node being an item in the queue, then the structure follows a simple rule, all parent **nodes** must be bigger than their children. Whenever we add an item to the queue, we add it to the lowest available child in the hierarchy and we start comparing.
 ```
+
       20
     /    \
    10
