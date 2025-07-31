@@ -31,3 +31,8 @@ If we then choose he [[AI/Background Maths/Principal Component Analysis (PCA)/Mo
 $$
 \frac{\langle b, x \rangle}{ \lvert\lvert b \rvert\rvert^2 } b = \frac{ b^Txb}{ \lvert\lvert b \rvert\rvert^2 } 
 $$
+Given that $b^Tx$ is a scalar, we can move it around such that:
+$$
+\underbrace{ \frac{ bb^T }{ \lvert\lvert b \rvert\rvert^2 }  }_{ \text{Projection Matrix} } x = \pi_{u}(x)
+$$
+Now we can use this ***projection matrix*** to project any point in the two dimensions to the subspace $u$.
