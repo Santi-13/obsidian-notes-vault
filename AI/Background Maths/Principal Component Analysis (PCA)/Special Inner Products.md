@@ -50,4 +50,8 @@ We see that the ***covariance*** is *positive*, *definite*, and *linear*. **Line
 $$
 cov[\lambda x+y,z] = \lambda cov[x,z] + \lambda cov[y,z]
 $$
-Then, to [[Length or Norm of a vector#^269bff|obtain the length]] of
+Then, to [[Length or Norm of a vector#^269bff|obtain the length]] of this **random variable**, we get that it is its **standard deviation**, as:
+$$
+\lvert\lvert x \rvert\rvert = \sqrt{ \langle x,x \rangle } = \sqrt{ cov[x,x] } = \sqrt{ var[x] } = \sigma(x) 
+$$
+Now if we [[Angles and Orthogonality#^5845b1|look at the angles]] 
