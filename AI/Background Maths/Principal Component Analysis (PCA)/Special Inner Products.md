@@ -34,4 +34,12 @@ Another example for defining an ***inner product*** between **unusual types** ar
 $$
 var[x+y] = var[x] + var[y]
 $$
-If we remember our generalized [[Variance of Higher-Dimensional Datasets#^823310|variance definition]], 
+If we remember our generalized **variance** definition:
+$$
+\text{var}[D]=\frac{1}{n}\sum^n_{n=1}(x_{i}-\mu)(x_{i}-\mu)^T
+$$
+We can see the relationship looks much like the ***Pythagorean Theorem*** for right triangles:
+$$
+c^2= a^2 + b^2
+$$
+With this, we can try to find a ***geometric interpretation*** of the variance relation of uncorrelated **random variables**.
