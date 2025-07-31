@@ -16,6 +16,7 @@ f(x) = u(x)v(x)
 \end{matrix}
 $$
 We end up with this function:
+
 ```desmos-graph
 left=-4; right=4;
 top=0.6; bottom=-0.6;
