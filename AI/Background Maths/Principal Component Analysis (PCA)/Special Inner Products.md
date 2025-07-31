@@ -42,4 +42,11 @@ We can see the relationship looks much like the ***Pythagorean Theorem*** for ri
 $$
 c^2= a^2 + b^2
 $$
-With this, we can try to find a ***geometric interpretation*** of the variance relation of uncorrelated **random variables**.
+With this, we can try to find a ***geometric interpretation*** of the variance relation of uncorrelated **random variables**, which can be considered **elements** in a **vector**. And we can define ***inner products*** to obtain geometric properties of them. If we define it as, for example:
+$$
+\langle x,y \rangle = cov[x,y]
+$$
+We see that the ***covariance*** is *positive*, *definite*, and *linear*. **Linearity** would mean that:
+$$
+cov[\lambda x+y,z] = \lambda cov[x,z] + \lambda cov[y,z]
+$$
