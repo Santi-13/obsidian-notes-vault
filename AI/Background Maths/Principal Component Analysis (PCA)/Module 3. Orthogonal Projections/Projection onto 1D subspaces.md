@@ -8,3 +8,8 @@ For ***PCA***, it is crucial we identify the directions that describe our data t
 Here, $x$ is a point that can be described as the linear combination of the **basis vectors** of $\mathbb{R}^2$, $u$ is a 1D subspace with a basis vector $b$ —that is, all vectors in $u$ can be described as $\lambda b$. 
 
 To find the *orthogonal projection*, we want to find the $u$ *vector* which is closest to $x$. 
+
+![[Orthogonal Projection into 1D closest]]
+
+That means that the **difference vector** of $x$ and its *projection* is *orthogonal* to $u$. We can denote this *projection* as $\pi_{u}(x)$, and it has two very important **properties**:
+1. $\pi_{u}(x) \in u \implies \exists$

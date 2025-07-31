@@ -23,12 +23,14 @@
             "id": "04c008eb439448f8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-07-31 11.49.35.excalidraw.md"
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-31 11.49.35.excalidraw"
+              "icon": "lucide-file",
+              "title": "Projection onto 1D subspaces"
             }
           },
           {
@@ -218,8 +220,8 @@
   },
   "active": "04c008eb439448f8",
   "lastOpenFiles": [
+    "Excalidraw/Orthogonal Projection into 1D closest.md",
     "Excalidraw/Orthogonal Projection into 1D.md",
-    "Excalidraw/Drawing 2025-07-31 11.49.35.excalidraw.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
