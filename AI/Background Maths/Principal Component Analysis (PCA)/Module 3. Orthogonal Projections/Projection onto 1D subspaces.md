@@ -14,7 +14,6 @@ To find the *orthogonal projection*, we want to find the $u$ *vector* which is c
 That means that the **difference vector** of $x$ and its *projection* is *orthogonal* to $u$. We can denote this *projection* as $\pi_{u}(x)$, and it has two very important **properties**:
 1. As $\pi_{u}(x)$ lives in the subspace $u$, there exists a $\lambda$ value for which the projection can be described in terms of the subspace's basis vector.
 $$\pi_{u}(x) \in u \implies \exists \lambda \in \mathbb{R}: \pi_{u}(x) = \lambda b$$
-2. 1
-$$
-\langle b, \pi_{u}(x)-x \rangle = 0
-$$
+2. The difference vector between the point and its *projection* is *orthogonal* to the *basis vector* that spans $u$. That is:
+$$\langle b, \pi_{u}(x)-x \rangle = 0 $$
+We can exploit these properties to help us find the projection $\pi_{u}(x)$.
