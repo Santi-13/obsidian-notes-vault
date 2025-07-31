@@ -48,7 +48,7 @@ $$
 $$
 We see that the ***covariance*** is *positive*, *definite*, and *linear*. **Linearity** would mean that:
 $$
-cov[\lambda x+y,z] = \lambda cov[x,z] + \lambda cov[y,z]
+cov[\lambda x+y,z] = \lambda cov[x,z] + cov[y,z]
 $$
 Then, to [[Length or Norm of a vector#^269bff|obtain the length]] of this **random variable**, we get that it is its **standard deviation**, as:
 $$
