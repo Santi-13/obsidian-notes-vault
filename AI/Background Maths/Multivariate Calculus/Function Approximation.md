@@ -106,5 +106,5 @@ $$
 ### Flashcards
 ---
 What is the difference between the ***Taylor*** & ***Maclaurin Series***?:: The ***Maclaurin Series*** says that if we know everything there is to know about a function at its origin, then we can know everything about the whole function. While the ***Taylor Series*** says that there is nothing special about the origin, and that if we know everything about any point in the function, we can approximate the functions as a whole.
-<!--SR:!2025-04-14,56,310-->
+<!--SR:!2025-08-27,28,290-->
 
