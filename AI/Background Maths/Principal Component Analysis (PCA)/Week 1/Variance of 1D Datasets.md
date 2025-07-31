@@ -2,7 +2,7 @@
 #### By: Coursera - Mathematics for Machine Learning: PCA Week 1
 ---
 
-Let's analyze the following datasets, as well as their ***[[Mean of a Dataset|expected values]]***.
+Let's analyze the following datasets, as well as their ***[[Mean of a dataset|expected values]]***.
 
 ```desmos-graph
 left=-4; right=14;

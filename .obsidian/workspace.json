@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Special Inner Products.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Week 3/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Special Inner Products"
+              "title": "Untitled"
             }
           }
         ]
@@ -195,17 +195,23 @@
   },
   "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
-    "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Special Inner Products.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Length or Norm of a vector.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of Higher-Dimensional Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 3/Untitled.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of 1D Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Special Inner Products.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Mean of a dataset.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Linear Transformations of Datasets.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Length or Norm of a vector.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Introduction.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Inner Product.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Dot Product.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Distance Between Vectors.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Angles and Orthogonality.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 2",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 3",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1",
     "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
     "AI/Neural Networks.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Dot Product.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Inner Product.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Linear Transformations of Datasets.md",
     "Canvas.canvas",
     "Control Quiz.md",
     "images/Pasted image 20241022204915.png",
@@ -225,9 +231,6 @@
     "Math/Egyptian Multiplication.md",
     "Untitled 1.md",
     "Chairing/Euler-Lagrange Formulation.md",
-    "Chairing/Properties & Definitions/Cauchy-Schwarz Inequality.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Mean of a dataset.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Introduction.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
     "images/Pasted image 20250701105815.png",
