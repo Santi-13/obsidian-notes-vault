@@ -25,12 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Length or Norm of a vector"
+              "title": "Projection on Higher-Dimensional Subspaces"
+            }
+          },
+          {
+            "id": "3f1ad9230cb01c29",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-31 13.03.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-31 13.03.14.excalidraw"
             }
           },
           {
@@ -46,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -218,11 +230,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "04c008eb439448f8",
+  "active": "3f1ad9230cb01c29",
   "lastOpenFiles": [
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
+    "Excalidraw/Drawing 2025-07-31 13.03.14.excalidraw.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Untitled.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
     "Excalidraw/Orthogonal Projection into 1D closest.md",
     "Excalidraw/Orthogonal Projection into 1D.md",
@@ -236,7 +250,6 @@
     "Chairing/Task List.md",
     "Chairing/Ziegler-Nichols.md",
     "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Mean of a dataset.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Linear Transformations of Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Introduction.md",
@@ -254,7 +267,6 @@
     "images/Pasted image 20241024210740.png",
     "images/Pasted image 20241022205004.png",
     "Math/Prime Sieve.md",
-    "Excalidraw/Diagram Force Transformations.md",
     "C++",
     "Cinves",
     "images/Pasted image 20250630092730.png",
