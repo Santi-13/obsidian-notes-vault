@@ -26,5 +26,5 @@ $$
 \lambda = \frac{\langle b, x \rangle}{ \lvert\lvert b \rvert\rvert^2 } \\
 \implies \pi_{u}(x) = \lambda b = \frac{\langle b, x \rangle}{ \lvert\lvert b \rvert\rvert^2 } b
 \end{matrix}
-
 $$
+If we then choose he [[Excalidraw/Dot Product|Dot Product]] as our 
