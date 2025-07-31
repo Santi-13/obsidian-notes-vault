@@ -28,3 +28,9 @@ We see that this function is ***odd***, which means that:
 $$
 f(-x) = -f(x)
 $$
+If we choose the integral limits to be $-\pi$ and $\pi$, then it would evaluate to $0$, meaning that sine and cosine are **orthogonal**.
+
+Another example for defining an ***inner product*** between **unusual types** are **random variables** or **random vectors**. If we have two random variables, which are uncorrelated, we know the following relationship:
+$$
+var[x+y] = var[x] + var[y]
+$$

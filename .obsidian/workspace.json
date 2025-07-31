@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Special Inner Products.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Special Inner Products"
+              "title": "Variance of Higher-Dimensional Datasets"
             }
           }
         ]
@@ -196,8 +196,8 @@
   "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
     "AI/Background Maths/Principal Component Analysis (PCA)/Variance of 1D Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Special Inner Products.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Multivariate Calculus/Newton-Raphson Method & Gradient Descent.md",
     "AI/Neural Networks.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
