@@ -12,4 +12,9 @@ To find the *orthogonal projection*, we want to find the $u$ *vector* which is c
 ![[Orthogonal Projection into 1D closest]]
 
 That means that the **difference vector** of $x$ and its *projection* is *orthogonal* to $u$. We can denote this *projection* as $\pi_{u}(x)$, and it has two very important **properties**:
-1. $\pi_{u}(x) \in u \implies \exists$
+1. As $\pi_{u}(x)$ lives in the subspace $u$, there exists a $\lambda$ value for which the projection can be described in terms of the subspace's basis vector.
+$$\pi_{u}(x) \in u \implies \exists \lambda \in \mathbb{R}: \pi_{u}(x) = \lambda b$$
+2. 1
+$$
+\langle b, \pi_{u}(x)-x \rangle = 0
+$$
