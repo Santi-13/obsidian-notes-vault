@@ -21,6 +21,10 @@ We end up with this function:
 left=-4; right=4;
 top=0.6; bottom=-0.6;
 ---
-f(x)=\sin(x)\cos(x)
+g(x)=\sin(x)\cos(x)
 ```
 
+We see that this function is ***odd***, which means that:
+$$
+f(-x) = -f(x)
+$$
