@@ -39,10 +39,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-07-31 13.03.14.excalidraw.md"
+                "file": "Excalidraw/Orthogonal Projection into High-D.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-31 13.03.14.excalidraw"
+              "title": "Orthogonal Projection into High-D"
             }
           },
           {
@@ -230,16 +230,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f1ad9230cb01c29",
+  "active": "09055649d6028e91",
   "lastOpenFiles": [
+    "Excalidraw/Orthogonal Projection into 1D.md",
+    "Excalidraw/Orthogonal Projection into 1D closest.md",
+    "Excalidraw/Euclid's GCM Diagram.md",
+    "Excalidraw/Orthogonal Projection into High-D.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
-    "Excalidraw/Drawing 2025-07-31 13.03.14.excalidraw.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
-    "Excalidraw/Orthogonal Projection into 1D closest.md",
-    "Excalidraw/Orthogonal Projection into 1D.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Angles and Orthogonality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Variance of 1D Datasets.md",
@@ -266,7 +267,6 @@
     "images/Pasted image 20250423114148.png",
     "images/Pasted image 20241024210740.png",
     "images/Pasted image 20241022205004.png",
-    "Math/Prime Sieve.md",
     "C++",
     "Cinves",
     "images/Pasted image 20250630092730.png",
