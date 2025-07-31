@@ -34,3 +34,4 @@ Another example for defining an ***inner product*** between **unusual types** ar
 $$
 var[x+y] = var[x] + var[y]
 $$
+If we remember our generalized [[Variance of Higher-Dimensional Datasets#^823310|variance definition]], 
