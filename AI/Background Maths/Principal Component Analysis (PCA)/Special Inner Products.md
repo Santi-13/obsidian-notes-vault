@@ -54,4 +54,10 @@ Then, to [[Length or Norm of a vector#^269bff|obtain the length]] of this **rand
 $$
 \lvert\lvert x \rvert\rvert = \sqrt{ \langle x,x \rangle } = \sqrt{ cov[x,x] } = \sqrt{ var[x] } = \sigma(x) 
 $$
-Now if we [[Angles and Orthogonality#^5845b1|look at the angles]] 
+Now if we [[Angles and Orthogonality#^5845b1|look at the angles]] between two **random variables**, we get:
+$$
+\cos \theta =  \frac{ \left\langle  x,y \right\rangle}{ \lvert\lvert x \rvert\rvert \text{ } \lvert\lvert y \rvert\rvert  }
+$$
+$$
+=  \frac{ cov[x,y] }{ \sqrt{ var[x] var[y] } }
+$$
