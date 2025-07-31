@@ -11,14 +11,24 @@
             "id": "0085e646a26dfdf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Orthogonal Projection into 1D.md"
               },
-              "icon": "lucide-file",
-              "title": "Projection onto 1D subspaces"
+              "icon": "excalidraw-icon",
+              "title": "Orthogonal Projection into 1D"
+            }
+          },
+          {
+            "id": "04c008eb439448f8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-31 11.49.35.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-31 11.49.35.excalidraw"
             }
           },
           {
@@ -33,7 +43,8 @@
               "title": "Orthogonal Projection into 1D"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,8 +216,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0085e646a26dfdf4",
+  "active": "04c008eb439448f8",
   "lastOpenFiles": [
+    "Excalidraw/Orthogonal Projection into 1D.md",
+    "Excalidraw/Drawing 2025-07-31 11.49.35.excalidraw.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Angles and Orthogonality.md",
@@ -216,11 +230,9 @@
     "Chairing/Force Control.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Untitled.md",
     "Chairing/Task List.md",
     "Chairing/Ziegler-Nichols.md",
-    "Excalidraw/Orthogonal Projection into 1D.md",
     "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Mean of a dataset.md",
@@ -241,7 +253,6 @@
     "images/Pasted image 20241022205004.png",
     "Math/Prime Sieve.md",
     "Excalidraw/Diagram Force Transformations.md",
-    "C++/Tricks.md",
     "C++",
     "Cinves",
     "images/Pasted image 20250630092730.png",
