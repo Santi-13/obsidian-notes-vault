@@ -7,3 +7,12 @@ The ***inner product*** between two functions is defined as:
 $$
 \langle u, v \rangle = \int^b_{a} u(x) v(x) dx
 $$
+As with the regular ***[[Inner Product]]***, we can define the ***norms*** and ***orthogonality*** by looking at this product. If the **integral** evaluates to **zero**, the functions $u$ and $v$ are **orthogonal**. For example, for:
+$$
+\begin{matrix} 
+u(x) = \sin(x) \\
+v(x) = \cos(x)  \\
+f(x) = u(x)v(x)
+\end{matrix}
+$$
+We end up with this function:
