@@ -14,7 +14,7 @@ Two *vectors* are said to be ***orthogonal*** if and only if their **inner produ
 For vectors $x = \begin{bmatrix}1 \\  1\end{bmatrix}$, $y = \begin{bmatrix}-1  \\ 1\end{bmatrix}$:
 
 ```graph
-bounds: [-3, 2, 3, -2]
+bounds: [-3.5, 1.5, 3.5, -1.5]
 elements: [ 
 	{type: arrow, def: [[0,0], [1,1]] },
 	{type: arrow, def: [[0,0], [-1,1]] },
