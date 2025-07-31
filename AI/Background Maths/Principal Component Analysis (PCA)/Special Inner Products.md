@@ -61,3 +61,4 @@ $$
 $$
 =  \frac{ cov[x,y] }{ \sqrt{ var[x] var[y] } }
 $$
+We see that the covariance between them would be zero **if and only if** $x$ and $y$ are ***uncorrelated***.
