@@ -35,4 +35,12 @@ Given that $b^Tx$ is a scalar, we can move it around such that:
 $$
 \underbrace{ \frac{ bb^T }{ \lvert\lvert b \rvert\rvert^2 }  }_{ \text{Projection Matrix} } x = \pi_{u}(x)
 $$
-Now we can use this ***projection matrix*** to project any point in the two dimensions to the subspace $u$.
+Now we can use this ***projection matrix*** to project any point in the two dimensions to the subspace. In the case of a normal *basis vector*, this becomes much simpler as:
+$$
+\begin{matrix}
+\lvert\lvert b \rvert\rvert  = 1 \\
+\implies \lambda = b^Tx \\
+\implies \pi_{u}(x) = bb^Tx
+\end{matrix}
+$$
+Just to make the comment, the projection $$
