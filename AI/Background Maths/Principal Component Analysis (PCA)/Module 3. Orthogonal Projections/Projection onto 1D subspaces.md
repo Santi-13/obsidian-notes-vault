@@ -43,4 +43,4 @@ $$
 \implies \pi_{u}(x) = bb^Tx
 \end{matrix}
 $$
-Just to make the comment, the projection $$
+Just to make the comment, the projection $\pi_{u}(x)$ is still in the coordinates of $\mathbb{R}^2$, but we only need a single coordinate to represent it in the subspace, $\lambda$.
