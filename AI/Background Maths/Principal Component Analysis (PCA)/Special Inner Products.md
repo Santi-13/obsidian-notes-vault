@@ -50,3 +50,4 @@ We see that the ***covariance*** is *positive*, *definite*, and *linear*. **Line
 $$
 cov[\lambda x+y,z] = \lambda cov[x,z] + \lambda cov[y,z]
 $$
+Then, to [[Length or Norm of a vector#^269bff|obtain the length]] of
