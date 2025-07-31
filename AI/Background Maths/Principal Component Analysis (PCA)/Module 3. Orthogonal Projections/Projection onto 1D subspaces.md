@@ -17,3 +17,10 @@ $$\pi_{u}(x) \in u \implies \exists \lambda \in \mathbb{R}: \pi_{u}(x) = \lambda
 2. The difference vector between the point and its *projection* is *orthogonal* to the *basis vector* that spans $u$. That is:
 $$\langle b, \pi_{u}(x)-x \rangle = 0 $$
 We can exploit these properties to help us find the projection $\pi_{u}(x)$.
+$$
+\begin{matrix}
+\langle b, \pi_{u}(x)-x \rangle = 0 \\
+\iff \langle b, \pi_{u}(x)-x \rangle = 0
+\end{matrix}
+
+$$
