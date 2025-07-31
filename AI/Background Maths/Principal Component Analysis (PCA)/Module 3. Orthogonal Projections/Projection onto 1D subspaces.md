@@ -20,7 +20,11 @@ We can exploit these properties to help us find the projection $\pi_{u}(x)$.
 $$
 \begin{matrix}
 \langle b, \pi_{u}(x)-x \rangle = 0 \\
-\iff \langle b, \pi_{u}(x)-x \rangle = 0
+\langle b, \pi_{u}(x) \rangle-\langle b, x \rangle = 0 \\
+\langle b, \lambda b \rangle-\langle b, x \rangle = 0 \\
+\lambda \lvert\lvert b \rvert\rvert^2 -\langle b, x \rangle = 0 \\
+\lambda = \frac{\langle b, x \rangle}{ \lvert\lvert b \rvert\rvert^2 } \\
+\implies \pi_{u}(x) = \lambda b = \frac{\langle b, x \rangle}{ \lvert\lvert b \rvert\rvert^2 } b
 \end{matrix}
 
 $$
