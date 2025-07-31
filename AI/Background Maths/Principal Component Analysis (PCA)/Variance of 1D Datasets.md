@@ -50,7 +50,8 @@ What is the ***variance*** of a dataset?:: The average square distance of each p
 <!--SR:!2025-08-14,15,228-->
 
 What is the ***standard deviation***?:: Is the square root of the *variance*, often used when talking about the spread of the data as it is in the same units as the mean.
-<!--SR:!2025-07-31,1,227-->
+<!--SR:!2025-08-02,2,245-->
+<!--SR:!2025-08-02,2,227-->
 <!--SR:!2025-08-01,2,227-->
 <!--SR:!2025-04-10,1,208-->
 <!--SR:!2025-03-26,1,230-->
