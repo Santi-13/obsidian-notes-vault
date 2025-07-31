@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Week 3/Untitled.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of Higher-Dimensional Datasets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Variance of Higher-Dimensional Datasets"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "0085e646a26dfdf4",
   "lastOpenFiles": [
-    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Week 3/Untitled.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 3/Projection onto 1D subspaces.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Variance of 1D Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Week 2/Special Inner Products.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Week 1/Mean of a dataset.md",
@@ -230,7 +231,6 @@
     "Math/From Mathematics to General Programming.md",
     "Math/Egyptian Multiplication.md",
     "Untitled 1.md",
-    "Chairing/Euler-Lagrange Formulation.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
     "images/Pasted image 20250701105815.png",
