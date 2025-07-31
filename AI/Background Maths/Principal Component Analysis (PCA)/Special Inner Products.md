@@ -61,4 +61,6 @@ $$
 $$
 =  \frac{ cov[x,y] }{ \sqrt{ var[x] var[y] } }
 $$
-We see that the covariance between them would be zero **if and only if** $x$ and $y$ are ***uncorrelated***.
+We see that the covariance between them would be zero **if and only if** $x$ and $y$ are ***uncorrelated***. Though it is important to note that just because two variables are *uncorrelated*, it doesn't mean they are ***independent*** from each other.
+
+The goal of ***Principal Component Analysis*** is to find a new, orthogonal basis for the feature space. In the language of random variables, PCA transforms the original, correlated features (which can be seen as non-orthogonal vectors) into a new set of **uncorrelated** features called **principal components**. These new features are, by definition, **orthogonal** under the covariance inner product. PCA finds the directions (eigenvectors of the covariance matrix) in the data with the highest variance ("length").
