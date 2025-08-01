@@ -39,6 +39,6 @@ $$
 Assuming we choose he [[AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product|Dot Product]] as our [[Inner Product]], we can use the second property and exploit the linearity of the **inner product** to:
 $$
 \begin{matrix}
-
+\langle B\lambda,b_{i} \rangle - \langle x, b_{i} \rangle = 0, i=1,\dots,M
 \end{matrix}
 $$
