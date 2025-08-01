@@ -18,4 +18,14 @@ $$
 
 Or more generalized:
 1. $\pi_{u}(x)=\sum^M_{i=1} \lambda_{i} b_{i}$
-2. 
+2. $\langle \pi_{u}(x)-x, b_{i} \rangle = 0, i= 1,\dots,M$
+Where:
+$$
+\lambda = \underbrace{ \begin{bmatrix}
+\lambda_{1} \\
+\vdots \\
+\lambda_{M}
+\end{bmatrix} }_{ \text{M x 1} }, B = \underbrace{ \begin{bmatrix}
+b_{1} & \dots & b_{M}
+\end{bmatrix} }_{ \text{D x M} }
+$$
