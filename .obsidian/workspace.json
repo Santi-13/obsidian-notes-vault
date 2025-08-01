@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,10 +232,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f1ad9230cb01c29",
+  "active": "04c008eb439448f8",
   "lastOpenFiles": [
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
     "Excalidraw/Orthogonal Projection into High-D.md",
     "Excalidraw/Orthogonal Projection into 1D.md",
     "Excalidraw/Orthogonal Projection into 1D closest.md",
