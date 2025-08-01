@@ -7,5 +7,15 @@ We can further generalize the ***[[Projection onto 1D subspaces]]***. Let's look
 
 We observe a couple of things:
 1. $\pi_{u}(x)$ can be represented as a linear combination of the *basis vectors* $b_1$ and $b_2$.
-$$\pi_{u}(x)= \lambda_{1} b_{1}$$
+$$\pi_{u}(x)= \lambda_{1} b_{1} + \lambda_{2}b_{2}$$
+2. The **difference vector** between $x$ and $\pi_{u}(x)$ is **orthogonal** to $u$, which means it is *orthogonal* for all *basis vectors* of $u$.
+$$
+\begin{matrix}
+\langle x-\pi_{u}(x), b_{1} \rangle = 0 \\
+\langle x-\pi_{u}(x), b_{2} \rangle = 0
+\end{matrix}
+$$
+
+Or more generalized:
+1. $\pi_{u}(x)=\sum^M_{i=1} \lambda_{i} b_{i}$
 2. 
