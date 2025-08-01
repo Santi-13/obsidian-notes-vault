@@ -50,7 +50,7 @@ $$
 $$
 So our projection point would be:
 $$
-\pi_{u}(x) = B\lambda = B(B^TB)^{-1}B^Tx
+\pi_{u}(x) = B\lambda = \underbrace{ B(B^TB)^{-1}B^T }_{ \text{Projection Matrix} }x
 $$
 And in the case of an **orthonormal basis**, $B^TB$ becomes the identity matrix, so we would get:
 $$
