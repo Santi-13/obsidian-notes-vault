@@ -44,6 +44,11 @@ $$
 \lambda^TB^TB - x^TB = 0^M \\
 (\lambda^TB^TB=x^TB) (B^TB)^{-1} \\
 \lambda^T=x^TB(B^TB)^{-1} \\
-\lambda= 
+\text{As }(B^TB)^{-1} \text{ is symmetrical, its transpose is the same.} \\
+\lambda=(B^TB)^{-1}B^Tx
 \end{matrix}
+$$
+So our projection point would be:
+$$
+\pi_{u}(x) = B\lambda = B(B^TB)^{-1}B^Tx
 $$
