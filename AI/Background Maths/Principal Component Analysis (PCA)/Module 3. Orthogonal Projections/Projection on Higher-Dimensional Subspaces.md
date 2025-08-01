@@ -52,3 +52,8 @@ So our projection point would be:
 $$
 \pi_{u}(x) = B\lambda = B(B^TB)^{-1}B^Tx
 $$
+And in the case of an **orthonormal basis**, $B^TB$ becomes the identity matrix, so we would get:
+$$
+\pi_{u}(x)  = BB^Tx
+$$
+We effectively got the same result as before.
