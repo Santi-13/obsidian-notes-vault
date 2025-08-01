@@ -41,6 +41,9 @@ $$
 \begin{matrix}
 \langle B\lambda,b_{i} \rangle - \langle x, b_{i} \rangle = 0, i=1,\dots,M \\
 \lambda^TB^Tb_{i} - x^Tb_{i} = 0, i=1,\dots,M \\
-\lambda^TB^TB - x^TB = 0
+\lambda^TB^TB - x^TB = 0^M \\
+(\lambda^TB^TB=x^TB) (B^TB)^{-1} \\
+\lambda^T=x^TB(B^TB)^{-1} \\
+\lambda= 
 \end{matrix}
 $$
