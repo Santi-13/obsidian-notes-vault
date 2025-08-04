@@ -18,10 +18,18 @@ If, additionally to this, this property is followed:
 Then $\mathcal{G}$ is an ***Abelian group***.
 
 ### Vector Spaces
-As we initially informally described, a *real-valued* ***vector space*** is a set $\mathcal{V}$ with an additional inner operation (mapped within itself):
+As we initially informally described, a *real-valued* ***vector space*** is a set $\mathcal{V}$ with an additional **inner operation** (mapped within itself):
 
 - $\text{Can be added together}$
 $$
-
++: \mathcal{V} \otimes \mathcal{V} \to \mathcal{V}
 $$
-- 
+And an **outer operation** (interacts with other groups):
+
+- $\text{Can be multiplied by a scalar}$
+$$
+\cdot : \mathbb{R} \otimes \mathcal{V} \to \mathcal{V}
+$$
+Where the following hold:
+1. $(\mathcal{V},+)$ is an *Abelian group*.
+2. $\text{Distributibity}$
