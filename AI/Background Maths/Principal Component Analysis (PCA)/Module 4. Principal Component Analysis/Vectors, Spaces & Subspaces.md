@@ -7,5 +7,9 @@ Consider a **set** $\mathcal{G}$ and an operation (such as $+$, $-$, $*$, $/$, e
 
 1. $\text{Closure of } \mathcal{G} \text{ under } \otimes: \forall x,y \in \mathcal{G}: x \otimes y \in \mathcal{G}$
 2. $\text{Associativity}: \forall x,y,z\in \mathcal{G} : (x\otimes y)\otimes z=x\otimes(y\otimes z)$
-3. $\text{Neutral}$
+3. $\text{Neutral element}: \exists e\in \mathcal{G}\forall x \in G: x \otimes e=x \text{ and } e\otimes x=x$
+4. $\text{Inverse element}: \forall x \in \mathcal{G} \exists y \in \mathcal{G} : x \otimes y = e \text{ and } y \otimes x = e. \text{ Often written as } x^{-1}.$
 
+If, additionally to this, this property is followed:
+
+5. 
