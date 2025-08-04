@@ -298,7 +298,6 @@ plt.imshow(np.hstack(faces[:5].reshape(5,64,64)), cmap='gray');
 
 
 
-
 ```python
 # for numerical reasons which you shall see in week 4, we normalize the dataset
 mean = faces.mean(axis=0)
@@ -327,7 +326,7 @@ plt.imshow(np.hstack(B[:5].reshape(-1, 64, 64)), cmap='gray');
 ```
 
 
-![png](output_32_0.png)
+
 
 
 Take a look at what happens if we project our faces onto the basis $\boldsymbol B$ spanned by these 50 "eigenfaces". In order to do this, we need to reshape $\boldsymbol B$ from above, which is of size (50, 64, 64), into the same shape as the matrix representing the basis as we have done earlier, which is of size (4096, 50). Here 4096 is the dimensionality of the data and 50 is the number of data points. 
@@ -383,7 +382,7 @@ plt.imshow(np.hstack(B_random[:5].reshape(-1, 64, 64)), cmap='gray');
 ```
 
 
-![png](output_39_0.png)
+
 
 
 As you can see, the basis vectors do not store faces but only store random noise.
@@ -492,7 +491,7 @@ plt.ylabel('y');
 ```
 
 
-![png](output_48_0.png)
+
 
 
 Now, we shall calculate $\hat{\boldsymbol  \theta}$ using the formula which we derived above.
@@ -529,7 +528,7 @@ print("theta_hat = %f" % theta_hat)
 
 
 
-![png](output_52_1.png)
+
 
 
 Suppose that we calculate $\hat{\boldsymbol  \theta}$ multiple times, each time taking increasing number of datapoints into consideration. How would you expect  $\lVert \hat{\boldsymbol  \theta} - \boldsymbol \theta \rVert$ to vary as the number of datapoints increases?
@@ -564,7 +563,7 @@ plt.ylabel("parameter error");
 ```
 
 
-![png](output_54_0.png)
+
 
 
 As you can see, $\lVert \hat{\boldsymbol  \theta} - \boldsymbol \theta \rVert$ generally decreases with an incrase in the dataset size.
