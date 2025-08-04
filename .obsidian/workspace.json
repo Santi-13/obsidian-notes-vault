@@ -23,12 +23,14 @@
             "id": "04c008eb439448f8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/vector_spaces.pdf"
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "vector_spaces"
+              "icon": "lucide-file",
+              "title": "Orthogonal Complement"
             }
           },
           {
@@ -232,10 +234,17 @@
   },
   "active": "04c008eb439448f8",
   "lastOpenFiles": [
+    "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Orthogonal Projections Lab.md",
+    "Excalidraw/2nd Simplest NN.md",
+    "AI/Background Maths/Multivariate Calculus/Linear Regression.md",
+    "AI/Background Maths/Multivariate Calculus/Jacobian.md",
+    "AI/Background Maths/Multivariate Calculus/Function Approximation.md",
+    "AI/Background Maths/Multivariate Calculus/Constrained Optimization.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/vector_spaces.pdf",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Orthogonal Projections Lab.md",
     "output_52_1.png.md",
     "output_54_0.png.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection on Higher-Dimensional Subspaces.md",
@@ -253,12 +262,6 @@
     "Chairing/Force Control.md",
     "Chairing/Lyapunov no Perturbations.md",
     "Chairing/Lyapunov With Perturbations.md",
-    "Chairing/Task List.md",
-    "Chairing/Ziegler-Nichols.md",
-    "Excalidraw/Drawing 2025-03-10 18.20.02.excalidraw.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Mean of a dataset.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Linear Transformations of Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Introduction.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets",
