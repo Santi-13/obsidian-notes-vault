@@ -3,4 +3,6 @@
 ---
 We informally characterize ***vectors*** as objects that can be *added* together and *multiplied* by a *scalar*value. Formally, however, **vectors** are what we denominate as ***Groups***. 
 
-Consider a **set** $\mathcal{G}$ and an operation $\otimes$
+Consider a **set** $\mathcal{G}$ and an operation (such as $+$, $-$, $*$, $/$, etc.) $\otimes$ that takes two in
+
+$\otimes:\mathcal{G} \to \mathcal{G}$
