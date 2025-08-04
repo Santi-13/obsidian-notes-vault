@@ -17,3 +17,7 @@ Where $\hat{\mathbf{y}}$ is the ***[[Projection on Higher-Dimensional Subspaces|
 $$
 \mathbf{z} = \mathbf{y} - \hat{\mathbf{y}}
 $$
+We can alternatively describe the vector as:
+$$
+\mathbf{y} = \sum^k_{i=1} \lambda_{i}b_{i} + \sum ^{n-k}_{j=1} \psi_{j}b^\perp_{j}
+$$
