@@ -18,4 +18,6 @@ If, additionally to this, this property is followed:
 Then $\mathcal{G}$ is an ***Abelian group***.
 
 ### Vector Spaces
-A
+As we initially informally described, a *real-valued* ***vector space*** is a set $\mathcal{V}$ with an additional inner operation (mapped within itself):
+
+a.  $\text{Can be added together}$
