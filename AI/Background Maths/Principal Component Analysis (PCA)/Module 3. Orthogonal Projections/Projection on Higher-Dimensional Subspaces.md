@@ -57,3 +57,6 @@ $$
 \pi_{u}(x)  = BB^Tx
 $$
 We effectively got the same result as before.
+$$
+P = \begin{bmatrix} \frac{5}{6} & \frac{1}{3} & -\frac{1}{6} \\ \frac{1}{3} & \frac{1}{3} & \frac{1}{3} \\ -\frac{1}{6} & \frac{1}{3} & \frac{5}{6} \end{bmatrix}
+$$
