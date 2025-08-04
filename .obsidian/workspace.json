@@ -23,10 +23,14 @@
             "id": "04c008eb439448f8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Projection onto 1D subspaces"
             }
           },
           {
@@ -228,7 +232,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09055649d6028e91",
+  "active": "04c008eb439448f8",
   "lastOpenFiles": [
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Orthogonal Projections Lab.md",
