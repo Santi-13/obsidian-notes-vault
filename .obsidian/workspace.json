@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement.md",
+                "file": "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement and Decomposition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Orthogonal Complement"
+              "title": "Orthogonal Complement and Decomposition"
             }
           },
           {
@@ -238,7 +238,7 @@
     "Untitled 3.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Projection onto 1D subspaces.md",
     "Excalidraw/Orthogonal Projection into 1D.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement and Decomposition.md",
     "AI/Background Maths/Multivariate Calculus/Linearisation & Multivariate Taylor Series.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 3. Orthogonal Projections/Orthogonal Projections Lab.md",
     "Excalidraw/2nd Simplest NN.md",
