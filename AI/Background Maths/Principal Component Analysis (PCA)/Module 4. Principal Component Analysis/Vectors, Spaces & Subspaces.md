@@ -40,4 +40,6 @@ Where the following hold:
 Then the elements $\mathbf{x}$ in the **vector space** $\mathcal{V}$ are called ***vectors***. 
 
 ### Vector Subspaces
-In short, ***vector subspaces*** are **sets**
+In short, ***vector subspaces*** are **sets** contained in the original **vector space** that when we perform *vector space operations* on elements within this **subspace**, we never leave it. In this sense, they are *"closed"*.
+
+If we let $(\mathcal{V},+,\cdot)$ be an $\mathbb{R}$-vector space and $\mathcal{U} $
