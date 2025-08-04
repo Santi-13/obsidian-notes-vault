@@ -35,4 +35,5 @@ Where the following hold:
 2. $\text{Distributibity:}$
 	1. $\lambda \cdot(\mathbf{x}+\mathbf{y}) = \lambda\cdot \mathbf{x} + \lambda\cdot \mathbf{y}$       $\forall \lambda \in \mathbb{R},\mathbf{x},\mathbf{y} \in \mathcal{V}$
 	2. $(\lambda+\psi) \cdot \mathbf{x} = \lambda\cdot \mathbf{x}+\psi\cdot \mathbf{x}$       $\forall \lambda,\psi \in \mathbb{R},\mathbf{x} \in \mathcal{V}$
-3. 
+3. $\text{Associativity (outer operation):} \lambda\cdot(\psi\cdot \mathbf{x}=(\lambda \psi))\cdot \mathbf{x}$        $\forall \lambda \in \mathbb{R},\mathbf{x},\mathbf{y} \in \mathcal{V}$
+4. $\text{Neutral element with respect to the outer operation}$
