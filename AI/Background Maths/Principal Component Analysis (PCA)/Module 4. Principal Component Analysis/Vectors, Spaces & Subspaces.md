@@ -34,4 +34,5 @@ Where the following hold:
 1. $(\mathcal{V},+)$ is an *Abelian group*.
 2. $\text{Distributibity:}$
 	1. $\lambda \cdot(\mathbf{x}+\mathbf{y}) = \lambda\cdot \mathbf{x} + \lambda\cdot \mathbf{y}$       $\forall \lambda \in \mathbb{R},\mathbf{x},\mathbf{y} \in \mathcal{V}$
-	2. $(\lambda+)$
+	2. $(\lambda+\psi) \cdot \mathbf{x} = \lambda\cdot \mathbf{x}+\psi\cdot \mathbf{x}$       $\forall \lambda,\psi \in \mathbb{R},\mathbf{x} \in \mathcal{V}$
+3. 
