@@ -18,4 +18,7 @@ $$
 $$
 \tilde{\mathbf{x}} = B\underbrace{ B^T\mathbf{x} }_{ \text{Coordinates or code} }
 $$
-This means that $\tilde{\mathbf{x}}$ is the **orthogonal projection** of $\mathbf{x}$ onto the subspace spanned by the $M$ *basis vectors*. The ***coordinates*** or ***code*** is defined as $B^T \mathbf{x}$ and they are the coordinates of $\tilde{\mathbf{x}}$ with respect to the *basis vectors* collected in the matrix $B$. a
+This means that $\tilde{\mathbf{x}}$ is the **orthogonal projection** of $\mathbf{x}$ onto the subspace spanned by the $M$ *basis vectors*. The ***coordinates*** or ***code*** is defined as $B^T \mathbf{x}$ and they are the coordinates of $\tilde{\mathbf{x}}$ with respect to the *basis vectors* collected in the matrix $B$. 
+
+### PCA
+The objective of ***PCA*** is to find the lower-dimensional representation $\tilde{\mathbf{x}}(\mathbf{x}_{n})$ that can
