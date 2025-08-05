@@ -42,4 +42,11 @@ We can write it as:
 $$
 J = \frac{1}{N} \sum^N_{n=1} \lvert\lvert \mathbf{x}_{n} - \tilde{\mathbf{x}}_{n}  \rvert\rvert^2
 $$
-In order to find the best possible fit, we have to find the **derivative** of $J$ with respect to the parameters $\beta_{in}, b_{i}$. Basically, we set the partial derivatives of $J$ with respect to these parameters to zero, and solve 
+In order to find the best possible fit, we have to find the **derivative** of $J$ with respect to the parameters $\beta_{in}, b_{i}$. Basically, we set the **partial derivatives** of $J$ with respect to these parameters to zero, and solve the ***optimal parameters***.
+
+We can observe, however, that these parameters **only enter** the error function *through* $\tilde{\mathbf{x}}_{n}$, so we need to apply the ***chain rule*** to get our *partial derivatives*.
+$$
+\frac{\partial J}{\partial \{ \beta_{in},b_{i} \}} =  \frac{\partial J}{\partial \tilde{\mathbf{x}}_{n}} \frac{\partial\tilde{\mathbf{x}}_{n}}{\partial \{ \beta_{in}, \}}
+$$
+
+
