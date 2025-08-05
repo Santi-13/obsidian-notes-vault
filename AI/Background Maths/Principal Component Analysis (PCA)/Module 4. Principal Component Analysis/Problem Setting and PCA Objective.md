@@ -35,3 +35,10 @@ In **PCA**, we are only interested in the *basis vectors* that span what we call
 $$
 \tilde{\mathbf{x}}_{n} = \sum^M_{i=1} \beta_{in}b_{i} \cancel{ + \sum^D_{i=M+1} \beta_{in}b_{i} \in \mathbb{R}^D }$$
 ### Setting
+Assuming we have data $\mathbf{x}_{1},\dots \mathbf{x}_{N}$, we want to find the parameters $\beta_{in}$ and the **orthonormal basis** vectors $b_i$ such that the ***average square reconstruction error*** is ***minimized***.
+
+We can write it as:
+
+$$
+J = \frac{1}{N} \sum^N_{n=1} \lvert\lvert \mathbf{x}_{n} - \tilde{\mathbf{x}}_{n}  \rvert\rvert 
+$$
