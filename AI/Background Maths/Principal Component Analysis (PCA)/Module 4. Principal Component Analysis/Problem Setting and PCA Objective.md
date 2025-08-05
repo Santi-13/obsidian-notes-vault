@@ -42,3 +42,4 @@ We can write it as:
 $$
 J = \frac{1}{N} \sum^N_{n=1} \lvert\lvert \mathbf{x}_{n} - \tilde{\mathbf{x}}_{n}  \rvert\rvert^2
 $$
+In order to find the best possible fit, we have to find the **derivative** of $J$ with respect to the parameters $\beta_{in}, b_{i}$. Basically, we set the partial derivatives of $J$ with respect to these parameters to zero, and solve 
