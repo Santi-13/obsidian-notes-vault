@@ -10,8 +10,7 @@ Our ***objective*** is to find the **lowest** dimensional representation of our 
 $$
 x_{n} = \sum^D_{i=1} \beta_{in} b_{i}
 $$
-2. If we assume the ***inner product*** as the ***dot product***, we can also write that:
+2. If we assume the ***inner product*** as the ***dot product***, we can interpret $\beta_{in}$ as the **[[Projection on Higher-Dimensional Subspaces|orthogonal projection]]** of $x_{}$also write that:
 $$
 \beta_{in} = x_{n}^T b_{i}
 $$
-1. 
