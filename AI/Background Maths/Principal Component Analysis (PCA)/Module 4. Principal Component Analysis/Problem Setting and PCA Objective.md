@@ -40,5 +40,5 @@ Assuming we have data $\mathbf{x}_{1},\dots \mathbf{x}_{N}$, we want to find the
 We can write it as:
 
 $$
-J = \frac{1}{N} \sum^N_{n=1} \lvert\lvert \mathbf{x}_{n} - \tilde{\mathbf{x}}_{n}  \rvert\rvert 
+J = \frac{1}{N} \sum^N_{n=1} \lvert\lvert \mathbf{x}_{n} - \tilde{\mathbf{x}}_{n}  \rvert\rvert^2
 $$
