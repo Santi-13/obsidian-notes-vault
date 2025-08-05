@@ -26,7 +26,8 @@ The objective of ***PCA*** is to find the *lower-dimensional representation* $\t
 1. $\text{Centered data: } E[X]=0$
 2. $\text{ONB } b_{1},\dots,b_{D}$
 
-Generally, we can write any  in the following way:
+Generally, we can write any $\tilde{\mathbf{x}}_{n}$ in the following way:
 $$
-\tilde{\mathbf{x}}_{n} = \sum^M
+\tilde{\mathbf{x}}_{n} = \sum^M_{i=1} \beta_{in}b_{i} + \sum^D_{i=M+1} \beta_{in}b_{i} \in \mathbb{R}^D
 $$
+In **PCA**, we are only interested in the *basis*
