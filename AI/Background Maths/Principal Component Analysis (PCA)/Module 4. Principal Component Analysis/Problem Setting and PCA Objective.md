@@ -14,7 +14,7 @@ $$
 $$
 \beta_{in} = \mathbf{x}_{n}^T b_{i}
 $$
-3. If we have an **orthonormal basis** $b_{1}$ to $b_{M}$ of $\mathbb{R}^M$ ($B=\{ b_{1},\dots,b_{M} \}$), and we define $B$ to be the matrix consisting of this **orthonormal basis vectors**. Then the projection of $\mathbf{x}$ onto the *subspace* can be written as:
+3. If we have a set of **orthonormal vectors** $B=\{ b_{1},\dots,b_{M} \}$ that form a *basis* for an $M$-dimensional subspace of $\mathbb{R}^D$. Then the projection of $\mathbf{x}$ onto the *subspace* can be written as:
 $$
 \tilde{\mathbf{x}} = B\underbrace{ B^T\mathbf{x} }_{ \text{Coordinates or code} }
 $$
