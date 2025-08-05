@@ -1,6 +1,7 @@
 #MachineLearning #PCA
 #### By: Coursera - Mathematics for Machine Learning: PCA Week 4
 ---
+### Objective
 Assume we have a dataset $\mathbf{x} \in \mathbb{R}^D$:
 $$
 \mathcal{X} = \{ \mathbf{x}_{1},\dots \mathbf{x}_{N} \}, \text{ }\mathbf{x}_{n} \in \mathbb{R}^D
@@ -30,4 +31,7 @@ Generally, we can write any $\tilde{\mathbf{x}}_{n}$ in the following way:
 $$
 \tilde{\mathbf{x}}_{n} = \sum^M_{i=1} \beta_{in}b_{i} + \sum^D_{i=M+1} \beta_{in}b_{i} \in \mathbb{R}^D
 $$
-In **PCA**, we are only interested in the *basis*
+In **PCA**, we are only interested in the *basis vectors* that span what we call the ***principal subspace*** ($b_{1},\dots, b_{M}$).
+$$
+\tilde{\mathbf{x}}_{n} = \sum^M_{i=1} \beta_{in}b_{i} \cancel{ + \sum^D_{i=M+1} \beta_{in}b_{i} \in \mathbb{R}^D }$$
+### Setting
