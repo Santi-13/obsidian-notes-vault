@@ -48,6 +48,20 @@
         "a": 1,
         "rgb": 16715535
       }
+    },
+    {
+      "query": "#cpp",
+      "color": {
+        "a": 1,
+        "rgb": 460664
+      }
+    },
+    {
+      "query": "#HuggingFace",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5087618855792593,
-  "close": true
+  "scale": 0.36288736930121207,
+  "close": false
 }

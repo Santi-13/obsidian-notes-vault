@@ -20,10 +20,10 @@ If the ***covariance*** between $x$ and $y$ is *positive*, then on average the $
 
 We can generalize for a $\text{D-dimensional}$ dataset. For: $D=\{ x_{1},\dots,x_{n} \}, x \in \mathbb{R}^D$.
 $$
-\text{var}[D]=\frac{1}{N}\sum^n_{n=1}(x_{i}-\mu)(x_{i}-\mu)^T
+\text{var}[D]=\frac{1}{n}\sum^n_{n=1}(x_{i}-\mu)(x_{i}-\mu)^T
 $$
 ---
 #### Flashcards
 What is the ***[[Variance of Higher-Dimensional Datasets|covariance matrix]]***?:: Is a *symmetric*, *positive definite* matrix that explains the relation between components of a dataset.
-<!--SR:!2025-04-10,1,190-->
+<!--SR:!2025-08-01,2,190-->
 

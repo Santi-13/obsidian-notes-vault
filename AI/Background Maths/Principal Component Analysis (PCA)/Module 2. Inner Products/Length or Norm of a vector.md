@@ -1,7 +1,7 @@
 #MachineLearning #PCA
 #### By: Coursera - Mathematics for Machine Learning: PCA Week 2
 ---
-The **length** or ***norm*** of a vector $x$ is defined as:
+The **length** or ***norm*** of a vector $x$ is defined as: ^269bff
 $$
 || x || = \sqrt{ \langle x, x \rangle}
 $$

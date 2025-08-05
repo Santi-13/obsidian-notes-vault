@@ -63,4 +63,4 @@ r\sin(\theta)
 $$
 <!--SR:!2025-01-25,4,270-->
 What is the [[Jacobian]] useful for?:: The Jacobian of a function can help us find the minimum or maximum of a multivariate function without needing to evaluate the whole function, just its Jacobian on specific points. As the evaluated Jacobian serves as a "direction" towards a critical point.
-<!--SR:!2025-04-22,64,310-->
+<!--SR:!2026-05-01,275,330-->

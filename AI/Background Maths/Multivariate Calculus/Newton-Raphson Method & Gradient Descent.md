@@ -84,5 +84,5 @@ This not only sets the step size, but can also change direction too. This method
 ### Flashcards
 ---
 What is the ***Newton-Raphson Method***?:: The ***Newton-Raphson Method*** is an iterative approach to finding the roots of an equation without having to calculate every possible value.
-<!--SR:!2025-05-14,35,250-->
+<!--SR:!2025-08-17,18,230-->
 

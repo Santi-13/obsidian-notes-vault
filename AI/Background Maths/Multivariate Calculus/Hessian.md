@@ -79,11 +79,11 @@ H=\begin{bmatrix}
 0 & 2
 \end{bmatrix}
 $$
-<!--SR:!2025-04-12,3,252-->
+<!--SR:!2025-08-10,11,272-->
 
 <!--SR:!2025-04-02,44,290-->
 
 What is the Hessian for?
 ?
 The determinant of the Hessian tells us whether a certain point in a multivariate function is a maximum or minimum. If the determinant of $H$ is positive ($|H|=+$), then the point is either a minimum or maximum, which we can determine by looking at the upper-left value of the **Hessian** matrix (positive is maximum, negative is minimum); Whereas, if $|H|=-$, then the point is a saddle point.
-<!--SR:!2025-06-15,82,272-->
+<!--SR:!2025-09-09,41,252-->

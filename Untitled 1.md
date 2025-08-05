@@ -1,6 +1,6 @@
 $$
 6x
-$$
+$$aasdad
 Question 1.
 $$
 \text{mod} = |1+1i| = \sqrt{ 2 }

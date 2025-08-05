@@ -3,7 +3,7 @@
 ---
 ***Orthogonality*** is central to projections and dimensionality reduction. Similar to lengths and distances, the ***angle*** between two vectors is defined through the ***[[Inner Product]]***. 
 
-If we have to vectors $x$ and $y$, we can use the following relationship:
+If we have to vectors $x$ and $y$, we can use the following relationship: ^5845b1
 $$
 \cos \omega = \frac{\langle x,y \rangle }{|| x || \text{ } || y ||}
 $$
@@ -14,7 +14,7 @@ Two *vectors* are said to be ***orthogonal*** if and only if their **inner produ
 For vectors $x = \begin{bmatrix}1 \\  1\end{bmatrix}$, $y = \begin{bmatrix}-1  \\ 1\end{bmatrix}$:
 
 ```graph
-bounds: [-3, 2, 3, -2]
+bounds: [-3.5, 1.5, 3.5, -1.5]
 elements: [ 
 	{type: arrow, def: [[0,0], [1,1]] },
 	{type: arrow, def: [[0,0], [-1,1]] },
