@@ -21,4 +21,12 @@ $$
 This means that $\tilde{\mathbf{x}}$ is the **orthogonal projection** of $\mathbf{x}$ onto the subspace spanned by the $M$ *basis vectors*. The ***coordinates*** or ***code*** is defined as $B^T \mathbf{x}$ and they are the coordinates of $\tilde{\mathbf{x}}$ with respect to the *basis vectors* collected in the matrix $B$. 
 
 ### PCA
-The objective of ***PCA*** is to find the lower-dimensional representation $\tilde{\mathbf{x}}(\mathbf{x}_{n})$ that can
+The objective of ***PCA*** is to find the *lower-dimensional representation* $\tilde{\mathbf{x}}(\mathbf{x}_{n})$ that can be expressed using fewer *basis vectors*. We assume the data is **centered**, and also that $b_{1},\dots,b_{D}$ are *orthonormal bases* of $\mathbb{R}^D$.
+
+1. $\text{Centered data: } E[X]=0$
+2. $\text{ONB } b_{1},\dots,b_{D}$
+
+Generally, we can write any  in the following way:
+$$
+\tilde{\mathbf{x}}_{n} = \sum^M
+$$
