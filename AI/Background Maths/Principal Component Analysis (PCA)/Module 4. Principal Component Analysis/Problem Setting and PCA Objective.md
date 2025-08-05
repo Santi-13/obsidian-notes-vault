@@ -5,7 +5,7 @@ Assume we have a dataset $\mathbf{x} \in \mathbb{R}^D$:
 $$
 \mathcal{X} = \{ \mathbf{x}_{1},\dots \mathbf{x}_{N} \}, \text{ }\mathbf{x}_{n} \in \mathbb{R}^D
 $$
-Our ***objective*** is to find the **optimal lower-dimensional subset** of our *data* that is as similar to $\mathbf{x}$ as possible, the subspace's dimension is $M < D$. Let us review three important concepts before delving deeper:
+Our ***objective*** is to find the **optimal lower-dimensional subspace** of our *data* that is as similar to $\mathbf{x}$ as possible, the subspace's dimension is $M < D$. Let us review three important concepts before delving deeper:
 1. The *vectors* can be described as a **linear combination** of the **orthonormal basis vectors**.
 $$
 \mathbf{x}_{n} = \sum^D_{i=1} \beta_{in} b_{i}
