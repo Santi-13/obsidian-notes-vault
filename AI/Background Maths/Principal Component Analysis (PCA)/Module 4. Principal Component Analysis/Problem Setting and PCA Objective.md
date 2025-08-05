@@ -46,7 +46,12 @@ In order to find the best possible fit, we have to find the **derivative** of $J
 
 We can observe, however, that these parameters **only enter** the error function *through* $\tilde{\mathbf{x}}_{n}$, so we need to apply the ***chain rule*** to get our *partial derivatives*.
 $$
-\frac{\partial J}{\partial \{ \beta_{in},b_{i} \}} =  \frac{\partial J}{\partial \tilde{\mathbf{x}}_{n}} \frac{\partial\tilde{\mathbf{x}}_{n}}{\partial \{ \beta_{in}, \}}
+\frac{\partial J}{\partial \{ \beta_{in},b_{i} \}} =  \frac{\partial J}{\partial \tilde{\mathbf{x}}_{n}} \frac{\partial\tilde{\mathbf{x}}_{n}}{\partial \{ \beta_{in}, b_{i} \}}
 $$
+Where:
+$$
+\frac{\partial J}{\partial \tilde{\mathbf{x}}_{n}} = -\frac{2}{N} (\mathbf{x}_{n} - \tilde{\mathbf{x}}_{n})^T
+$$
+
 
 
