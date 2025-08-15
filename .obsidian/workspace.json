@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Quick Union.md",
+                "file": "Algorithms/Dynamic Connectivity Problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick Union"
+              "title": "Dynamic Connectivity Problem"
             }
           }
         ],
@@ -214,8 +214,9 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Problem Setting and PCA Objective.md",
     "Algorithms/Quick Union.md",
+    "Algorithms/Dynamic Connectivity Problem.md",
+    "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Problem Setting and PCA Objective.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/Orthogonal Complement and Decomposition.md",
     "Algorithms",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 4. Principal Component Analysis/chain_rule.pdf",
@@ -247,7 +248,6 @@
     "Chairing/Euler-Lagrange Formulation.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Angles and Orthogonality.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Length or Norm of a vector.md",
     "Cinves",
     "images/Pasted image 20250630092730.png",
     "Pasted image 20250423114148.png",
