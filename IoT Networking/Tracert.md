@@ -5,10 +5,10 @@ In **Windows**, `tracert` is a command that is used to track the path a *packet*
 
 **Time To Live (TTL):** Despite its name, this is **not a measure of time**. It is a _hop counter_. An 8-bit field (a number from 0-255) is set by the sending computer. Every single router that receives and forwards the packet **must decrement this TTL value by 1**. 
 
-If a router receives a pack
+If a router reduces the **TTL value** to 0, by protocol rules, the router must **discard the packet** and send an **ICMP "Time Exceeded" (Type 11, Code 0)** message back to the original sender.
 
-It works by sending an **ICMP** *(Internet Control Message Protocol)* **Echo Requests** to the final destination
-
+It works by sending three **ICMP** *(Internet Control Message Protocol)* **Echo Requests** to the final destination, but each time it sends them, the **TTL value** grows, so as to eventually hit all intermediate nodes between the host and the destination. `tracert` receives these 3 replies. It records the source IP of the replies (that's the router's IP!) and the Round-Trip Time (RTT) for each.
+ 
 ```
 C:\>tracert www.cisco.com
 
@@ -26,4 +26,4 @@ C:\>tracert www.cisco.com
 	  9     9 ms     9 ms    11 ms  a23-205-37-25.deploy.static.akamaitechnologies.com [23.205.37.25]
 ```
 
-The **first column** corresponds to the 
+The **first column** corresponds to the **TTL value**, **second, third, and fourth columns** are the RTTs of each of the three sent packets
