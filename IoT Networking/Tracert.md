@@ -1,7 +1,13 @@
 By: Cisco Networking Academy
 
 ---
-In **Windows**, `tracert` is a command that is used to track the path a *packet* follows when *travelling* to its destination. It works by sending a 
+In **Windows**, `tracert` is a command that is used to track the path a *packet* follows when *travelling* to its destination. It works by manipulating a specific field in an IP packet's header called **Time To Live (TTL)**.
+
+**Time To Live (TTL):** Despite its name, this is **not a measure of time**. It is a _hop counter_. An 8-bit field (a number from 0-255) is set by the sending computer. Every single router that receives and forwards the packet **must decrement this TTL value by 1**. 
+
+If a router receives a pack
+
+It works by sending an **ICMP** *(Internet Control Message Protocol)* **Echo Requests** to the final destination
 
 ```
 C:\>tracert www.cisco.com
