@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🤓",
       "💀",
       "☹",
       "👨‍🏫"
@@ -34,5 +35,6 @@
   },
   "Chairing": "👨‍🏫",
   "Agents-Course": "☹",
-  "Cinves": "💀"
+  "Cinves": "💀",
+  "IoT Networking": "🤓"
 }
