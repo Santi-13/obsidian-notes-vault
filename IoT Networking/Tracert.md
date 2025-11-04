@@ -1,7 +1,7 @@
 By: Cisco Networking Academy
 
 ---
-In **Windows**, `tracert` is a command that is used to track the path a *packet* follows when *travelling* to its destination.
+In **Windows**, `tracert` is a command that is used to track the path a *packet* follows when *travelling* to its destination. It works by sending a 
 
 ```
 C:\>tracert www.cisco.com
@@ -19,3 +19,5 @@ C:\>tracert www.cisco.com
 	  8    96 ms   167 ms   196 ms  fixed-189-203-67-253.totalplay.net [189.203.67.253]
 	  9     9 ms     9 ms    11 ms  a23-205-37-25.deploy.static.akamaitechnologies.com [23.205.37.25]
 ```
+
+The **first column** corresponds to the 
