@@ -26,4 +26,4 @@ C:\>tracert www.cisco.com
 	  9     9 ms     9 ms    11 ms  a23-205-37-25.deploy.static.akamaitechnologies.com [23.205.37.25]
 ```
 
-The **first column** corresponds to the **TTL value**, **second, third, and fourth columns** are the RTTs of each of the three sent packets
+The **first column** corresponds to the **TTL value**, **second, third, and fourth columns** are the RTTs of each of the three sent packets (where an * symbolizes a *timed out* packet) and, finally, the **last column** represents the **identifying information** of the router at that hop.
