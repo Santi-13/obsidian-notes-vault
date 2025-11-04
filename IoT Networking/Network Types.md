@@ -13,7 +13,10 @@ Small network of wirelessly connected devices within personal reach.
 - Ultra-Wide Band (UWB)
 #### Local Area Network (LAN) -
 Networks connecting at least to devices typically restricted to a small geographic area, such as a home, a business or similar. They provide larger access to WANs and the Internet.
-
+##### Standards
+- IEEE 802.11 (WiFi)
 #### Wide Area Network (WAN) -
 A collection of LANs that provide inter-LAN and Internet connectivity for businesses and governments.
+##### Standards
+- Cellular (UMTS, LTE, etc)
 
