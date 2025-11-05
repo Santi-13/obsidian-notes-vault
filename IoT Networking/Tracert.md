@@ -28,4 +28,4 @@ C:\>tracert www.cisco.com
 
 The **first column** corresponds to the **TTL value**, **second, third, and fourth columns** are the RTTs of each of the three sent packets (where an * symbolizes a *timed out* packet) and, finally, the **last column** represents the **identifying information** of the router at that hop.
 
-Using tools such as 
+Using tools such as [***WhoIs***](http://whois.domaintools.com/) from ***Domain Tools***, you can search up information of either a *domain name* or a site's *IP address*. From here, you can see information about the site's ownership, managed by **ARIN**.
