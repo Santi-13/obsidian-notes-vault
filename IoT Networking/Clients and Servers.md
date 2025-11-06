@@ -2,6 +2,16 @@ By: Cisco Networking Academy
 #Networking #NetworkingBasics
 ##### *Networking Basics*
 ---
-Any device connected through a network is designated as a ***host***, but they can be either ***clients*** or ***servers*** depending on the kind of **software** and **functionality** they run. When a device is set to *send* information when asked to, it is a **server**; but when it is set to *request* information, then we call it a **client**. 
+Any computer connected to a network that participates directly in network communication is classified as a **_host_**. **Hosts** can send and receive messages on the network.
 
-A device, such as a laptop or PC, can be **both** a **client** and a **server**. 
+In modern networks, a computer **host** can act as a **client**, a **server**, or **both**. The software installed on the computer determines which role the computer plays.
+
+|**Role**|**Function**|
+|---|---|
+|**Server**|A device set to **send** (or provide) information/services when asked to (e.g., file server, web server).|
+|**Client**|A device set to **request** information or services from a server (e.g., your web browser).|
+
+### P2P Networks
+While **client** and **server** software usually run on separate, dedicated computers in large organizations, it is also possible for one computer to run both client and server software at the same time.
+
+In small businesses and homes, many computers function as both **servers and clients** on the network. This type of network is called a **P2P network** (Peer-to-Peer network).
