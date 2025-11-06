@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Bandwidth and Throughput.md",
+                "file": "IoT Networking/Data Transmission.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bandwidth and Throughput"
+              "title": "Data Transmission"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
-    "IoT Networking/Data Transmission.md",
     "IoT Networking/Bandwidth and Throughput.md",
+    "IoT Networking/Data Transmission.md",
     "IoT Networking/Internet of Things (IoT).md",
     "IoT Networking/Cisco Packet Tracer/Network Devices.md",
     "Untitled.md",

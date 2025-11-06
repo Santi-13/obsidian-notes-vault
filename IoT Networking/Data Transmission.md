@@ -9,3 +9,4 @@ As **Data** is *encoded* in **bits**, there are **three main** ways **data** is 
 - Pulses of light.
 - Radio waves.
 
+
