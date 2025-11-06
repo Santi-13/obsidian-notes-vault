@@ -9,4 +9,8 @@ As **Data** is *encoded* in **bits**, there are **three main** ways **data** is 
 - Pulses of light.
 - Radio waves.
 
+The following categories are used to classify types of **personal data**:
 
+- **Volunteered data** - This is created and explicitly shared by individuals, such as social network profiles. This type of data might include video files, pictures, text, or audio files.
+- **Observed data** - This is captured by recording the actions of individuals, such as **location data** when using cell phones.
+- **Inferred data** - This is data such as a **credit score**, which is based on analysis of volunteered or observed data.
