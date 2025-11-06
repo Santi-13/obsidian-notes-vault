@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Tracert.md",
+                "file": "IoT Networking/Cisco Packet Tracer/File Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tracert"
+              "title": "File Types"
             }
           }
         ],
@@ -225,8 +225,10 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
-    "IoT Networking/Network Types.md",
     "IoT Networking/Tracert.md",
+    "IoT Networking/Cisco Packet Tracer/File Types.md",
+    "IoT Networking/Cisco Packet Tracer",
+    "IoT Networking/Network Types.md",
     "Untitled 1.md",
     "IoT Networking",
     "Untitled.md",
@@ -258,9 +260,7 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Variance of Higher-Dimensional Datasets.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Variance of 1D Datasets.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets/Mean of a dataset.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets",
-    "Cinves",
     "images/Pasted image 20250630092730.png",
     "Pasted image 20250423114148.png",
     "Pasted image 20241024210740.png",
