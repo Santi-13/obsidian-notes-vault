@@ -11,3 +11,4 @@ The .pkt file type is created when a simulated network is built in Packet Tracer
 ###### The .pksz File Type
 The .pksz file type is specific to Packet Tracer Tutored Activities (PTTA). These files bundle a .pka file, media assets, and a scripting file for the hinting system. These activities provide support, in the form of contextualized hints, for students who are working on completing the activity.
 ###### The .pkz File Type
+You will see Save As PKZ... in the File menu. This file type was previously used to embed images and other files in a Packet Tracer file. However, images are now embedded directly within a regular .pkt or .pka file by default. Therefore, consider .pkz as a deprecated file type.
