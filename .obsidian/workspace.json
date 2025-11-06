@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Data Transmission.md",
+                "file": "IoT Networking/Bandwidth and Throughput.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Transmission"
+              "title": "Bandwidth and Throughput"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#IntroToIoT",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,8 +225,9 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
-    "IoT Networking/Internet of Things (IoT).md",
     "IoT Networking/Data Transmission.md",
+    "IoT Networking/Bandwidth and Throughput.md",
+    "IoT Networking/Internet of Things (IoT).md",
     "IoT Networking/Cisco Packet Tracer/Network Devices.md",
     "Untitled.md",
     "IoT Networking/Cisco Packet Tracer/File Types.md",
@@ -259,7 +259,6 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Length or Norm of a vector.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Inner Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets",
     "images/Pasted image 20250630092730.png",
