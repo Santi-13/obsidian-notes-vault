@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Internet of Things (IoT).md",
+                "file": "IoT Networking/Data Transmission.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Internet of Things (IoT)"
+              "title": "Data Transmission"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#IntroToIoT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -225,8 +226,9 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
-    "IoT Networking/Cisco Packet Tracer/Network Devices.md",
     "IoT Networking/Internet of Things (IoT).md",
+    "IoT Networking/Data Transmission.md",
+    "IoT Networking/Cisco Packet Tracer/Network Devices.md",
     "Untitled.md",
     "IoT Networking/Cisco Packet Tracer/File Types.md",
     "IoT Networking/Tracert.md",
@@ -258,7 +260,6 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Inner Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Dot Product.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Distance Between Vectors.md",
-    "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products/Angles and Orthogonality.md",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets",
     "images/Pasted image 20250630092730.png",
