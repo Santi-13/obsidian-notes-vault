@@ -2,7 +2,7 @@ By: Cisco Networking Academy
 #Networking #NetworkingBasics
 ##### *Networking Basics*
 ---
-Much as when we talk with one another, **networks** use rules, or ***protocols*** for messages to be successfully sent between devices in the network.
+Much as when we talk with one another, **networks** use rules, or **_protocols_**, for messages to be successfully sent between devices in the network. Protocols are essentially the **formal rules and procedures** that govern how data is transmitted and received.
 
 ***Networking protocols*** define many aspects of communication over the **local network**. These include:
 
@@ -14,9 +14,4 @@ Much as when we talk with one another, **networks** use rules, or ***protocols**
 | Encoding                | Conversion of the data to a bit pattern. Later sent as sound, light or electromagnetic patterns, depending on the network media.                                                                                          |
 | Encapsulation           | **Header information** included in the message that contains relevant information such as **source** & **destination hosts**, among others.                                                                               |
 | Message Pattern         | Refers to how some messages require an **acknowledgement** before another one can be sent. While others constantly stream this information without regard of whether someone received it.                                 |
-
-| Timing                  | The **speed** at which bits are transmitted across the network. All devices must know this so they can *receive* the data appropriately. It also affects the amount of **data** that can be sent in one **transmission**. |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Encoding                | Conversion of the data to a bit pattern. Later sent as sound, light or electromagnetic patterns, depending on the network media.                                                                                          |
-| Encapsulation           | **Header information** included in the message that contains relevant information such as **source** & **destination hosts**, among others.                                                                               |
-| Message Pattern         | Refers to how some messages require an **acknowledgement** before another one can be sent. While others constantly stream this information without regard of whether someone received it.                                 |
+  
