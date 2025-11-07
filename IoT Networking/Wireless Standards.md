@@ -10,4 +10,4 @@ The **IEEE** regulates the ***standards*** for ***wireless communication***, wit
 - **Network Mode -** The type of technology that must be supported. 802.11b, 802.11g, 802.11n, or *mixed mode*.
 - **Network Name (SSID) -** Name used to identify the WLAN.
 - **Standard Channel -** Specifies the channel in which communication will occur. Normally set to *Auto* by default to allow the access point to decide the optimal channel.
-- **SSID Broadcast -** Determines if the 
+- **SSID Broadcast -** Determines if the name, or *Service Set Identifier*, will be broadcast to all devices within range.
