@@ -8,6 +8,8 @@ A **protocol** is a set of rules that determines how messages are sent and recei
 - A device knows it's on the same network as another device thanks to **network protocols**.
 - Most network communications are broken up into smaller data units, or **packets**.
 
+A **standard** is a set of rules that determines how something must be done. **Networking and internet standards** ensure that all devices connecting to the network implement the same set of rules or protocols in the same manner.
+
 The **IEEE** regulates the ***standards*** for ***wireless communication***, with the **IEEE 802.11** standard governing **WLAN** environments. There are of course amendments to this standard that describe characteristics for other kinds of **wireless communication**.
 
 **Wireless standards** for **LANs** use the 2.4 GHz and 5 GHz frequency bands. Collectively, these technologies are referred to as ***Wi-Fi***.
