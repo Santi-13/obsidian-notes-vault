@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Bandwidth and Throughput.md",
+                "file": "IoT Networking/OSI and TCP-IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bandwidth and Throughput"
+              "title": "OSI and TCP-IP"
             }
           }
         ],
@@ -225,6 +225,7 @@
   },
   "active": "bb634583bdb1932f",
   "lastOpenFiles": [
+    "IoT Networking/Bandwidth and Throughput.md",
     "IoT Networking/Internet of Things (IoT).md",
     "IoT Networking/Data Transmission.md",
     "IoT Networking/Wireless Networks.md",
@@ -233,7 +234,6 @@
     "IoT Networking/Communication Standards.md",
     "IoT Networking/Encapsulation and Ethernet Framing.md",
     "IoT Networking/OSI and TCP-IP.md",
-    "IoT Networking/Bandwidth and Throughput.md",
     "IoT Networking/Network Types.md",
     "Untitled 1.md",
     "Untitled 2.md",
