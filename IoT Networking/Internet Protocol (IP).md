@@ -11,4 +11,7 @@ The **32-bits** of the address are grouped into four **8-bit bytes** called **oc
 $$
 11010001.10100101.11001000.00000001
 $$
-For readability purposes, we then convert this to its decimal representationÑ
+For readability purposes, we then convert this to its decimal representation:
+$$
+209.165.200.1
+$$
