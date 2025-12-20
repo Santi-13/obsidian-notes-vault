@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Bandwidth and Throughput.md",
+                "file": "IoT Networking/Wireless Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bandwidth and Throughput"
+              "title": "Wireless Networks"
             }
           }
         ],
@@ -239,16 +239,17 @@
   },
   "active": "05b64f554660750a",
   "lastOpenFiles": [
-    "IoT Networking/Encapsulation and Ethernet Framing.md",
-    "IoT Networking/Data Transmission.md",
+    "IoT Networking/Tracert.md",
     "IoT Networking/OSI and TCP-IP.md",
     "IoT Networking/Network Types.md",
     "IoT Networking/Internet Protocol (IP).md",
     "IoT Networking/Internet of Things (IoT).md",
-    "IoT Networking/Bandwidth and Throughput.md",
-    "IoT Networking/Clients and Servers.md",
-    "IoT Networking/Communication Protocols.md",
+    "IoT Networking/Encapsulation and Ethernet Framing.md",
+    "IoT Networking/Data Transmission.md",
     "IoT Networking/Communication Standards.md",
+    "IoT Networking/Communication Protocols.md",
+    "IoT Networking/Clients and Servers.md",
+    "IoT Networking/Bandwidth and Throughput.md",
     "IoT Networking/Wireless Networks.md",
     "Untitled 1.md",
     "Untitled 2.md",
@@ -257,7 +258,6 @@
     "Untitled 3.md",
     "IoT Networking/Cisco Packet Tracer/Network Devices.md",
     "IoT Networking/Cisco Packet Tracer/File Types.md",
-    "IoT Networking/Tracert.md",
     "IoT Networking/Cisco Packet Tracer",
     "IoT Networking",
     "C++/Libraries.md",
