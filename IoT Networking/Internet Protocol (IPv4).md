@@ -20,3 +20,10 @@ $$
 209.165.200.1/24
 $$
 Means that the *network* address is composed of the first three octets, and the host is the last one.
+### Packet Transmission
+##### Unicast
+Single one-to-one communication inside a network, a source packet can only originate from a single source *host* and must be directed to a single recipient address.
+##### Broadcast
+A packet-type that sends a message to all devices on a network by sending a package with a destination IP address of all 1s (255.255.255.255 in decimal representation).
+
+### Types of IPv4 Addresses
