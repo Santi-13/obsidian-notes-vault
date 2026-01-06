@@ -55,4 +55,9 @@ Loopback addresses (127.0.0.0 /8 or 127.0.0.1 to 127.255.255.254) are more commo
 Link-local addresses (169.254.0.0 /16 or 169.254.0.1 to 169.254.255.254) are more commonly known as the Automatic Private IP Addressing (APIPA) addresses or self-assigned addresses. They are used by a Windows client to self-configure in the event that the client cannot obtain an IP addressing through other methods. Link-local addresses can be used in a peer-to-peer connection but are not commonly used for this purpose.
 
 ### IP Addresses Assignment
-As **public IPv4 address** *need* to be *unique*, there was a need to create the **Internet Assigned Numbers Authority (IANA)**, in charge of managing and allocating
+As **public IPv4 address** *need* to be *unique*, there was a need to create the **Internet Assigned Numbers Authority (IANA)**, in charge of managing and allocating blocks of IP addresses to each of the five existing **Regional Internet Registries (RIR)**, each in charge of allocating IP addresses directly to ISPs.
+- **AfriNIC** (African Network Information Centre) - Africa Region
+- **APNIC** (Asia Pacific Network Information Centre) - Asia/Pacific Region
+- **ARIN** (American Registry for Internet Numbers) - North America Region
+- **LACNIC** (Regional Latin-American and Caribbean IP Address Registry) - Latin America and some Caribbean Islands
+- **RIPE NCC** (Réseaux IP Européens Network Coordination Centre) - Europe, the Middle East, and Central Asia
