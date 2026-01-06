@@ -20,6 +20,7 @@ $$
 209.165.200.1/24
 $$
 Means that the *network* address is composed of the first three octets, and the host is the last one.
+
 ### Packet Transmission
 ##### Unicast
 Single one-to-one communication inside a network, a source packet can only originate from a single source *host* and must be directed to a single recipient address.
@@ -33,6 +34,7 @@ While a **limited** broadcast is sent to $255.255.255.255$. By default, routers 
 This transmission type allows to reduce traffic by allowing a single *source* to send a package to multiple destinations that *subscribed* to a **multicast group**.
 
 A **multicast packet** is a packet with a **multicast IP address** as a destination. **IPv4** has reserved the 224.0.0.0 to 239.255.255.255 addresses as multicast range.
+
 ### Types of IPv4 Addresses
 Not all IPv4 addresses are created equally, with the introduction of the **World Wide Web (WWW)** in the 1990s, *blocks* of addresses were created to segment the different types of addresses.
 
@@ -48,3 +50,9 @@ When transmitting packages to a remote recipient, the package being forwarded to
 ### Special Use Addresses
 Some addresses cannot be assigned to hosts, or restrict how these hosts can interact with the network.
 ##### Loopback addresses
+Loopback addresses (127.0.0.0 /8 or 127.0.0.1 to 127.255.255.254) are more commonly identified as only 127.0.0.1. These are special addresses used by a host to direct traffic to itself. For example, the **ping** command is commonly used to test connections to other hosts. But you can also use the **ping** command to test if the IP configuration on your own device, as shown in the figure.
+##### Link-Local addresses
+Link-local addresses (169.254.0.0 /16 or 169.254.0.1 to 169.254.255.254) are more commonly known as the Automatic Private IP Addressing (APIPA) addresses or self-assigned addresses. They are used by a Windows client to self-configure in the event that the client cannot obtain an IP addressing through other methods. Link-local addresses can be used in a peer-to-peer connection but are not commonly used for this purpose.
+
+### IP Addresses Assignment
+As **public IPv4 address** *need* to be *unique*, there was a need to create the **Internet Assigned Numbers Authority (IANA)**, in charge of managing and allocating
