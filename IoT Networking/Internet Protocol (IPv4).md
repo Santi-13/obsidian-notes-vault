@@ -36,10 +36,12 @@ A **multicast packet** is a packet with a **multicast IP address** as a destinat
 ### Types of IPv4 Addresses
 Not all IPv4 addresses are created equally, with the introduction of the **World Wide Web (WWW)** in the 1990s, *blocks* of addresses were created to segment the different types of addresses.
 
-A **public IPv4 address** 
+A **public IPv4 address** are those which are globally routed between Internet Service Provider (ISP) routers, and are needed to access remote devices through the internet. While **private IPv4 addresses** are used internally by most organizations so assign IPv4 addresses to internal hosts.
 
 | Network Address and Prefix | RFC 1918 Private Address Range |
 | -------------------------- | ------------------------------ |
 | 10.0.0.0/8                 | 10.0.0.0 - 10.255.255.255      |
 | 172.16.0.0/12              | 172.16.0.0 - 172.31.255.255    |
 | 192.168.0.0/16             | 192.168.0.0 - 192.168.255.255  |
+
+When 
