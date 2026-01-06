@@ -34,3 +34,4 @@ This transmission type allows to reduce traffic by allowing a single *source* to
 
 A **multicast packet** is a packet with a **multicast IP address** as a destination. **IPv4** has reserved the 224.0.0.0 to 239.255.255.255 addresses as multicast range.
 ### Types of IPv4 Addresses
+Not all IPv4 addresses are created equally, with the introduction of the ****
