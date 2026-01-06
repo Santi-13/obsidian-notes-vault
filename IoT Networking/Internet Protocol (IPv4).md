@@ -61,3 +61,5 @@ As **public IPv4 address** *need* to be *unique*, there was a need to create the
 - **ARIN** (American Registry for Internet Numbers) - North America Region
 - **LACNIC** (Regional Latin-American and Caribbean IP Address Registry) - Latin America and some Caribbean Islands
 - **RIPE NCC** (Réseaux IP Européens Network Coordination Centre) - Europe, the Middle East, and Central Asia
+
+### Network Segmentation
