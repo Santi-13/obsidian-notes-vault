@@ -43,4 +43,8 @@ A **public IPv4 address** are those which are globally routed between Internet S
 | 10.0.0.0/8                 | 10.0.0.0 - 10.255.255.255      |
 | 172.16.0.0/12              | 172.16.0.0 - 172.31.255.255    |
 | 192.168.0.0/16             | 192.168.0.0 - 192.168.255.255  |
-When transmitting packages to a remote recipient, the package being forwarded to the ISP must contain a public IPv4 address for both the source and destination. Whenever a package is received that has a public destination but also a private source address, the private address must be filtered (or discarded) or transo
+When transmitting packages to a remote recipient, the package being forwarded to the ISP must contain a public IPv4 address for both the source and destination. Whenever a package is received that has a public destination but also a private source address, the private address must be filtered (or discarded) or transformed to a public address using **Network Address Translation (NAT)**.
+
+### Special Use Addresses
+Some addresses cannot be assigned to hosts, or restrict how these hosts can interact with the network.
+##### Loopback addresses
