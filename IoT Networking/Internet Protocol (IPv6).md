@@ -3,4 +3,4 @@ By: Cisco Networking Academy
 ##### *Networking Basics*
 ---
 ### RIR IPv4 Exhaustion
-**IPv6** is designed to be a successor to **IPv4**. 
+**IPv6** is designed to be a successor to **IPv4**, following t
