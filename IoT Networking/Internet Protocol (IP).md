@@ -15,7 +15,8 @@ For readability purposes, we then convert this to its decimal representation:
 $$
 209.165.200.1
 $$
-For communication purposes, we need to define the amount of octets dedicated to the *network* and *host* portions of the address, normally identifiable by a multiple of 8 followed by the IP address.
+For communication purposes, we need to define the amount of octets dedicated to the *network* and *host* portions of the address, normally identifiable by a multiple of 8 followed by the IP address. For example:
 $$
-209.16
+209.165.200.1/24
 $$
+Means that the *network* address is composed of the first three octets, and the host is the last one.
