@@ -24,6 +24,11 @@ Means that the *network* address is composed of the first three octets, and the 
 ##### Unicast
 Single one-to-one communication inside a network, a source packet can only originate from a single source *host* and must be directed to a single recipient address.
 ##### Broadcast
-A packet-type that sends a message to all devices on a network by sending a package with a destination IP address of all 1s (255.255.255.255 in decimal representation).
+A packet-type that sends a message to all devices on a network by sending a package with a destination IP address of all 1s in the host portion. Broadcasts may be **directed**, that is, specified to broadcast a package to all devices inside the same network segment.
+$$
+\underbrace{ 172.16.4.0/24 }_{ \text{Source} } \to \underbrace{ 172.16.4.255 }_{ \text{Destination} }
+$$
+While a **limited** broadcast is sent to $255.255.255.255$. By default, routers do not forward broadcasts.
+
 
 ### Types of IPv4 Addresses
