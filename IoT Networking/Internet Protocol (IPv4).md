@@ -29,6 +29,9 @@ $$
 \underbrace{ 172.16.4.0/24 }_{ \text{Source} } \to \underbrace{ 172.16.4.255 }_{ \text{Destination} }
 $$
 While a **limited** broadcast is sent to $255.255.255.255$. By default, routers do not forward broadcasts.
+##### Multicast
+This transmission type allows to reduce traffic by allowing a single *source* to send a package to multiple destinations that *subscribed* to a **multicast group**.
 
+A **multicast packet** is a packet with a **multicast IP address** as a destination. **IPv4** has reserved the 224.0.0.0 to 239.255.255.255 addresses as multicast range.
 
 ### Types of IPv4 Addresses
