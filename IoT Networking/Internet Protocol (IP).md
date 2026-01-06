@@ -15,3 +15,7 @@ For readability purposes, we then convert this to its decimal representation:
 $$
 209.165.200.1
 $$
+For communication purposes, we need to define the amount of octets dedicated to the *network* and *host* portions of the address, normally identifiable by a multiple of 8 followed by the IP address.
+$$
+209.16
+$$
