@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6ce99c6f820efe55",
@@ -237,7 +238,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09055649d6028e91",
+  "active": "05b64f554660750a",
   "lastOpenFiles": [
     "IoT Networking/Wireless Networks.md",
     "IoT Networking/Tracert.md",

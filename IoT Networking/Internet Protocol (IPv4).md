@@ -34,4 +34,12 @@ This transmission type allows to reduce traffic by allowing a single *source* to
 
 A **multicast packet** is a packet with a **multicast IP address** as a destination. **IPv4** has reserved the 224.0.0.0 to 239.255.255.255 addresses as multicast range.
 ### Types of IPv4 Addresses
-Not all IPv4 addresses are created equally, with the introduction of the ****
+Not all IPv4 addresses are created equally, with the introduction of the **World Wide Web (WWW)** in the 1990s, *blocks* of addresses were created to segment the different types of addresses.
+
+A **public IPv4 address** 
+
+| Network Address and Prefix | RFC 1918 Private Address Range |
+| -------------------------- | ------------------------------ |
+| 10.0.0.0/8                 | 10.0.0.0 - 10.255.255.255      |
+| 172.16.0.0/12              | 172.16.0.0 - 172.31.255.255    |
+| 192.168.0.0/16             | 192.168.0.0 - 192.168.255.255  |
