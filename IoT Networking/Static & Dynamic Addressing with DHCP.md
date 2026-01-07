@@ -14,4 +14,4 @@ Setting up a **static address** is often advantageous for devices that need to o
 
 ![[Pasted image 20260107095123.png]]
 
-***Dynamically assigned addresses***, in the other hand, work 
+***Dynamically assigned addresses***, in the other hand, work in cases where you expect a constant change of the user population, n
