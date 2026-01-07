@@ -21,3 +21,5 @@ From here on out, the **router** utilizes the destination **IP address** to dete
 ![[Pasted image 20260107142936.png]]
 
 ![[Pasted image 20260107142946.png]]
+
+How are the IP addresses of the IP packets in a data flow associated with the MAC addresses on each link along the path to the destination? For IPv4 packets, this is done through a process called **Address Resolution Protocol (ARP**). For IPv6 packets, the process is **ICMPv6 Neighbor Discovery (ND)**.
