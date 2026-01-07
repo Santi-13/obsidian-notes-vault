@@ -14,4 +14,7 @@ Setting up a **static address** is often advantageous for devices that need to o
 
 ![[Pasted image 20260107095123.png]]
 
-***Dynamically assigned addresses***, in the other hand, work in cases where you expect a constant change of the user population, n
+***Dynamically assigned addresses***, in the other hand, work in cases where you expect a constant change of the user population, all needing to be assigned an IP. Rather than having someone doing it, they are *automatically* assigned by a protocol known as ***Dynamic Host Configuration Protocol (DHCP)***.
+
+![[Pasted image 20260107095906.png]]
+
