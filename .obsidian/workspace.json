@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Network Boundaries.md",
+                "file": "IoT Networking/Network Address Translation (NAT).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Boundaries"
+              "title": "Network Address Translation (NAT)"
             }
           }
         ],
@@ -211,9 +211,9 @@
   },
   "active": "948ee890e74b5b36",
   "lastOpenFiles": [
+    "IoT Networking/Network Boundaries.md",
     "Pasted image 20260107140756.png",
     "Untitled 2.md",
-    "IoT Networking/Network Boundaries.md",
     "Pasted image 20260107135735.png",
     "IoT Networking/Network Address Translation (NAT).md",
     "IoT Networking/Static & Dynamic Addressing with DHCP.md",
@@ -255,7 +255,6 @@
     "Pasted image 20241024210740.png",
     "images/Pasted image 20250701105815.png",
     "images/Pasted image 20250701102741.png",
-    "images/Pasted image 20250630092748.png",
-    "images/Pasted image 20250701105731.png"
+    "images/Pasted image 20250630092748.png"
   ]
 }

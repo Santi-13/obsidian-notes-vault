@@ -12,3 +12,5 @@ A ***wireless router*** often times acts as a ***DHCP server*** for all *hosts* 
 
 In contrast, many ISPs take on the role of a ***DHCP server*** to provide **IPv4 addresses** to the **internet** side of a router, making the router act as a ***DHCP client*** for the internet interface.
 
+![[Pasted image 20260107140756.png]]
+
