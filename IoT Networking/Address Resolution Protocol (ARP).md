@@ -16,4 +16,8 @@ When the destination's **IP address** is on a different network, the destination
 
 ![[Pasted image 20260107142756.png]]
 
-From here on out, the **router** utilizes the destination **IP address** to determine the best path to the device, 
+From here on out, the **router** utilizes the destination **IP address** to determine the best path to the device. It de-encapsulates the Layer 2 information and encapsulates a new frame, until it reaches the end device.
+
+![[Pasted image 20260107142936.png]]
+
+![[Pasted image 20260107142946.png]]
