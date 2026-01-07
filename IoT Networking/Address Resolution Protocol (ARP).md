@@ -8,4 +8,12 @@ Well, for that we need to remember the differences between this addresses:
 - **Physical address (the MAC address)** – Used for NIC-to-NIC communications on the same Ethernet network.
 - **Logical address (the IP address)** – Used to send the packet from the source device to the destination device. The destination IP address may be on the same IP network as the source, or it may be on a remote network.
 
-Basically, when on the same network, the so
+Basically, when on the same network (Layer 2), the source uses the **MAC address**, although the package does include the destination IP as well.
+
+![[Pasted image 20260107142636.png]]
+
+When the destination's **IP address** is on a different network, the destination **MAC address** becomes that one of the host's **default gateway**.
+
+![[Pasted image 20260107142756.png]]
+
+From here on out, the **router** utilizes the destination **IP address** to determine the best path to the device, 
