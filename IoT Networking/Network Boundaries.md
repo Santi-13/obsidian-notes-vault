@@ -7,3 +7,6 @@ By: Cisco Networking Academy
 When a wireless router is configured as a DHCP server, it provides its own internal IPv4 address as the default gateway to DHCP clients. It also provides them with their respective IPv4 address and subnet mask, as shown in the figure.
 
 ![[Pasted image 20260107135735.png]]
+
+A ***wireless router*** often times acts as a ***DHCP server*** for all *hosts* in the local network; And are normally configured to assign **private** **addresses** to hosts on the network, instead of **public** internet routable **addresses** so that, by default, the internal network is not accessible from the **internet**.
+
