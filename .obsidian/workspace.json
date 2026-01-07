@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Address Resolution Protocol (ARP).md",
+                "file": "IoT Networking/OSI and TCP-IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Address Resolution Protocol (ARP)"
+              "title": "OSI and TCP-IP"
             }
           }
         ],
@@ -211,12 +211,12 @@
   },
   "active": "948ee890e74b5b36",
   "lastOpenFiles": [
+    "IoT Networking/Address Resolution Protocol (ARP).md",
     "Pasted image 20260107142946.png",
     "Pasted image 20260107142936.png",
     "Pasted image 20260107142756.png",
     "Pasted image 20260107142636.png",
     "IoT Networking/Internet Protocol (IPv4).md",
-    "IoT Networking/Address Resolution Protocol (ARP).md",
     "IoT Networking/Bandwidth and Throughput.md",
     "IoT Networking/Network Address Translation (NAT).md",
     "IoT Networking/Network Boundaries.md",
@@ -255,7 +255,6 @@
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 2. Inner Products",
     "AI/Background Maths/Principal Component Analysis (PCA)/Module 1. Statistics of Datasets",
     "images/Pasted image 20250630092730.png",
-    "Pasted image 20250423114148.png",
-    "Pasted image 20241024210740.png"
+    "Pasted image 20250423114148.png"
   ]
 }
