@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Address Resolution Protocol (ARP).md",
+                "file": "IoT Networking/Network Address Translation (NAT).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Address Resolution Protocol (ARP)"
+              "title": "Network Address Translation (NAT)"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 213.5
   },
   "right": {
     "id": "6ce99c6f820efe55",
@@ -211,9 +211,9 @@
   },
   "active": "948ee890e74b5b36",
   "lastOpenFiles": [
+    "IoT Networking/Address Resolution Protocol (ARP).md",
     "IoT Networking/Network Boundaries.md",
     "IoT Networking/OSI and TCP-IP.md",
-    "IoT Networking/Address Resolution Protocol (ARP).md",
     "Pasted image 20260107142946.png",
     "Pasted image 20260107142936.png",
     "Pasted image 20260107142756.png",
