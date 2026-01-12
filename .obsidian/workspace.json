@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IoT Networking/Clients and Servers.md",
+                "file": "IoT Networking/Encapsulation and Ethernet Framing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clients and Servers"
+              "title": "Encapsulation and Ethernet Framing"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "peer",
+                "query": "MAC address",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,12 +212,13 @@
   },
   "active": "948ee890e74b5b36",
   "lastOpenFiles": [
+    "IoT Networking/Address Resolution Protocol (ARP).md",
+    "IoT Networking/OSI and TCP-IP.md",
+    "IoT Networking/Clients and Servers.md",
     "IoT Networking/Data Transmission.md",
     "IoT Networking/Communication Standards.md",
-    "IoT Networking/OSI and TCP-IP.md",
     "IoT Networking/Port Numbers.md",
     "IoT Networking/Network Address Translation (NAT).md",
-    "IoT Networking/Address Resolution Protocol (ARP).md",
     "IoT Networking/Network Boundaries.md",
     "Pasted image 20260107142946.png",
     "Pasted image 20260107142936.png",
@@ -240,7 +241,6 @@
     "IoT Networking/Tracert.md",
     "IoT Networking/Network Types.md",
     "IoT Networking/Communication Protocols.md",
-    "IoT Networking/Clients and Servers.md",
     "Untitled 1.md",
     "Untitled.md",
     "Untitled 4.md",
